@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001197] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.001369] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.001898] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.002634] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003480] (-) JobUnselected: {'identifier': 'senior_design1'}
+[0.004407] (-) JobUnselected: {'identifier': 'serial'}
+[0.004701] (-) JobUnselected: {'identifier': 'serial_motor_demo'}
+[0.004815] (-) JobUnselected: {'identifier': 'serial_motor_demo_msgs'}
+[0.004904] (tank_controller) JobQueued: {'identifier': 'tank_controller', 'dependencies': OrderedDict()}
+[0.004992] (tank_controller) JobStarted: {'identifier': 'tank_controller'}
+[0.098767] (-) TimerEvent: {}
+[0.204734] (-) TimerEvent: {}
+[0.307201] (-) TimerEvent: {}
+[0.410804] (-) TimerEvent: {}
+[0.518372] (-) TimerEvent: {}
+[0.621753] (-) TimerEvent: {}
+[0.726052] (-) TimerEvent: {}
+[0.827327] (-) TimerEvent: {}
+[0.929982] (-) TimerEvent: {}
+[1.031181] (-) TimerEvent: {}
+[1.136145] (-) TimerEvent: {}
+[1.239912] (-) TimerEvent: {}
+[1.347574] (-) TimerEvent: {}
+[1.454833] (-) TimerEvent: {}
+[1.565673] (-) TimerEvent: {}
+[1.672528] (-) TimerEvent: {}
+[1.778468] (-) TimerEvent: {}
+[1.858721] (tank_controller) JobProgress: {'identifier': 'tank_controller', 'progress': 'cmake'}
+[1.862052] (tank_controller) JobProgress: {'identifier': 'tank_controller', 'progress': 'build'}
+[1.865251] (tank_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/tank_controller', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/tank_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62553 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fcc80f42-61e7-4401-b9cf-7abebc7e2cd4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/tank_controller'), ('SSH_CONNECTION', '192.168.8.211 62553 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/tank_controller/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[1.879842] (-) TimerEvent: {}
+[1.982049] (-) TimerEvent: {}
+[2.075002] (tank_controller) CommandEnded: {'returncode': 0}
+[2.082672] (-) TimerEvent: {}
+[2.184759] (-) TimerEvent: {}
+[2.286284] (-) TimerEvent: {}
+[2.388274] (-) TimerEvent: {}
+[2.490102] (-) TimerEvent: {}
+[2.508178] (tank_controller) JobProgress: {'identifier': 'tank_controller', 'progress': 'install'}
+[2.590661] (-) TimerEvent: {}
+[2.646122] (tank_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/pi_ws/build/tank_controller'], 'cwd': '/home/ubuntu/pi_ws/build/tank_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62553 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fcc80f42-61e7-4401-b9cf-7abebc7e2cd4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/tank_controller'), ('SSH_CONNECTION', '192.168.8.211 62553 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/tank_controller/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[2.691252] (-) TimerEvent: {}
+[2.724924] (tank_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.726535] (tank_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.728484] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/lib/tank_controller/obstacle_avoidance_node.py\n'}
+[2.729694] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/lib/tank_controller/motor_control_test.py\n'}
+[2.733471] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/ament_index/resource_index/package_run_dependencies/tank_controller\n'}
+[2.735225] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/ament_index/resource_index/parent_prefix_path/tank_controller\n'}
+[2.737448] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/environment/ament_prefix_path.sh\n'}
+[2.742561] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/environment/ament_prefix_path.dsv\n'}
+[2.747718] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/environment/path.sh\n'}
+[2.752162] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/environment/path.dsv\n'}
+[2.755047] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/local_setup.bash\n'}
+[2.756093] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/local_setup.sh\n'}
+[2.757906] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/local_setup.zsh\n'}
+[2.760403] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/local_setup.dsv\n'}
+[2.764600] (tank_controller) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/package.dsv\n'}
+[2.791416] (-) TimerEvent: {}
+[2.816034] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/ament_index/resource_index/packages/tank_controller\n'}
+[2.817327] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/cmake/tank_controllerConfig.cmake\n'}
+[2.818478] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/cmake/tank_controllerConfig-version.cmake\n'}
+[2.819760] (tank_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pi_ws/install/tank_controller/share/tank_controller/package.xml\n'}
+[2.825214] (tank_controller) CommandEnded: {'returncode': 0}
+[2.891576] (-) TimerEvent: {}
+[2.993272] (-) TimerEvent: {}
+[3.097169] (-) TimerEvent: {}
+[3.199949] (-) TimerEvent: {}
+[3.306362] (-) TimerEvent: {}
+[3.409450] (-) TimerEvent: {}
+[3.511777] (-) TimerEvent: {}
+[3.614680] (-) TimerEvent: {}
+[3.717599] (-) TimerEvent: {}
+[3.819656] (-) TimerEvent: {}
+[3.921069] (-) TimerEvent: {}
+[4.021940] (-) TimerEvent: {}
+[4.123676] (-) TimerEvent: {}
+[4.225794] (-) TimerEvent: {}
+[4.327668] (-) TimerEvent: {}
+[4.429494] (-) TimerEvent: {}
+[4.531641] (-) TimerEvent: {}
+[4.641212] (-) TimerEvent: {}
+[4.743740] (-) TimerEvent: {}
+[4.846604] (-) TimerEvent: {}
+[4.948057] (-) TimerEvent: {}
+[5.050456] (-) TimerEvent: {}
+[5.153631] (-) TimerEvent: {}
+[5.275166] (-) TimerEvent: {}
+[5.377914] (-) TimerEvent: {}
+[5.480974] (-) TimerEvent: {}
+[5.595516] (-) TimerEvent: {}
+[5.707524] (-) TimerEvent: {}
+[5.815353] (-) TimerEvent: {}
+[5.917546] (-) TimerEvent: {}
+[6.018357] (-) TimerEvent: {}
+[6.123017] (-) TimerEvent: {}
+[6.226200] (-) TimerEvent: {}
+[6.337992] (-) TimerEvent: {}
+[6.442970] (-) TimerEvent: {}
+[6.488937] (tank_controller) JobEnded: {'identifier': 'tank_controller', 'rc': 0}
+[6.503170] (-) EventReactorShutdown: {}

@@ -1,0 +1,2103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001168] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.001508] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002452] (senior_design1) JobQueued: {'identifier': 'senior_design1', 'dependencies': OrderedDict()}
+[0.003042] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.003327] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.003446] (tank_controller) JobQueued: {'identifier': 'tank_controller', 'dependencies': OrderedDict()}
+[0.003530] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/ubuntu/pi_ws/install/serial')])}
+[0.003623] (gazebo_ros2_control_demos) JobQueued: {'identifier': 'gazebo_ros2_control_demos', 'dependencies': OrderedDict([('gazebo_ros2_control', '/home/ubuntu/pi_ws/install/gazebo_ros2_control')])}
+[0.003708] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs')])}
+[0.003793] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.099276] (-) TimerEvent: {}
+[0.200051] (-) TimerEvent: {}
+[0.300996] (-) TimerEvent: {}
+[0.402614] (-) TimerEvent: {}
+[0.503824] (-) TimerEvent: {}
+[0.605443] (-) TimerEvent: {}
+[0.679327] (serial) JobStarted: {'identifier': 'serial'}
+[0.706007] (-) TimerEvent: {}
+[0.807135] (-) TimerEvent: {}
+[0.908874] (-) TimerEvent: {}
+[1.011120] (-) TimerEvent: {}
+[1.113408] (-) TimerEvent: {}
+[1.215042] (-) TimerEvent: {}
+[1.304866] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[1.315386] (-) TimerEvent: {}
+[1.416758] (-) TimerEvent: {}
+[1.518959] (-) TimerEvent: {}
+[1.620431] (-) TimerEvent: {}
+[1.721369] (-) TimerEvent: {}
+[1.822841] (-) TimerEvent: {}
+[1.924984] (-) TimerEvent: {}
+[1.955741] (my_package) JobStarted: {'identifier': 'my_package'}
+[2.025224] (-) TimerEvent: {}
+[2.126904] (-) TimerEvent: {}
+[2.227750] (-) TimerEvent: {}
+[2.329030] (-) TimerEvent: {}
+[2.430129] (-) TimerEvent: {}
+[2.531017] (-) TimerEvent: {}
+[2.632453] (-) TimerEvent: {}
+[2.733167] (-) TimerEvent: {}
+[2.756895] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[2.757996] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pi_ws/src/gazebo_ros2_control/gazebo_ros2_control', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/gazebo_ros2_control'], 'cwd': '/home/ubuntu/pi_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/gazebo_ros2_control'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[2.782804] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[2.785093] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pi_ws/src/serial', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/serial'], 'cwd': '/home/ubuntu/pi_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/serial'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[2.805451] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[2.806851] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pi_ws/src/serial_motor_demo/serial_motor_demo_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/serial_motor_demo_msgs'], 'cwd': '/home/ubuntu/pi_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/serial_motor_demo_msgs'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[2.833524] (-) TimerEvent: {}
+[2.936069] (-) TimerEvent: {}
+[3.037382] (-) TimerEvent: {}
+[3.138549] (-) TimerEvent: {}
+[3.156435] (gazebo_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.181846] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.238768] (-) TimerEvent: {}
+[3.260354] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.339011] (-) TimerEvent: {}
+[3.440240] (-) TimerEvent: {}
+[3.541397] (-) TimerEvent: {}
+[3.548808] (gazebo_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.607014] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.635059] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.641616] (-) TimerEvent: {}
+[3.686930] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.695362] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.717982] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.741839] (-) TimerEvent: {}
+[3.843032] (-) TimerEvent: {}
+[3.944880] (-) TimerEvent: {}
+[4.046571] (-) TimerEvent: {}
+[4.116052] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.124927] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.146792] (-) TimerEvent: {}
+[4.158752] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.165837] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.222548] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.227266] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.246963] (-) TimerEvent: {}
+[4.347942] (-) TimerEvent: {}
+[4.448936] (-) TimerEvent: {}
+[4.549949] (-) TimerEvent: {}
+[4.627083] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.650368] (-) TimerEvent: {}
+[4.692040] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.715736] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.719839] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.749199] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.751378] (-) TimerEvent: {}
+[4.775121] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.778849] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.795573] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.797021] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.852228] (-) TimerEvent: {}
+[4.853809] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.854822] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.870904] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.953499] (-) TimerEvent: {}
+[5.056733] (-) TimerEvent: {}
+[5.162540] (-) TimerEvent: {}
+[5.264182] (-) TimerEvent: {}
+[5.329834] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.345190] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.364579] (-) TimerEvent: {}
+[5.397967] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.403419] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.404375] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.410734] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.464782] (-) TimerEvent: {}
+[5.566503] (-) TimerEvent: {}
+[5.668453] (-) TimerEvent: {}
+[5.770305] (-) TimerEvent: {}
+[5.873092] (-) TimerEvent: {}
+[5.940043] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.962166] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.963012] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.973211] (-) TimerEvent: {}
+[5.989097] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.995814] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.020068] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.021156] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.024217] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.029266] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.032989] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.052816] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.066811] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.073859] (-) TimerEvent: {}
+[6.189929] (-) TimerEvent: {}
+[6.200876] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.202124] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.273173] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.274023] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.292742] (-) TimerEvent: {}
+[6.325337] (serial) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.326209] (serial) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.395010] (-) TimerEvent: {}
+[6.499628] (-) TimerEvent: {}
+[6.604387] (-) TimerEvent: {}
+[6.706090] (-) TimerEvent: {}
+[6.807087] (-) TimerEvent: {}
+[6.908070] (-) TimerEvent: {}
+[7.008971] (-) TimerEvent: {}
+[7.109921] (-) TimerEvent: {}
+[7.211358] (-) TimerEvent: {}
+[7.312314] (-) TimerEvent: {}
+[7.413433] (-) TimerEvent: {}
+[7.514697] (-) TimerEvent: {}
+[7.615712] (-) TimerEvent: {}
+[7.716588] (-) TimerEvent: {}
+[7.769132] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)\n'}
+[7.794396] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)\n'}
+[7.816798] (-) TimerEvent: {}
+[7.840245] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.902542] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[7.916967] (-) TimerEvent: {}
+[7.962807] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  \n'}
+[7.989236] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[7.998694] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.017192] (-) TimerEvent: {}
+[8.118208] (-) TimerEvent: {}
+[8.219262] (-) TimerEvent: {}
+[8.232780] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.311576] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[8.319473] (-) TimerEvent: {}
+[8.420511] (-) TimerEvent: {}
+[8.426996] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.471167] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.511141] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.513995] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.520839] (-) TimerEvent: {}
+[8.583726] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[8.620997] (-) TimerEvent: {}
+[8.722103] (-) TimerEvent: {}
+[8.824075] (-) TimerEvent: {}
+[8.885743] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/my_package', 'build', '--build-base', '/home/ubuntu/pi_ws/build/my_package/build', 'install', '--record', '/home/ubuntu/pi_ws/build/my_package/install.log', '--install-scripts', '$base/lib/my_package', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/pi_ws/src/ros2_detection/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.8.211 62345 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pi_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/pi_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-99d8460748.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pi_ws/build/my_package', 'SSH_CONNECTION': '192.168.8.211 62345 192.168.8.233 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pi_ws/build/my_package/prefix_override:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one'}, 'shell': False}
+[8.924394] (-) TimerEvent: {}
+[9.025775] (-) TimerEvent: {}
+[9.103673] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.105508] (serial) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[9.125926] (-) TimerEvent: {}
+[9.194353] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[9.226229] (-) TimerEvent: {}
+[9.327440] (-) TimerEvent: {}
+[9.428286] (-) TimerEvent: {}
+[9.493258] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.528471] (-) TimerEvent: {}
+[9.539106] (serial) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[9.547205] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.602040] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[9.628692] (-) TimerEvent: {}
+[9.730136] (-) TimerEvent: {}
+[9.831777] (-) TimerEvent: {}
+[9.934268] (-) TimerEvent: {}
+[9.938031] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.948972] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.034528] (-) TimerEvent: {}
+[10.062914] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[10.070488] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/pi_ws/build/serial\n'}
+[10.096710] (serial) CommandEnded: {'returncode': 0}
+[10.099019] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[10.099234] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/serial'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[10.134861] (-) TimerEvent: {}
+[10.236042] (-) TimerEvent: {}
+[10.259945] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[10.262850] (my_package) StdoutLine: {'line': b'creating ../../../build/my_package/my_package.egg-info\n'}
+[10.265044] (my_package) StdoutLine: {'line': b'writing ../../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[10.269234] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[10.273668] (my_package) StdoutLine: {'line': b'writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[10.278238] (my_package) StdoutLine: {'line': b'writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt\n'}
+[10.280641] (my_package) StdoutLine: {'line': b'writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[10.290215] (my_package) StdoutLine: {'line': b"writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[10.332356] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.336298] (-) TimerEvent: {}
+[10.392537] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial\x1b[0m\n'}
+[10.416320] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[10.417602] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[10.436492] (-) TimerEvent: {}
+[10.509454] (my_package) StdoutLine: {'line': b"reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[10.514453] (my_package) StdoutLine: {'line': b"writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[10.519201] (my_package) StdoutLine: {'line': b'running build\n'}
+[10.520079] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[10.521337] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/build/my_package/build\n'}
+[10.522122] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/build/my_package/build/lib\n'}
+[10.522767] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/build/my_package/build/lib/my_package\n'}
+[10.523473] (my_package) StdoutLine: {'line': b'copying my_package/detection.py -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package\n'}
+[10.525136] (my_package) StdoutLine: {'line': b'copying my_package/display.py -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package\n'}
+[10.525946] (my_package) StdoutLine: {'line': b'copying my_package/controller.py -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package\n'}
+[10.526511] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package\n'}
+[10.535460] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models\n'}
+[10.536497] (-) TimerEvent: {}
+[10.538522] (my_package) StdoutLine: {'line': b'copying my_package/models/yolov3-tiny.cfg -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models\n'}
+[10.539595] (my_package) StdoutLine: {'line': b'copying my_package/models/yolov3-tiny.weights -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models\n'}
+[10.540596] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[10.557459] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[10.634238] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[10.636733] (-) TimerEvent: {}
+[10.664687] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[10.736980] (-) TimerEvent: {}
+[10.739462] (my_package) StdoutLine: {'line': b'copying my_package/models/coco.names -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models\n'}
+[10.742750] (my_package) StdoutLine: {'line': b'running install\n'}
+[10.749382] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[10.757437] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[10.760764] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/detection.py -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[10.765663] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/display.py -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[10.771332] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/controller.py -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[10.776721] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/models\n'}
+[10.779680] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models/coco.names -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/models\n'}
+[10.784873] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models/yolov3-tiny.cfg -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/models\n'}
+[10.790557] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models/yolov3-tiny.weights -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/models\n'}
+[10.837209] (-) TimerEvent: {}
+[10.901111] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.937447] (-) TimerEvent: {}
+[11.038441] (-) TimerEvent: {}
+[11.139508] (-) TimerEvent: {}
+[11.240742] (-) TimerEvent: {}
+[11.342168] (-) TimerEvent: {}
+[11.402333] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/__init__.py -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[11.424583] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/detection.py to detection.cpython-38.pyc\n'}
+[11.442385] (-) TimerEvent: {}
+[11.446071] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/display.py to display.cpython-38.pyc\n'}
+[11.452579] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/controller.py to controller.cpython-38.pyc\n'}
+[11.470635] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc\n'}
+[11.476298] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[11.480411] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/install/my_package/share/ament_index\n'}
+[11.487835] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/install/my_package/share/ament_index/resource_index\n'}
+[11.489727] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[11.491759] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/ubuntu/pi_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[11.494394] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/pi_ws/install/my_package/share/my_package\n'}
+[11.496996] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/install/my_package/share/my_package/launch\n'}
+[11.499174] (my_package) StdoutLine: {'line': b'copying launch/detection_launch.py -> /home/ubuntu/pi_ws/install/my_package/share/my_package/launch\n'}
+[11.501510] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/install/my_package/lib/my_package\n'}
+[11.503538] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/pi_ws/install/my_package/lib/my_package/models\n'}
+[11.506120] (my_package) StdoutLine: {'line': b'copying my_package/models/yolov3-tiny.weights -> /home/ubuntu/pi_ws/install/my_package/lib/my_package/models\n'}
+[11.542665] (-) TimerEvent: {}
+[11.644523] (-) TimerEvent: {}
+[11.660896] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[11.744732] (-) TimerEvent: {}
+[11.846548] (-) TimerEvent: {}
+[11.948281] (-) TimerEvent: {}
+[12.050348] (-) TimerEvent: {}
+[12.152756] (-) TimerEvent: {}
+[12.254874] (-) TimerEvent: {}
+[12.268450] (my_package) StdoutLine: {'line': b'copying my_package/models/yolov3-tiny.cfg -> /home/ubuntu/pi_ws/install/my_package/lib/my_package/models\n'}
+[12.272198] (my_package) StdoutLine: {'line': b'copying my_package/models/coco.names -> /home/ubuntu/pi_ws/install/my_package/lib/my_package/models\n'}
+[12.273053] (my_package) StdoutLine: {'line': b'copying my_package/controller.py -> /home/ubuntu/pi_ws/install/my_package/lib/my_package\n'}
+[12.273851] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.292476] (my_package) StdoutLine: {'line': b'Copying ../../../build/my_package/my_package.egg-info to /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[12.338588] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[12.355153] (-) TimerEvent: {}
+[12.457205] (-) TimerEvent: {}
+[12.559744] (-) TimerEvent: {}
+[12.614135] (my_package) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/pi_ws/install/my_package/lib/my_package\n'}
+[12.625909] (my_package) StdoutLine: {'line': b'Installing detection script to /home/ubuntu/pi_ws/install/my_package/lib/my_package\n'}
+[12.630598] (my_package) StdoutLine: {'line': b'Installing display script to /home/ubuntu/pi_ws/install/my_package/lib/my_package\n'}
+[12.641610] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/pi_ws/build/my_package/install.log'\n"}
+[12.660190] (-) TimerEvent: {}
+[12.736034] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[12.760411] (-) TimerEvent: {}
+[12.862482] (-) TimerEvent: {}
+[12.928527] (my_package) CommandEnded: {'returncode': 0}
+[12.968170] (-) TimerEvent: {}
+[13.069830] (-) TimerEvent: {}
+[13.176282] (-) TimerEvent: {}
+[13.278364] (-) TimerEvent: {}
+[13.380438] (-) TimerEvent: {}
+[13.492523] (-) TimerEvent: {}
+[13.599070] (-) TimerEvent: {}
+[13.704461] (-) TimerEvent: {}
+[13.815152] (-) TimerEvent: {}
+[13.920931] (-) TimerEvent: {}
+[14.024477] (-) TimerEvent: {}
+[14.132475] (-) TimerEvent: {}
+[14.237236] (-) TimerEvent: {}
+[14.340220] (-) TimerEvent: {}
+[14.442635] (-) TimerEvent: {}
+[14.545417] (-) TimerEvent: {}
+[14.650337] (-) TimerEvent: {}
+[14.753425] (-) TimerEvent: {}
+[14.860447] (-) TimerEvent: {}
+[14.950426] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[14.956017] (senior_design1) JobStarted: {'identifier': 'senior_design1'}
+[14.961165] (-) TimerEvent: {}
+[15.063872] (-) TimerEvent: {}
+[15.166694] (-) TimerEvent: {}
+[15.292468] (-) TimerEvent: {}
+[15.408014] (-) TimerEvent: {}
+[15.524370] (-) TimerEvent: {}
+[15.592320] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.640359] (-) TimerEvent: {}
+[15.748013] (-) TimerEvent: {}
+[15.753154] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.859726] (-) TimerEvent: {}
+[15.961803] (-) TimerEvent: {}
+[16.063993] (-) TimerEvent: {}
+[16.115074] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[16.172373] (-) TimerEvent: {}
+[16.201058] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[16.202105] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[16.287340] (-) TimerEvent: {}
+[16.393251] (-) TimerEvent: {}
+[16.504441] (-) TimerEvent: {}
+[16.574294] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[16.575723] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.578913] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[16.579655] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[16.605365] (-) TimerEvent: {}
+[16.708433] (-) TimerEvent: {}
+[16.820331] (-) TimerEvent: {}
+[16.821237] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.921369] (-) TimerEvent: {}
+[17.027651] (-) TimerEvent: {}
+[17.144438] (-) TimerEvent: {}
+[17.246796] (-) TimerEvent: {}
+[17.348913] (-) TimerEvent: {}
+[17.355579] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[17.386091] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.387085] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[17.449155] (-) TimerEvent: {}
+[17.493444] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[17.542233] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.544412] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.549963] (-) TimerEvent: {}
+[17.660421] (-) TimerEvent: {}
+[17.757220] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.761393] (-) TimerEvent: {}
+[17.863019] (-) TimerEvent: {}
+[17.982114] (-) TimerEvent: {}
+[18.045555] (senior_design1) JobProgress: {'identifier': 'senior_design1', 'progress': 'cmake'}
+[18.047073] (senior_design1) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pi_ws/src/senior_design1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/senior_design1'], 'cwd': '/home/ubuntu/pi_ws/build/senior_design1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/senior_design1'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[18.082068] (-) TimerEvent: {}
+[18.184185] (-) TimerEvent: {}
+[18.285262] (-) TimerEvent: {}
+[18.386427] (-) TimerEvent: {}
+[18.408751] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.409979] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.486702] (-) TimerEvent: {}
+[18.501625] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[18.560859] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/pi_ws/build/serial_motor_demo_msgs\n'}
+[18.587177] (-) TimerEvent: {}
+[18.603828] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[18.606848] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[18.652543] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/serial_motor_demo_msgs'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[18.687460] (-) TimerEvent: {}
+[18.789738] (-) TimerEvent: {}
+[18.891037] (-) TimerEvent: {}
+[18.964210] (senior_design1) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[18.991390] (-) TimerEvent: {}
+[19.093740] (-) TimerEvent: {}
+[19.194939] (-) TimerEvent: {}
+[19.293040] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[19.295206] (-) TimerEvent: {}
+[19.307836] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__cpp\x1b[0m\n'}
+[19.395409] (-) TimerEvent: {}
+[19.496355] (-) TimerEvent: {}
+[19.512940] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[19.518177] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[19.566611] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[19.596564] (-) TimerEvent: {}
+[19.697676] (-) TimerEvent: {}
+[19.799085] (-) TimerEvent: {}
+[19.901369] (-) TimerEvent: {}
+[19.942595] (senior_design1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[20.001679] (-) TimerEvent: {}
+[20.028644] (senior_design1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[20.102292] (-) TimerEvent: {}
+[20.206484] (-) TimerEvent: {}
+[20.307828] (-) TimerEvent: {}
+[20.409185] (-) TimerEvent: {}
+[20.510501] (-) TimerEvent: {}
+[20.612144] (-) TimerEvent: {}
+[20.645233] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[20.646348] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[20.712294] (-) TimerEvent: {}
+[20.773355] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[20.812496] (-) TimerEvent: {}
+[20.913945] (-) TimerEvent: {}
+[21.015634] (-) TimerEvent: {}
+[21.097714] (senior_design1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[21.113106] (senior_design1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[21.115811] (-) TimerEvent: {}
+[21.216867] (-) TimerEvent: {}
+[21.317935] (-) TimerEvent: {}
+[21.419337] (-) TimerEvent: {}
+[21.439307] (serial) StdoutLine: {'line': b'[ 42%] Built target gtest_main\n'}
+[21.519598] (-) TimerEvent: {}
+[21.620631] (-) TimerEvent: {}
+[21.721714] (-) TimerEvent: {}
+[21.822803] (-) TimerEvent: {}
+[21.885161] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[21.902086] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.923042] (-) TimerEvent: {}
+[22.024278] (-) TimerEvent: {}
+[22.126327] (-) TimerEvent: {}
+[22.228589] (-) TimerEvent: {}
+[22.271824] (senior_design1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[22.328801] (-) TimerEvent: {}
+[22.394500] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[22.396406] (senior_design1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[22.400570] (senior_design1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[22.425618] (senior_design1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[22.429445] (-) TimerEvent: {}
+[22.531073] (-) TimerEvent: {}
+[22.633013] (-) TimerEvent: {}
+[22.735638] (-) TimerEvent: {}
+[22.837458] (-) TimerEvent: {}
+[22.938824] (-) TimerEvent: {}
+[23.041225] (-) TimerEvent: {}
+[23.068597] (serial) StdoutLine: {'line': b'[ 50%] Built target serial\n'}
+[23.141604] (-) TimerEvent: {}
+[23.243895] (-) TimerEvent: {}
+[23.280538] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_example\x1b[0m\n'}
+[23.344184] (-) TimerEvent: {}
+[23.445474] (-) TimerEvent: {}
+[23.510201] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[23.545812] (-) TimerEvent: {}
+[23.648043] (-) TimerEvent: {}
+[23.729783] (senior_design1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[23.738539] (senior_design1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[23.748329] (-) TimerEvent: {}
+[23.760040] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  4%] Built target serial_motor_demo_msgs__cpp\n'}
+[23.848561] (-) TimerEvent: {}
+[23.889502] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[23.948775] (-) TimerEvent: {}
+[24.049856] (-) TimerEvent: {}
+[24.145684] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_generator_c\x1b[0m\n'}
+[24.152353] (-) TimerEvent: {}
+[24.254343] (-) TimerEvent: {}
+[24.343280] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[24.354614] (-) TimerEvent: {}
+[24.457171] (-) TimerEvent: {}
+[24.559605] (-) TimerEvent: {}
+[24.662105] (-) TimerEvent: {}
+[24.763186] (-) TimerEvent: {}
+[24.864363] (-) TimerEvent: {}
+[24.896981] (senior_design1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[24.964600] (-) TimerEvent: {}
+[25.041157] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[25.062545] (senior_design1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[25.064781] (-) TimerEvent: {}
+[25.066746] (senior_design1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[25.144048] (senior_design1) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[25.165014] (-) TimerEvent: {}
+[25.267218] (-) TimerEvent: {}
+[25.369636] (-) TimerEvent: {}
+[25.471987] (-) TimerEvent: {}
+[25.556354] (senior_design1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[25.558951] (senior_design1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.572315] (-) TimerEvent: {}
+[25.655246] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[25.672479] (-) TimerEvent: {}
+[25.712315] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)\n'}
+[25.772657] (-) TimerEvent: {}
+[25.805359] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[25.824624] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[25.873160] (-) TimerEvent: {}
+[25.974547] (-) TimerEvent: {}
+[26.077683] (-) TimerEvent: {}
+[26.151561] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[26.177907] (-) TimerEvent: {}
+[26.272543] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[26.278175] (-) TimerEvent: {}
+[26.380070] (-) TimerEvent: {}
+[26.408736] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[26.480322] (-) TimerEvent: {}
+[26.504929] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[26.580545] (-) TimerEvent: {}
+[26.681772] (-) TimerEvent: {}
+[26.782779] (-) TimerEvent: {}
+[26.884533] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 17%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[26.885378] (-) TimerEvent: {}
+[26.986500] (-) TimerEvent: {}
+[27.087677] (-) TimerEvent: {}
+[27.189588] (-) TimerEvent: {}
+[27.290767] (-) TimerEvent: {}
+[27.349343] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[27.391029] (-) TimerEvent: {}
+[27.493020] (-) TimerEvent: {}
+[27.594963] (-) TimerEvent: {}
+[27.697221] (-) TimerEvent: {}
+[27.798415] (-) TimerEvent: {}
+[27.901136] (-) TimerEvent: {}
+[28.003661] (-) TimerEvent: {}
+[28.021436] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[28.103903] (-) TimerEvent: {}
+[28.205199] (-) TimerEvent: {}
+[28.306615] (-) TimerEvent: {}
+[28.408188] (-) TimerEvent: {}
+[28.509247] (-) TimerEvent: {}
+[28.611285] (-) TimerEvent: {}
+[28.712328] (-) TimerEvent: {}
+[28.813547] (-) TimerEvent: {}
+[28.870384] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[28.913806] (-) TimerEvent: {}
+[28.998916] (senior_design1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[29.014111] (-) TimerEvent: {}
+[29.116394] (-) TimerEvent: {}
+[29.217624] (-) TimerEvent: {}
+[29.318794] (-) TimerEvent: {}
+[29.353056] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[29.419074] (-) TimerEvent: {}
+[29.520275] (-) TimerEvent: {}
+[29.622104] (-) TimerEvent: {}
+[29.723316] (-) TimerEvent: {}
+[29.832912] (-) TimerEvent: {}
+[29.910133] (senior_design1) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[29.933157] (-) TimerEvent: {}
+[30.022666] (senior_design1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[30.033395] (-) TimerEvent: {}
+[30.038733] (senior_design1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.060933] (senior_design1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[30.130495] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[30.133779] (-) TimerEvent: {}
+[30.147145] (senior_design1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[30.190662] (senior_design1) StdoutLine: {'line': b'-- Configuring done\n'}
+[30.234105] (-) TimerEvent: {}
+[30.256400] (senior_design1) StdoutLine: {'line': b'-- Generating done\n'}
+[30.280747] (senior_design1) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/pi_ws/build/senior_design1\n'}
+[30.308877] (senior_design1) CommandEnded: {'returncode': 0}
+[30.311425] (senior_design1) JobProgress: {'identifier': 'senior_design1', 'progress': 'build'}
+[30.311774] (senior_design1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/senior_design1', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/senior_design1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/senior_design1'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[30.340221] (-) TimerEvent: {}
+[30.443409] (-) TimerEvent: {}
+[30.544684] (-) TimerEvent: {}
+[30.645910] (-) TimerEvent: {}
+[30.747048] (-) TimerEvent: {}
+[30.805146] (senior_design1) CommandEnded: {'returncode': 0}
+[30.847400] (-) TimerEvent: {}
+[30.949162] (-) TimerEvent: {}
+[31.050643] (-) TimerEvent: {}
+[31.152331] (-) TimerEvent: {}
+[31.168577] (senior_design1) JobProgress: {'identifier': 'senior_design1', 'progress': 'install'}
+[31.237488] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[31.252585] (-) TimerEvent: {}
+[31.282444] (senior_design1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/pi_ws/build/senior_design1'], 'cwd': '/home/ubuntu/pi_ws/build/senior_design1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/senior_design1'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[31.353060] (-) TimerEvent: {}
+[31.373766] (senior_design1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.375469] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config\n'}
+[31.378208] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/view_bot.rviz\n'}
+[31.381012] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/my_controllers.yaml\n'}
+[31.386174] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/map.rviz\n'}
+[31.388749] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/ball_tracker_params_robot.yaml\n'}
+[31.391416] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/mapper_params_online_async.yaml\n'}
+[31.394153] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/drive_bot.rviz\n'}
+[31.396824] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/ball_tracker_params_sim.yaml\n'}
+[31.400327] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/main.rviz\n'}
+[31.403951] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/nav2_params.yaml\n'}
+[31.407562] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/joystick.yaml\n'}
+[31.416086] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/gazebo_params.yaml\n'}
+[31.418463] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/twist_mux.yaml\n'}
+[31.420806] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[31.423299] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/config/empty.yaml\n'}
+[31.426054] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description\n'}
+[31.428400] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/ros2_control.xacro\n'}
+[31.431027] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/inertial_macros.xacro\n'}
+[31.433766] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/depth_camera.xacro\n'}
+[31.435903] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/robot_core.xacro\n'}
+[31.438368] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/robot.urdf.xacro\n'}
+[31.440635] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/camera.xacro\n'}
+[31.443068] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/gazebo_control.xacro\n'}
+[31.445866] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/lidar.xacro\n'}
+[31.448708] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/description/face.xacro\n'}
+[31.451284] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch\n'}
+[31.453410] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/camera.launch.py\n'}
+[31.454295] (-) TimerEvent: {}
+[31.457854] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/obstacle_avoid.launch.py\n'}
+[31.462996] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/rplidar.launch.py\n'}
+[31.465314] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/__pycache__\n'}
+[31.467197] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/__pycache__/rplidar.launch.cpython-38.pyc\n'}
+[31.469520] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/launch_robot.launch.py\n'}
+[31.471882] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/localization_launch.py\n'}
+[31.474298] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/online_async_launch.py\n'}
+[31.476441] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/rsp.launch.py\n'}
+[31.478556] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/navigation_launch.py\n'}
+[31.480790] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/joystick.launch.py\n'}
+[31.482846] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/launch_sim.launch.py\n'}
+[31.485169] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/launch/ball_tracker.launch.py\n'}
+[31.487318] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/worlds\n'}
+[31.489386] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/worlds/empty.world\n'}
+[31.492028] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/worlds/obstacles.world\n'}
+[31.498379] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/ament_index/resource_index/package_run_dependencies/senior_design1\n'}
+[31.502564] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/ament_index/resource_index/parent_prefix_path/senior_design1\n'}
+[31.506957] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/environment/ament_prefix_path.sh\n'}
+[31.510508] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/environment/ament_prefix_path.dsv\n'}
+[31.514079] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/environment/path.sh\n'}
+[31.517679] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/environment/path.dsv\n'}
+[31.521685] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/local_setup.bash\n'}
+[31.525331] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/local_setup.sh\n'}
+[31.529251] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/local_setup.zsh\n'}
+[31.532930] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/local_setup.dsv\n'}
+[31.536715] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/package.dsv\n'}
+[31.540966] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/ament_index/resource_index/packages/senior_design1\n'}
+[31.543242] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[31.547657] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/cmake/senior_design1Config.cmake\n'}
+[31.551416] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/cmake/senior_design1Config-version.cmake\n'}
+[31.554572] (-) TimerEvent: {}
+[31.558192] (senior_design1) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design1/share/senior_design1/package.xml\n'}
+[31.576362] (senior_design1) CommandEnded: {'returncode': 0}
+[31.655157] (-) TimerEvent: {}
+[31.757882] (-) TimerEvent: {}
+[31.859452] (-) TimerEvent: {}
+[31.960735] (-) TimerEvent: {}
+[31.990858] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[32.065947] (-) TimerEvent: {}
+[32.093113] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[32.158950] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[32.167900] (-) TimerEvent: {}
+[32.190598] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[32.219101] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[32.229158] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[32.238349] (gazebo_ros2_control) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[32.272557] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[32.273450] (-) TimerEvent: {}
+[32.374872] (-) TimerEvent: {}
+[32.476063] (-) TimerEvent: {}
+[32.541112] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[32.576413] (-) TimerEvent: {}
+[32.678289] (-) TimerEvent: {}
+[32.780574] (-) TimerEvent: {}
+[32.883447] (-) TimerEvent: {}
+[32.985123] (-) TimerEvent: {}
+[33.086310] (-) TimerEvent: {}
+[33.187837] (-) TimerEvent: {}
+[33.234122] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[33.288208] (-) TimerEvent: {}
+[33.320945] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/aarch64-linux-gnu/libOgreMain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreMain.so\n'}
+[33.388491] (-) TimerEvent: {}
+[33.415351] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[33.452525] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/aarch64-linux-gnu/libOgrePaging.so;debug;/usr/lib/aarch64-linux-gnu/libOgrePaging.so\n'}
+[33.454199] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[33.508380] (-) TimerEvent: {}
+[33.513383] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so\n'}
+[33.514615] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[33.662737] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/aarch64-linux-gnu/libOgreProperty.so;debug;/usr/lib/aarch64-linux-gnu/libOgreProperty.so\n'}
+[33.664397] (-) TimerEvent: {}
+[33.666402] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[33.667629] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[33.668520] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[33.695755] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/aarch64-linux-gnu/libOgreVolume.so;debug;/usr/lib/aarch64-linux-gnu/libOgreVolume.so\n'}
+[33.699072] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[33.767407] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so\n'}
+[33.769273] (-) TimerEvent: {}
+[33.872070] (-) TimerEvent: {}
+[33.974760] (-) TimerEvent: {}
+[34.077692] (-) TimerEvent: {}
+[34.180698] (-) TimerEvent: {}
+[34.283195] (-) TimerEvent: {}
+[34.385545] (-) TimerEvent: {}
+[34.486906] (-) TimerEvent: {}
+[34.588213] (-) TimerEvent: {}
+[34.689389] (-) TimerEvent: {}
+[34.698653] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[34.724906] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[34.727741] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[34.791242] (-) TimerEvent: {}
+[34.864770] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[34.891836] (-) TimerEvent: {}
+[34.940798] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[34.993648] (-) TimerEvent: {}
+[35.063450] (senior_design1) JobEnded: {'identifier': 'senior_design1', 'rc': 0}
+[35.066911] (tank_controller) JobStarted: {'identifier': 'tank_controller'}
+[35.094398] (-) TimerEvent: {}
+[35.096390] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[35.121333] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[35.145139] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[35.168516] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[35.194868] (-) TimerEvent: {}
+[35.296469] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[35.297592] (-) TimerEvent: {}
+[35.398549] (-) TimerEvent: {}
+[35.500617] (-) TimerEvent: {}
+[35.603291] (-) TimerEvent: {}
+[35.704323] (-) TimerEvent: {}
+[35.764853] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[35.795323] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[35.804890] (-) TimerEvent: {}
+[35.907449] (-) TimerEvent: {}
+[35.935054] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[36.012203] (-) TimerEvent: {}
+[36.114436] (-) TimerEvent: {}
+[36.216241] (-) TimerEvent: {}
+[36.271397] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[36.303531] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[36.309873] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[36.316822] (-) TimerEvent: {}
+[36.322426] (tank_controller) JobProgress: {'identifier': 'tank_controller', 'progress': 'cmake'}
+[36.324852] (tank_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pi_ws/src/tank_controller', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/tank_controller'], 'cwd': '/home/ubuntu/pi_ws/build/tank_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/tank_controller'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[36.417158] (-) TimerEvent: {}
+[36.518460] (-) TimerEvent: {}
+[36.556471] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[36.586879] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[36.618701] (-) TimerEvent: {}
+[36.728000] (-) TimerEvent: {}
+[36.758658] (tank_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[36.811675] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[36.828268] (-) TimerEvent: {}
+[36.929484] (-) TimerEvent: {}
+[37.032510] (-) TimerEvent: {}
+[37.094617] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[37.111805] (tank_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[37.132704] (-) TimerEvent: {}
+[37.136281] (tank_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[37.172726] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[37.232938] (-) TimerEvent: {}
+[37.296860] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[37.333190] (-) TimerEvent: {}
+[37.344574] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[37.349630] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[37.353667] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[37.358969] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[37.366495] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[37.370073] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[37.419768] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[37.433439] (-) TimerEvent: {}
+[37.455008] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[37.459950] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[37.464820] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[37.503919] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[37.508307] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[37.533845] (-) TimerEvent: {}
+[37.566557] (tank_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[37.572241] (tank_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[37.607393] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[37.634109] (-) TimerEvent: {}
+[37.735473] (-) TimerEvent: {}
+[37.790193] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[37.835732] (-) TimerEvent: {}
+[37.936913] (-) TimerEvent: {}
+[37.968689] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[38.036080] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[38.037227] (-) TimerEvent: {}
+[38.064319] (tank_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[38.122081] (tank_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[38.127150] (tank_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[38.137483] (-) TimerEvent: {}
+[38.142780] (tank_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[38.179446] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[38.237736] (-) TimerEvent: {}
+[38.247698] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[38.337997] (-) TimerEvent: {}
+[38.383933] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[38.438312] (-) TimerEvent: {}
+[38.540574] (-) TimerEvent: {}
+[38.642551] (-) TimerEvent: {}
+[38.744281] (-) TimerEvent: {}
+[38.751371] (tank_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[38.759171] (tank_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[38.844481] (-) TimerEvent: {}
+[38.880731] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[38.910436] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[38.946589] (-) TimerEvent: {}
+[39.048302] (-) TimerEvent: {}
+[39.075932] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[39.148487] (-) TimerEvent: {}
+[39.250498] (-) TimerEvent: {}
+[39.338524] (tank_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[39.350854] (-) TimerEvent: {}
+[39.403159] (tank_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[39.408558] (tank_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[39.443393] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[39.447864] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[39.449264] (tank_controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[39.451086] (-) TimerEvent: {}
+[39.455254] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[39.461397] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[39.468813] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[39.493798] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[39.494840] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[39.551370] (-) TimerEvent: {}
+[39.578173] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[39.588887] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)\n'}
+[39.591917] (gazebo_ros2_control) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[39.651879] (-) TimerEvent: {}
+[39.668147] (tank_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[39.669617] (tank_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[39.752276] (-) TimerEvent: {}
+[39.801782] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[39.852449] (-) TimerEvent: {}
+[39.954330] (-) TimerEvent: {}
+[40.055957] (-) TimerEvent: {}
+[40.152394] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[40.156367] (-) TimerEvent: {}
+[40.258693] (-) TimerEvent: {}
+[40.361199] (-) TimerEvent: {}
+[40.369928] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[40.461421] (-) TimerEvent: {}
+[40.562484] (-) TimerEvent: {}
+[40.565637] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[40.579971] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[40.590706] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[40.643046] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[40.662697] (-) TimerEvent: {}
+[40.763722] (-) TimerEvent: {}
+[40.864919] (-) TimerEvent: {}
+[40.966577] (-) TimerEvent: {}
+[41.068133] (-) TimerEvent: {}
+[41.169689] (-) TimerEvent: {}
+[41.175441] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[41.269897] (-) TimerEvent: {}
+[42.990031] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[42.991821] (-) TimerEvent: {}
+[43.009711] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[43.013845] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/pi_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[43.014997] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[43.031251] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[43.032819] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[43.044904] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[43.062122] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[43.062824] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[43.066122] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[43.092001] (-) TimerEvent: {}
+[43.111748] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[43.192612] (-) TimerEvent: {}
+[43.295047] (-) TimerEvent: {}
+[43.394153] (tank_controller) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[43.394995] (-) TimerEvent: {}
+[43.415878] (tank_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[43.469177] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[43.495227] (-) TimerEvent: {}
+[43.542807] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[43.595613] (-) TimerEvent: {}
+[43.647864] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/pi_ws/build/gazebo_ros2_control\n'}
+[43.695904] (-) TimerEvent: {}
+[43.717549] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[43.721853] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[43.724465] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/gazebo_ros2_control', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/gazebo_ros2_control'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[43.735753] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[43.747613] (tank_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[43.796167] (-) TimerEvent: {}
+[43.825546] (tank_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[43.896343] (-) TimerEvent: {}
+[43.939050] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_hardware_plugins\x1b[0m\n'}
+[43.996541] (-) TimerEvent: {}
+[44.097502] (-) TimerEvent: {}
+[44.198463] (-) TimerEvent: {}
+[44.299531] (-) TimerEvent: {}
+[44.400660] (-) TimerEvent: {}
+[44.502343] (-) TimerEvent: {}
+[44.507577] (tank_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[44.602567] (-) TimerEvent: {}
+[44.703843] (-) TimerEvent: {}
+[44.784874] (tank_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[44.804043] (-) TimerEvent: {}
+[44.905149] (-) TimerEvent: {}
+[45.006030] (-) TimerEvent: {}
+[45.106928] (-) TimerEvent: {}
+[45.207753] (-) TimerEvent: {}
+[45.308611] (-) TimerEvent: {}
+[45.346715] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[45.408821] (-) TimerEvent: {}
+[45.436849] (tank_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[45.509217] (-) TimerEvent: {}
+[45.611002] (-) TimerEvent: {}
+[45.712044] (-) TimerEvent: {}
+[45.813080] (-) TimerEvent: {}
+[45.914096] (-) TimerEvent: {}
+[46.015245] (-) TimerEvent: {}
+[46.033830] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[46.089655] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial-test-timer\x1b[0m\n'}
+[46.115577] (-) TimerEvent: {}
+[46.162090] (tank_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[46.176480] (tank_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[46.184715] (tank_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/pi_ws/build/tank_controller\n'}
+[46.191918] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[46.215878] (-) TimerEvent: {}
+[46.219684] (tank_controller) CommandEnded: {'returncode': 0}
+[46.223337] (tank_controller) JobProgress: {'identifier': 'tank_controller', 'progress': 'build'}
+[46.225579] (tank_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/tank_controller', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/tank_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/tank_controller'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[46.316411] (-) TimerEvent: {}
+[46.417796] (-) TimerEvent: {}
+[46.458701] (tank_controller) CommandEnded: {'returncode': 0}
+[46.518079] (-) TimerEvent: {}
+[46.585732] (tank_controller) JobProgress: {'identifier': 'tank_controller', 'progress': 'install'}
+[46.587260] (tank_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/pi_ws/build/tank_controller'], 'cwd': '/home/ubuntu/pi_ws/build/tank_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.211 62345 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2800fdc6-6b19-4455-a0d1-8c2c71f4b13b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/tank_controller'), ('SSH_CONNECTION', '192.168.8.211 62345 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design1:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/articubot_one:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy')]), 'shell': False}
+[46.618475] (-) TimerEvent: {}
+[46.645219] (tank_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.647749] (tank_controller) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/tank_controller/lib/tank_controller/motor_control_test.py\n'}
+[46.649820] (tank_controller) StderrLine: {'line': b'CMake Error at cmake_install.cmake:45 (file):\n'}
+[46.651286] (tank_controller) StderrLine: {'line': b'  file INSTALL cannot find "/home/ubuntu/pi_ws/src/tank_controller/launch":\n'}
+[46.652364] (tank_controller) StderrLine: {'line': b'  No such file or directory.\n'}
+[46.653236] (tank_controller) StderrLine: {'line': b'\n'}
+[46.653966] (tank_controller) StderrLine: {'line': b'\n'}
+[46.664975] (tank_controller) CommandEnded: {'returncode': 1}
+[46.718663] (-) TimerEvent: {}
+[46.821963] (-) TimerEvent: {}
+[46.929899] (-) TimerEvent: {}
+[46.954031] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[47.030257] (-) TimerEvent: {}
+[47.133448] (-) TimerEvent: {}
+[47.234622] (-) TimerEvent: {}
+[47.336704] (-) TimerEvent: {}
+[47.437970] (-) TimerEvent: {}
+[47.539992] (-) TimerEvent: {}
+[47.641795] (-) TimerEvent: {}
+[47.746974] (-) TimerEvent: {}
+[47.762353] (tank_controller) JobEnded: {'identifier': 'tank_controller', 'rc': 1}
+[47.847258] (-) TimerEvent: {}
+[47.949115] (-) TimerEvent: {}
+[48.051397] (-) TimerEvent: {}
+[48.153548] (-) TimerEvent: {}
+[48.254705] (-) TimerEvent: {}
+[48.356745] (-) TimerEvent: {}
+[48.457950] (-) TimerEvent: {}
+[48.517381] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[48.558192] (-) TimerEvent: {}
+[48.659329] (-) TimerEvent: {}
+[48.744915] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[48.759554] (-) TimerEvent: {}
+[48.815331] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[48.859804] (-) TimerEvent: {}
+[48.961104] (-) TimerEvent: {}
+[48.995870] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[49.061494] (-) TimerEvent: {}
+[49.164644] (-) TimerEvent: {}
+[49.265991] (-) TimerEvent: {}
+[49.367613] (-) TimerEvent: {}
+[49.469269] (-) TimerEvent: {}
+[49.570224] (-) TimerEvent: {}
+[49.671197] (-) TimerEvent: {}
+[49.772131] (-) TimerEvent: {}
+[49.873139] (-) TimerEvent: {}
+[49.974246] (-) TimerEvent: {}
+[50.075224] (-) TimerEvent: {}
+[50.176294] (-) TimerEvent: {}
+[50.278318] (-) TimerEvent: {}
+[50.380558] (-) TimerEvent: {}
+[50.484090] (-) TimerEvent: {}
+[50.586700] (-) TimerEvent: {}
+[50.689517] (-) TimerEvent: {}
+[50.700485] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[50.764994] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[50.789899] (-) TimerEvent: {}
+[50.832734] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[50.890376] (-) TimerEvent: {}
+[50.992940] (-) TimerEvent: {}
+[51.096381] (-) TimerEvent: {}
+[51.199156] (-) TimerEvent: {}
+[51.302166] (-) TimerEvent: {}
+[51.405631] (-) TimerEvent: {}
+[51.450706] (serial) StdoutLine: {'line': b'[ 85%] Built target serial-test-timer\n'}
+[51.505963] (-) TimerEvent: {}
+[51.509781] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial-test\x1b[0m\n'}
+[51.591712] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[51.606342] (-) TimerEvent: {}
+[51.709076] (-) TimerEvent: {}
+[51.811279] (-) TimerEvent: {}
+[51.916399] (-) TimerEvent: {}
+[52.050437] (-) TimerEvent: {}
+[52.152431] (-) TimerEvent: {}
+[52.254276] (-) TimerEvent: {}
+[52.355901] (-) TimerEvent: {}
+[52.458394] (-) TimerEvent: {}
+[52.560255] (-) TimerEvent: {}
+[52.662088] (-) TimerEvent: {}
+[52.764872] (-) TimerEvent: {}
+[52.866594] (-) TimerEvent: {}
+[52.968278] (-) TimerEvent: {}
+[53.070810] (-) TimerEvent: {}
+[53.171891] (-) TimerEvent: {}
+[53.275120] (-) TimerEvent: {}
+[53.312010] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[53.375383] (-) TimerEvent: {}
+[53.477737] (-) TimerEvent: {}
+[53.580566] (-) TimerEvent: {}
+[53.683058] (-) TimerEvent: {}
+[53.786219] (-) TimerEvent: {}
+[53.889269] (-) TimerEvent: {}
+[53.993120] (-) TimerEvent: {}
+[54.096253] (-) TimerEvent: {}
+[54.198915] (-) TimerEvent: {}
+[54.300878] (-) TimerEvent: {}
+[54.403705] (-) TimerEvent: {}
+[54.506442] (-) TimerEvent: {}
+[54.607994] (-) TimerEvent: {}
+[54.710788] (-) TimerEvent: {}
+[54.811869] (-) TimerEvent: {}
+[54.913632] (-) TimerEvent: {}
+[55.016079] (-) TimerEvent: {}
+[55.118807] (-) TimerEvent: {}
+[55.221806] (-) TimerEvent: {}
+[55.323570] (-) TimerEvent: {}
+[55.425329] (-) TimerEvent: {}
+[55.527177] (-) TimerEvent: {}
+[55.628915] (-) TimerEvent: {}
+[55.695306] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[55.729135] (-) TimerEvent: {}
+[55.831649] (-) TimerEvent: {}
+[55.933965] (-) TimerEvent: {}
+[56.035673] (-) TimerEvent: {}
+[56.138417] (-) TimerEvent: {}
+[56.239849] (-) TimerEvent: {}
+[56.341931] (-) TimerEvent: {}
+[56.444316] (-) TimerEvent: {}
+[56.458597] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[56.544692] (-) TimerEvent: {}
+[56.647687] (-) TimerEvent: {}
+[56.750942] (-) TimerEvent: {}
+[56.853220] (-) TimerEvent: {}
+[56.954984] (-) TimerEvent: {}
+[57.103543] (-) TimerEvent: {}
+[57.151045] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[57.203819] (-) TimerEvent: {}
+[57.208221] (serial) JobEnded: {'identifier': 'serial', 'rc': 'SIGINT'}
+[57.304146] (-) TimerEvent: {}
+[57.405432] (-) TimerEvent: {}
+[57.506649] (-) TimerEvent: {}
+[57.607740] (-) TimerEvent: {}
+[57.709035] (-) TimerEvent: {}
+[57.810058] (-) TimerEvent: {}
+[57.911197] (-) TimerEvent: {}
+[58.012298] (-) TimerEvent: {}
+[58.113334] (-) TimerEvent: {}
+[58.154312] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[58.213551] (-) TimerEvent: {}
+[58.314789] (-) TimerEvent: {}
+[58.415893] (-) TimerEvent: {}
+[58.516953] (-) TimerEvent: {}
+[58.534731] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[58.587911] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[58.617162] (-) TimerEvent: {}
+[58.718195] (-) TimerEvent: {}
+[58.819336] (-) TimerEvent: {}
+[58.920220] (-) TimerEvent: {}
+[59.021204] (-) TimerEvent: {}
+[59.122143] (-) TimerEvent: {}
+[59.223181] (-) TimerEvent: {}
+[59.324212] (-) TimerEvent: {}
+[59.425220] (-) TimerEvent: {}
+[59.526138] (-) TimerEvent: {}
+[59.627144] (-) TimerEvent: {}
+[59.728267] (-) TimerEvent: {}
+[59.830507] (-) TimerEvent: {}
+[59.931882] (-) TimerEvent: {}
+[60.033081] (-) TimerEvent: {}
+[60.101522] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[60.133286] (-) TimerEvent: {}
+[60.179024] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[60.233502] (-) TimerEvent: {}
+[60.334675] (-) TimerEvent: {}
+[60.435741] (-) TimerEvent: {}
+[60.536823] (-) TimerEvent: {}
+[60.637836] (-) TimerEvent: {}
+[60.738893] (-) TimerEvent: {}
+[60.839990] (-) TimerEvent: {}
+[60.941127] (-) TimerEvent: {}
+[61.042189] (-) TimerEvent: {}
+[61.143392] (-) TimerEvent: {}
+[61.244513] (-) TimerEvent: {}
+[61.345544] (-) TimerEvent: {}
+[61.446562] (-) TimerEvent: {}
+[61.547684] (-) TimerEvent: {}
+[61.648688] (-) TimerEvent: {}
+[61.749691] (-) TimerEvent: {}
+[61.845713] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o\x1b[0m\n'}
+[61.849884] (-) TimerEvent: {}
+[61.950909] (-) TimerEvent: {}
+[62.052252] (-) TimerEvent: {}
+[62.153326] (-) TimerEvent: {}
+[62.254409] (-) TimerEvent: {}
+[62.355427] (-) TimerEvent: {}
+[62.456588] (-) TimerEvent: {}
+[62.557691] (-) TimerEvent: {}
+[62.658735] (-) TimerEvent: {}
+[62.759718] (-) TimerEvent: {}
+[62.860923] (-) TimerEvent: {}
+[62.962059] (-) TimerEvent: {}
+[63.063212] (-) TimerEvent: {}
+[63.164342] (-) TimerEvent: {}
+[63.265368] (-) TimerEvent: {}
+[63.366414] (-) TimerEvent: {}
+[63.442729] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o\x1b[0m\n'}
+[63.466645] (-) TimerEvent: {}
+[63.567880] (-) TimerEvent: {}
+[63.669695] (-) TimerEvent: {}
+[63.771505] (-) TimerEvent: {}
+[63.872633] (-) TimerEvent: {}
+[63.973664] (-) TimerEvent: {}
+[64.074859] (-) TimerEvent: {}
+[64.175982] (-) TimerEvent: {}
+[64.277100] (-) TimerEvent: {}
+[64.378200] (-) TimerEvent: {}
+[64.479183] (-) TimerEvent: {}
+[64.580281] (-) TimerEvent: {}
+[64.681360] (-) TimerEvent: {}
+[64.783864] (-) TimerEvent: {}
+[64.886067] (-) TimerEvent: {}
+[64.987550] (-) TimerEvent: {}
+[65.059679] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[65.087783] (-) TimerEvent: {}
+[65.189116] (-) TimerEvent: {}
+[65.290438] (-) TimerEvent: {}
+[65.391621] (-) TimerEvent: {}
+[65.441191] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[65.487704] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs\x1b[0m\n'}
+[65.491823] (-) TimerEvent: {}
+[65.537500] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[65.585589] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__py\x1b[0m\n'}
+[65.592017] (-) TimerEvent: {}
+[65.635380] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[65.692226] (-) TimerEvent: {}
+[65.793179] (-) TimerEvent: {}
+[65.894147] (-) TimerEvent: {}
+[65.995177] (-) TimerEvent: {}
+[66.096077] (-) TimerEvent: {}
+[66.197104] (-) TimerEvent: {}
+[66.297956] (-) TimerEvent: {}
+[66.399113] (-) TimerEvent: {}
+[66.500190] (-) TimerEvent: {}
+[66.601089] (-) TimerEvent: {}
+[66.702144] (-) TimerEvent: {}
+[66.803153] (-) TimerEvent: {}
+[66.904061] (-) TimerEvent: {}
+[67.005031] (-) TimerEvent: {}
+[67.126850] (-) TimerEvent: {}
+[67.227793] (-) TimerEvent: {}
+[67.328811] (-) TimerEvent: {}
+[67.429791] (-) TimerEvent: {}
+[67.531140] (-) TimerEvent: {}
+[67.632413] (-) TimerEvent: {}
+[67.733566] (-) TimerEvent: {}
+[67.834513] (-) TimerEvent: {}
+[67.935683] (-) TimerEvent: {}
+[68.037236] (-) TimerEvent: {}
+[68.138259] (-) TimerEvent: {}
+[68.239437] (-) TimerEvent: {}
+[68.340684] (-) TimerEvent: {}
+[68.367764] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[68.422397] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__python\x1b[0m\n'}
+[68.444838] (-) TimerEvent: {}
+[68.547130] (-) TimerEvent: {}
+[68.612813] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[68.647336] (-) TimerEvent: {}
+[68.748497] (-) TimerEvent: {}
+[68.849520] (-) TimerEvent: {}
+[68.951461] (-) TimerEvent: {}
+[69.053658] (-) TimerEvent: {}
+[69.122924] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o\x1b[0m\n'}
+[69.153960] (-) TimerEvent: {}
+[69.256029] (-) TimerEvent: {}
+[69.358310] (-) TimerEvent: {}
+[69.460631] (-) TimerEvent: {}
+[69.564216] (-) TimerEvent: {}
+[69.602293] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o\x1b[0m\n'}
+[69.664493] (-) TimerEvent: {}
+[69.766789] (-) TimerEvent: {}
+[69.869196] (-) TimerEvent: {}
+[69.970885] (-) TimerEvent: {}
+[70.073414] (-) TimerEvent: {}
+[70.122682] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__python.so\x1b[0m\n'}
+[70.173765] (-) TimerEvent: {}
+[70.278781] (-) TimerEvent: {}
+[70.381428] (-) TimerEvent: {}
+[70.384405] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__python\n'}
+[70.447622] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[70.481979] (-) TimerEvent: {}
+[70.583689] (-) TimerEvent: {}
+[70.589681] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[70.683978] (-) TimerEvent: {}
+[70.785844] (-) TimerEvent: {}
+[70.888778] (-) TimerEvent: {}
+[70.991307] (-) TimerEvent: {}
+[71.065842] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[71.091514] (-) TimerEvent: {}
+[71.194364] (-) TimerEvent: {}
+[71.258234] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[71.294587] (-) TimerEvent: {}
+[71.313374] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[71.394837] (-) TimerEvent: {}
+[71.448898] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[71.495220] (-) TimerEvent: {}
+[71.598242] (-) TimerEvent: {}
+[71.700843] (-) TimerEvent: {}
+[71.803401] (-) TimerEvent: {}
+[71.906201] (-) TimerEvent: {}
+[71.943483] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[72.006448] (-) TimerEvent: {}
+[72.112484] (-) TimerEvent: {}
+[72.213837] (-) TimerEvent: {}
+[72.262199] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[72.314120] (-) TimerEvent: {}
+[72.329757] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[72.414395] (-) TimerEvent: {}
+[72.516304] (-) TimerEvent: {}
+[72.527636] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[72.616516] (-) TimerEvent: {}
+[72.718773] (-) TimerEvent: {}
+[72.821295] (-) TimerEvent: {}
+[72.923901] (-) TimerEvent: {}
+[73.025920] (-) TimerEvent: {}
+[73.032627] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[73.126306] (-) TimerEvent: {}
+[73.228715] (-) TimerEvent: {}
+[73.331502] (-) TimerEvent: {}
+[73.401041] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[73.432237] (-) TimerEvent: {}
+[73.460331] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 'SIGINT'}
+[73.532386] (-) TimerEvent: {}
+[73.633553] (-) TimerEvent: {}
+[73.735299] (-) TimerEvent: {}
+[73.836479] (-) TimerEvent: {}
+[73.937602] (-) TimerEvent: {}
+[74.038987] (-) TimerEvent: {}
+[74.140127] (-) TimerEvent: {}
+[74.241148] (-) TimerEvent: {}
+[74.342343] (-) TimerEvent: {}
+[74.443393] (-) TimerEvent: {}
+[74.544544] (-) TimerEvent: {}
+[74.645841] (-) TimerEvent: {}
+[74.747289] (-) TimerEvent: {}
+[74.848300] (-) TimerEvent: {}
+[74.949350] (-) TimerEvent: {}
+[75.050528] (-) TimerEvent: {}
+[75.151592] (-) TimerEvent: {}
+[75.253631] (-) TimerEvent: {}
+[75.355865] (-) TimerEvent: {}
+[75.458022] (-) TimerEvent: {}
+[75.559053] (-) TimerEvent: {}
+[75.660142] (-) TimerEvent: {}
+[75.761130] (-) TimerEvent: {}
+[75.862239] (-) TimerEvent: {}
+[75.963210] (-) TimerEvent: {}
+[76.065354] (-) TimerEvent: {}
+[76.166387] (-) TimerEvent: {}
+[76.267484] (-) TimerEvent: {}
+[76.369227] (-) TimerEvent: {}
+[76.471573] (-) TimerEvent: {}
+[76.573122] (-) TimerEvent: {}
+[76.674331] (-) TimerEvent: {}
+[76.775428] (-) TimerEvent: {}
+[76.876535] (-) TimerEvent: {}
+[76.978007] (-) TimerEvent: {}
+[77.079025] (-) TimerEvent: {}
+[77.180078] (-) TimerEvent: {}
+[77.281000] (-) TimerEvent: {}
+[77.381901] (-) TimerEvent: {}
+[77.482927] (-) TimerEvent: {}
+[77.583836] (-) TimerEvent: {}
+[77.684750] (-) TimerEvent: {}
+[77.785582] (-) TimerEvent: {}
+[77.886473] (-) TimerEvent: {}
+[77.987887] (-) TimerEvent: {}
+[78.088784] (-) TimerEvent: {}
+[78.189649] (-) TimerEvent: {}
+[78.290521] (-) TimerEvent: {}
+[78.391452] (-) TimerEvent: {}
+[78.492370] (-) TimerEvent: {}
+[78.593228] (-) TimerEvent: {}
+[78.694187] (-) TimerEvent: {}
+[78.795055] (-) TimerEvent: {}
+[78.895960] (-) TimerEvent: {}
+[78.996835] (-) TimerEvent: {}
+[79.097712] (-) TimerEvent: {}
+[79.198657] (-) TimerEvent: {}
+[79.299595] (-) TimerEvent: {}
+[79.400542] (-) TimerEvent: {}
+[79.501386] (-) TimerEvent: {}
+[79.602235] (-) TimerEvent: {}
+[79.703097] (-) TimerEvent: {}
+[79.804018] (-) TimerEvent: {}
+[79.905174] (-) TimerEvent: {}
+[80.006080] (-) TimerEvent: {}
+[80.106930] (-) TimerEvent: {}
+[80.207797] (-) TimerEvent: {}
+[80.308701] (-) TimerEvent: {}
+[80.409572] (-) TimerEvent: {}
+[80.510438] (-) TimerEvent: {}
+[80.611265] (-) TimerEvent: {}
+[80.712159] (-) TimerEvent: {}
+[80.813064] (-) TimerEvent: {}
+[80.913936] (-) TimerEvent: {}
+[81.014854] (-) TimerEvent: {}
+[81.115716] (-) TimerEvent: {}
+[81.216670] (-) TimerEvent: {}
+[81.317568] (-) TimerEvent: {}
+[81.418428] (-) TimerEvent: {}
+[81.519280] (-) TimerEvent: {}
+[81.620163] (-) TimerEvent: {}
+[81.720979] (-) TimerEvent: {}
+[81.821840] (-) TimerEvent: {}
+[81.922730] (-) TimerEvent: {}
+[82.023634] (-) TimerEvent: {}
+[82.124609] (-) TimerEvent: {}
+[82.225459] (-) TimerEvent: {}
+[82.326364] (-) TimerEvent: {}
+[82.427233] (-) TimerEvent: {}
+[82.528162] (-) TimerEvent: {}
+[82.629006] (-) TimerEvent: {}
+[82.729887] (-) TimerEvent: {}
+[82.830765] (-) TimerEvent: {}
+[82.931656] (-) TimerEvent: {}
+[83.032575] (-) TimerEvent: {}
+[83.133433] (-) TimerEvent: {}
+[83.234299] (-) TimerEvent: {}
+[83.335150] (-) TimerEvent: {}
+[83.436071] (-) TimerEvent: {}
+[83.537079] (-) TimerEvent: {}
+[83.638415] (-) TimerEvent: {}
+[83.739366] (-) TimerEvent: {}
+[83.840281] (-) TimerEvent: {}
+[83.941140] (-) TimerEvent: {}
+[84.042003] (-) TimerEvent: {}
+[84.142934] (-) TimerEvent: {}
+[84.243777] (-) TimerEvent: {}
+[84.344666] (-) TimerEvent: {}
+[84.445499] (-) TimerEvent: {}
+[84.546429] (-) TimerEvent: {}
+[84.647317] (-) TimerEvent: {}
+[84.748290] (-) TimerEvent: {}
+[84.849167] (-) TimerEvent: {}
+[84.950084] (-) TimerEvent: {}
+[85.050976] (-) TimerEvent: {}
+[85.151840] (-) TimerEvent: {}
+[85.252762] (-) TimerEvent: {}
+[85.353792] (-) TimerEvent: {}
+[85.454860] (-) TimerEvent: {}
+[85.556048] (-) TimerEvent: {}
+[85.657297] (-) TimerEvent: {}
+[85.758152] (-) TimerEvent: {}
+[85.859035] (-) TimerEvent: {}
+[85.959890] (-) TimerEvent: {}
+[86.060820] (-) TimerEvent: {}
+[86.161696] (-) TimerEvent: {}
+[86.262543] (-) TimerEvent: {}
+[86.363444] (-) TimerEvent: {}
+[86.464438] (-) TimerEvent: {}
+[86.565308] (-) TimerEvent: {}
+[86.666175] (-) TimerEvent: {}
+[86.767072] (-) TimerEvent: {}
+[86.867919] (-) TimerEvent: {}
+[86.968861] (-) TimerEvent: {}
+[87.069731] (-) TimerEvent: {}
+[87.170601] (-) TimerEvent: {}
+[87.271430] (-) TimerEvent: {}
+[87.372283] (-) TimerEvent: {}
+[87.473100] (-) TimerEvent: {}
+[87.573958] (-) TimerEvent: {}
+[87.674853] (-) TimerEvent: {}
+[87.775773] (-) TimerEvent: {}
+[87.876667] (-) TimerEvent: {}
+[87.977542] (-) TimerEvent: {}
+[88.078378] (-) TimerEvent: {}
+[88.179225] (-) TimerEvent: {}
+[88.280152] (-) TimerEvent: {}
+[88.380976] (-) TimerEvent: {}
+[88.481892] (-) TimerEvent: {}
+[88.582812] (-) TimerEvent: {}
+[88.684529] (-) TimerEvent: {}
+[88.785389] (-) TimerEvent: {}
+[88.886246] (-) TimerEvent: {}
+[88.987102] (-) TimerEvent: {}
+[89.087950] (-) TimerEvent: {}
+[89.188815] (-) TimerEvent: {}
+[89.289630] (-) TimerEvent: {}
+[89.390519] (-) TimerEvent: {}
+[89.491424] (-) TimerEvent: {}
+[89.592379] (-) TimerEvent: {}
+[89.693323] (-) TimerEvent: {}
+[89.795132] (-) TimerEvent: {}
+[89.896376] (-) TimerEvent: {}
+[89.997329] (-) TimerEvent: {}
+[90.098200] (-) TimerEvent: {}
+[90.199056] (-) TimerEvent: {}
+[90.299949] (-) TimerEvent: {}
+[90.400887] (-) TimerEvent: {}
+[90.501789] (-) TimerEvent: {}
+[90.602648] (-) TimerEvent: {}
+[90.703519] (-) TimerEvent: {}
+[90.804441] (-) TimerEvent: {}
+[90.905288] (-) TimerEvent: {}
+[91.006174] (-) TimerEvent: {}
+[91.107041] (-) TimerEvent: {}
+[91.207884] (-) TimerEvent: {}
+[91.308827] (-) TimerEvent: {}
+[91.409704] (-) TimerEvent: {}
+[91.510549] (-) TimerEvent: {}
+[91.611426] (-) TimerEvent: {}
+[91.712287] (-) TimerEvent: {}
+[91.813137] (-) TimerEvent: {}
+[91.914005] (-) TimerEvent: {}
+[92.014934] (-) TimerEvent: {}
+[92.115849] (-) TimerEvent: {}
+[92.217115] (-) TimerEvent: {}
+[92.317964] (-) TimerEvent: {}
+[92.418798] (-) TimerEvent: {}
+[92.519651] (-) TimerEvent: {}
+[92.620510] (-) TimerEvent: {}
+[92.721358] (-) TimerEvent: {}
+[92.822377] (-) TimerEvent: {}
+[92.923311] (-) TimerEvent: {}
+[93.024227] (-) TimerEvent: {}
+[93.125137] (-) TimerEvent: {}
+[93.226322] (-) TimerEvent: {}
+[93.327571] (-) TimerEvent: {}
+[93.428536] (-) TimerEvent: {}
+[93.529554] (-) TimerEvent: {}
+[93.631069] (-) TimerEvent: {}
+[93.732505] (-) TimerEvent: {}
+[93.833981] (-) TimerEvent: {}
+[93.934886] (-) TimerEvent: {}
+[94.035729] (-) TimerEvent: {}
+[94.136703] (-) TimerEvent: {}
+[94.237669] (-) TimerEvent: {}
+[94.338805] (-) TimerEvent: {}
+[94.439868] (-) TimerEvent: {}
+[94.540776] (-) TimerEvent: {}
+[94.641609] (-) TimerEvent: {}
+[94.742500] (-) TimerEvent: {}
+[94.843382] (-) TimerEvent: {}
+[94.944292] (-) TimerEvent: {}
+[95.045132] (-) TimerEvent: {}
+[95.146017] (-) TimerEvent: {}
+[95.246928] (-) TimerEvent: {}
+[95.347824] (-) TimerEvent: {}
+[95.448735] (-) TimerEvent: {}
+[95.549583] (-) TimerEvent: {}
+[95.650459] (-) TimerEvent: {}
+[95.751394] (-) TimerEvent: {}
+[95.852257] (-) TimerEvent: {}
+[95.953115] (-) TimerEvent: {}
+[96.053998] (-) TimerEvent: {}
+[96.154983] (-) TimerEvent: {}
+[96.255863] (-) TimerEvent: {}
+[96.356735] (-) TimerEvent: {}
+[96.457607] (-) TimerEvent: {}
+[96.558514] (-) TimerEvent: {}
+[96.659406] (-) TimerEvent: {}
+[96.760268] (-) TimerEvent: {}
+[96.861118] (-) TimerEvent: {}
+[96.961989] (-) TimerEvent: {}
+[97.062942] (-) TimerEvent: {}
+[97.164061] (-) TimerEvent: {}
+[97.264964] (-) TimerEvent: {}
+[97.365879] (-) TimerEvent: {}
+[97.466802] (-) TimerEvent: {}
+[97.567710] (-) TimerEvent: {}
+[97.668590] (-) TimerEvent: {}
+[97.769439] (-) TimerEvent: {}
+[97.870346] (-) TimerEvent: {}
+[97.971220] (-) TimerEvent: {}
+[98.072155] (-) TimerEvent: {}
+[98.172975] (-) TimerEvent: {}
+[98.273853] (-) TimerEvent: {}
+[98.374705] (-) TimerEvent: {}
+[98.475594] (-) TimerEvent: {}
+[98.576630] (-) TimerEvent: {}
+[98.678273] (-) TimerEvent: {}
+[98.779149] (-) TimerEvent: {}
+[98.880014] (-) TimerEvent: {}
+[98.980967] (-) TimerEvent: {}
+[99.081868] (-) TimerEvent: {}
+[99.182775] (-) TimerEvent: {}
+[99.283645] (-) TimerEvent: {}
+[99.384530] (-) TimerEvent: {}
+[99.485387] (-) TimerEvent: {}
+[99.586220] (-) TimerEvent: {}
+[99.687100] (-) TimerEvent: {}
+[99.788059] (-) TimerEvent: {}
+[99.889137] (-) TimerEvent: {}
+[99.990082] (-) TimerEvent: {}
+[100.090977] (-) TimerEvent: {}
+[100.191875] (-) TimerEvent: {}
+[100.292807] (-) TimerEvent: {}
+[100.393714] (-) TimerEvent: {}
+[100.494573] (-) TimerEvent: {}
+[100.595522] (-) TimerEvent: {}
+[100.696445] (-) TimerEvent: {}
+[100.797362] (-) TimerEvent: {}
+[100.898729] (-) TimerEvent: {}
+[100.999956] (-) TimerEvent: {}
+[101.072076] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[101.100240] (-) TimerEvent: {}
+[101.201142] (-) TimerEvent: {}
+[101.302295] (-) TimerEvent: {}
+[101.403395] (-) TimerEvent: {}
+[101.504898] (-) TimerEvent: {}
+[101.605960] (-) TimerEvent: {}
+[101.707088] (-) TimerEvent: {}
+[101.808754] (-) TimerEvent: {}
+[101.909728] (-) TimerEvent: {}
+[102.010851] (-) TimerEvent: {}
+[102.112046] (-) TimerEvent: {}
+[102.213506] (-) TimerEvent: {}
+[102.315124] (-) TimerEvent: {}
+[102.416359] (-) TimerEvent: {}
+[102.517792] (-) TimerEvent: {}
+[102.619283] (-) TimerEvent: {}
+[102.720350] (-) TimerEvent: {}
+[102.821364] (-) TimerEvent: {}
+[102.922462] (-) TimerEvent: {}
+[103.023617] (-) TimerEvent: {}
+[103.124824] (-) TimerEvent: {}
+[103.226315] (-) TimerEvent: {}
+[103.327372] (-) TimerEvent: {}
+[103.428438] (-) TimerEvent: {}
+[103.529381] (-) TimerEvent: {}
+[103.630863] (-) TimerEvent: {}
+[103.731913] (-) TimerEvent: {}
+[103.833260] (-) TimerEvent: {}
+[103.934563] (-) TimerEvent: {}
+[104.036373] (-) TimerEvent: {}
+[104.137397] (-) TimerEvent: {}
+[104.238237] (-) TimerEvent: {}
+[104.339315] (-) TimerEvent: {}
+[104.440582] (-) TimerEvent: {}
+[104.542194] (-) TimerEvent: {}
+[104.643795] (-) TimerEvent: {}
+[104.744845] (-) TimerEvent: {}
+[104.845883] (-) TimerEvent: {}
+[104.946966] (-) TimerEvent: {}
+[105.048091] (-) TimerEvent: {}
+[105.143299] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] Built target gazebo_hardware_plugins\n'}
+[105.148306] (-) TimerEvent: {}
+[105.189346] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_ros2_control\x1b[0m\n'}
+[105.248494] (-) TimerEvent: {}
+[105.349333] (-) TimerEvent: {}
+[105.450160] (-) TimerEvent: {}
+[105.550917] (-) TimerEvent: {}
+[105.651662] (-) TimerEvent: {}
+[105.752491] (-) TimerEvent: {}
+[105.853220] (-) TimerEvent: {}
+[105.953938] (-) TimerEvent: {}
+[106.054922] (-) TimerEvent: {}
+[106.058729] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[106.155153] (-) TimerEvent: {}
+[106.256121] (-) TimerEvent: {}
+[106.357027] (-) TimerEvent: {}
+[106.457869] (-) TimerEvent: {}
+[106.558727] (-) TimerEvent: {}
+[106.659552] (-) TimerEvent: {}
+[106.760512] (-) TimerEvent: {}
+[106.861411] (-) TimerEvent: {}
+[106.962191] (-) TimerEvent: {}
+[107.062956] (-) TimerEvent: {}
+[107.163709] (-) TimerEvent: {}
+[107.264575] (-) TimerEvent: {}
+[107.365441] (-) TimerEvent: {}
+[107.466243] (-) TimerEvent: {}
+[107.567066] (-) TimerEvent: {}
+[107.668034] (-) TimerEvent: {}
+[107.768954] (-) TimerEvent: {}
+[107.869938] (-) TimerEvent: {}
+[107.970874] (-) TimerEvent: {}
+[108.071868] (-) TimerEvent: {}
+[108.172867] (-) TimerEvent: {}
+[108.273604] (-) TimerEvent: {}
+[108.374359] (-) TimerEvent: {}
+[108.475182] (-) TimerEvent: {}
+[108.576273] (-) TimerEvent: {}
+[108.677551] (-) TimerEvent: {}
+[108.778306] (-) TimerEvent: {}
+[108.879538] (-) TimerEvent: {}
+[108.981445] (-) TimerEvent: {}
+[109.082376] (-) TimerEvent: {}
+[109.183460] (-) TimerEvent: {}
+[109.284311] (-) TimerEvent: {}
+[109.385116] (-) TimerEvent: {}
+[109.486054] (-) TimerEvent: {}
+[109.587058] (-) TimerEvent: {}
+[109.687964] (-) TimerEvent: {}
+[109.788860] (-) TimerEvent: {}
+[109.889618] (-) TimerEvent: {}
+[109.990409] (-) TimerEvent: {}
+[110.091263] (-) TimerEvent: {}
+[110.192069] (-) TimerEvent: {}
+[110.293208] (-) TimerEvent: {}
+[110.394423] (-) TimerEvent: {}
+[110.495646] (-) TimerEvent: {}
+[110.596761] (-) TimerEvent: {}
+[110.697674] (-) TimerEvent: {}
+[110.799001] (-) TimerEvent: {}
+[110.901866] (-) TimerEvent: {}
+[111.002980] (-) TimerEvent: {}
+[111.103875] (-) TimerEvent: {}
+[111.204899] (-) TimerEvent: {}
+[111.306036] (-) TimerEvent: {}
+[111.406936] (-) TimerEvent: {}
+[111.507917] (-) TimerEvent: {}
+[111.608789] (-) TimerEvent: {}
+[111.709759] (-) TimerEvent: {}
+[111.810662] (-) TimerEvent: {}
+[111.911541] (-) TimerEvent: {}
+[112.012539] (-) TimerEvent: {}
+[112.113529] (-) TimerEvent: {}
+[112.214475] (-) TimerEvent: {}
+[112.315311] (-) TimerEvent: {}
+[112.416239] (-) TimerEvent: {}
+[112.517153] (-) TimerEvent: {}
+[112.618035] (-) TimerEvent: {}
+[112.718922] (-) TimerEvent: {}
+[112.819811] (-) TimerEvent: {}
+[112.920783] (-) TimerEvent: {}
+[113.021654] (-) TimerEvent: {}
+[113.122594] (-) TimerEvent: {}
+[113.223467] (-) TimerEvent: {}
+[113.324435] (-) TimerEvent: {}
+[113.425256] (-) TimerEvent: {}
+[113.526165] (-) TimerEvent: {}
+[113.627350] (-) TimerEvent: {}
+[113.728403] (-) TimerEvent: {}
+[113.829278] (-) TimerEvent: {}
+[113.930174] (-) TimerEvent: {}
+[114.031145] (-) TimerEvent: {}
+[114.132297] (-) TimerEvent: {}
+[114.233128] (-) TimerEvent: {}
+[114.334037] (-) TimerEvent: {}
+[114.434970] (-) TimerEvent: {}
+[114.535849] (-) TimerEvent: {}
+[114.636780] (-) TimerEvent: {}
+[114.737828] (-) TimerEvent: {}
+[114.838726] (-) TimerEvent: {}
+[114.939589] (-) TimerEvent: {}
+[115.040497] (-) TimerEvent: {}
+[115.141389] (-) TimerEvent: {}
+[115.242395] (-) TimerEvent: {}
+[115.343244] (-) TimerEvent: {}
+[115.444156] (-) TimerEvent: {}
+[115.545010] (-) TimerEvent: {}
+[115.645943] (-) TimerEvent: {}
+[115.746842] (-) TimerEvent: {}
+[115.847721] (-) TimerEvent: {}
+[115.948640] (-) TimerEvent: {}
+[116.049492] (-) TimerEvent: {}
+[116.150490] (-) TimerEvent: {}
+[116.251363] (-) TimerEvent: {}
+[116.352276] (-) TimerEvent: {}
+[116.453162] (-) TimerEvent: {}
+[116.554031] (-) TimerEvent: {}
+[116.654919] (-) TimerEvent: {}
+[116.755780] (-) TimerEvent: {}
+[116.856705] (-) TimerEvent: {}
+[116.957590] (-) TimerEvent: {}
+[117.058456] (-) TimerEvent: {}
+[117.159390] (-) TimerEvent: {}
+[117.260263] (-) TimerEvent: {}
+[117.361182] (-) TimerEvent: {}
+[117.462073] (-) TimerEvent: {}
+[117.562911] (-) TimerEvent: {}
+[117.663730] (-) TimerEvent: {}
+[117.764658] (-) TimerEvent: {}
+[117.865510] (-) TimerEvent: {}
+[117.966425] (-) TimerEvent: {}
+[118.067313] (-) TimerEvent: {}
+[118.168158] (-) TimerEvent: {}
+[118.269059] (-) TimerEvent: {}
+[118.369953] (-) TimerEvent: {}
+[118.470831] (-) TimerEvent: {}
+[118.571734] (-) TimerEvent: {}
+[118.672669] (-) TimerEvent: {}
+[118.773517] (-) TimerEvent: {}
+[118.874377] (-) TimerEvent: {}
+[118.975302] (-) TimerEvent: {}
+[119.076266] (-) TimerEvent: {}
+[119.177110] (-) TimerEvent: {}
+[119.277995] (-) TimerEvent: {}
+[119.378900] (-) TimerEvent: {}
+[119.479800] (-) TimerEvent: {}
+[119.580714] (-) TimerEvent: {}
+[119.681592] (-) TimerEvent: {}
+[119.782634] (-) TimerEvent: {}
+[119.883581] (-) TimerEvent: {}
+[119.984479] (-) TimerEvent: {}
+[120.085327] (-) TimerEvent: {}
+[120.186167] (-) TimerEvent: {}
+[120.287079] (-) TimerEvent: {}
+[120.387951] (-) TimerEvent: {}
+[120.488874] (-) TimerEvent: {}
+[120.589809] (-) TimerEvent: {}
+[120.690738] (-) TimerEvent: {}
+[120.791591] (-) TimerEvent: {}
+[120.892468] (-) TimerEvent: {}
+[120.993301] (-) TimerEvent: {}
+[121.094191] (-) TimerEvent: {}
+[121.195129] (-) TimerEvent: {}
+[121.296004] (-) TimerEvent: {}
+[121.396914] (-) TimerEvent: {}
+[121.497790] (-) TimerEvent: {}
+[121.598691] (-) TimerEvent: {}
+[121.699549] (-) TimerEvent: {}
+[121.800400] (-) TimerEvent: {}
+[121.901254] (-) TimerEvent: {}
+[122.002148] (-) TimerEvent: {}
+[122.102967] (-) TimerEvent: {}
+[122.203806] (-) TimerEvent: {}
+[122.316618] (-) TimerEvent: {}
+[122.417469] (-) TimerEvent: {}
+[122.518344] (-) TimerEvent: {}
+[122.619244] (-) TimerEvent: {}
+[122.720141] (-) TimerEvent: {}
+[122.820997] (-) TimerEvent: {}
+[122.921893] (-) TimerEvent: {}
+[123.022738] (-) TimerEvent: {}
+[123.123590] (-) TimerEvent: {}
+[123.224458] (-) TimerEvent: {}
+[123.325324] (-) TimerEvent: {}
+[123.426234] (-) TimerEvent: {}
+[123.527175] (-) TimerEvent: {}
+[123.628317] (-) TimerEvent: {}
+[123.729342] (-) TimerEvent: {}
+[123.830213] (-) TimerEvent: {}
+[123.931103] (-) TimerEvent: {}
+[124.031974] (-) TimerEvent: {}
+[124.132911] (-) TimerEvent: {}
+[124.233790] (-) TimerEvent: {}
+[124.334685] (-) TimerEvent: {}
+[124.435590] (-) TimerEvent: {}
+[124.536538] (-) TimerEvent: {}
+[124.637375] (-) TimerEvent: {}
+[124.738438] (-) TimerEvent: {}
+[124.839313] (-) TimerEvent: {}
+[124.940334] (-) TimerEvent: {}
+[125.041176] (-) TimerEvent: {}
+[125.142043] (-) TimerEvent: {}
+[125.242935] (-) TimerEvent: {}
+[125.343868] (-) TimerEvent: {}
+[125.444775] (-) TimerEvent: {}
+[125.545640] (-) TimerEvent: {}
+[125.646546] (-) TimerEvent: {}
+[125.747405] (-) TimerEvent: {}
+[125.848297] (-) TimerEvent: {}
+[125.949116] (-) TimerEvent: {}
+[126.049966] (-) TimerEvent: {}
+[126.150822] (-) TimerEvent: {}
+[126.251663] (-) TimerEvent: {}
+[126.352537] (-) TimerEvent: {}
+[126.453361] (-) TimerEvent: {}
+[126.554234] (-) TimerEvent: {}
+[126.655187] (-) TimerEvent: {}
+[126.756071] (-) TimerEvent: {}
+[126.856981] (-) TimerEvent: {}
+[126.957828] (-) TimerEvent: {}
+[127.058684] (-) TimerEvent: {}
+[127.159602] (-) TimerEvent: {}
+[127.260470] (-) TimerEvent: {}
+[127.361356] (-) TimerEvent: {}
+[127.462224] (-) TimerEvent: {}
+[127.563134] (-) TimerEvent: {}
+[127.664010] (-) TimerEvent: {}
+[127.764979] (-) TimerEvent: {}
+[127.866072] (-) TimerEvent: {}
+[127.967195] (-) TimerEvent: {}
+[128.068091] (-) TimerEvent: {}
+[128.168942] (-) TimerEvent: {}
+[128.269903] (-) TimerEvent: {}
+[128.370781] (-) TimerEvent: {}
+[128.471652] (-) TimerEvent: {}
+[128.572534] (-) TimerEvent: {}
+[128.673474] (-) TimerEvent: {}
+[128.774382] (-) TimerEvent: {}
+[128.875313] (-) TimerEvent: {}
+[128.976202] (-) TimerEvent: {}
+[129.077018] (-) TimerEvent: {}
+[129.177866] (-) TimerEvent: {}
+[129.278803] (-) TimerEvent: {}
+[129.379649] (-) TimerEvent: {}
+[129.480535] (-) TimerEvent: {}
+[129.581458] (-) TimerEvent: {}
+[129.682427] (-) TimerEvent: {}
+[129.783298] (-) TimerEvent: {}
+[129.884181] (-) TimerEvent: {}
+[129.985072] (-) TimerEvent: {}
+[130.085999] (-) TimerEvent: {}
+[130.186859] (-) TimerEvent: {}
+[130.287710] (-) TimerEvent: {}
+[130.388739] (-) TimerEvent: {}
+[130.489565] (-) TimerEvent: {}
+[130.590426] (-) TimerEvent: {}
+[130.691363] (-) TimerEvent: {}
+[130.792421] (-) TimerEvent: {}
+[130.893317] (-) TimerEvent: {}
+[130.994167] (-) TimerEvent: {}
+[131.095055] (-) TimerEvent: {}
+[131.195967] (-) TimerEvent: {}
+[131.296872] (-) TimerEvent: {}
+[131.397705] (-) TimerEvent: {}
+[131.498543] (-) TimerEvent: {}
+[131.599429] (-) TimerEvent: {}
+[131.700308] (-) TimerEvent: {}
+[131.801157] (-) TimerEvent: {}
+[131.902007] (-) TimerEvent: {}
+[132.002865] (-) TimerEvent: {}
+[132.103743] (-) TimerEvent: {}
+[132.204624] (-) TimerEvent: {}
+[132.319697] (-) TimerEvent: {}
+[132.420583] (-) TimerEvent: {}
+[132.521452] (-) TimerEvent: {}
+[132.622362] (-) TimerEvent: {}
+[132.723218] (-) TimerEvent: {}
+[132.824050] (-) TimerEvent: {}
+[132.924965] (-) TimerEvent: {}
+[133.025901] (-) TimerEvent: {}
+[133.126767] (-) TimerEvent: {}
+[133.227601] (-) TimerEvent: {}
+[133.328465] (-) TimerEvent: {}
+[133.429359] (-) TimerEvent: {}
+[133.530302] (-) TimerEvent: {}
+[133.631918] (-) TimerEvent: {}
+[133.732863] (-) TimerEvent: {}
+[133.833742] (-) TimerEvent: {}
+[133.934677] (-) TimerEvent: {}
+[134.035607] (-) TimerEvent: {}
+[134.136541] (-) TimerEvent: {}
+[134.237402] (-) TimerEvent: {}
+[134.338239] (-) TimerEvent: {}
+[134.439114] (-) TimerEvent: {}
+[134.539982] (-) TimerEvent: {}
+[134.640959] (-) TimerEvent: {}
+[134.741893] (-) TimerEvent: {}
+[134.842737] (-) TimerEvent: {}
+[134.943588] (-) TimerEvent: {}
+[135.044445] (-) TimerEvent: {}
+[135.145294] (-) TimerEvent: {}
+[135.246143] (-) TimerEvent: {}
+[135.347023] (-) TimerEvent: {}
+[135.447912] (-) TimerEvent: {}
+[135.548774] (-) TimerEvent: {}
+[135.649597] (-) TimerEvent: {}
+[135.750463] (-) TimerEvent: {}
+[135.851314] (-) TimerEvent: {}
+[135.952249] (-) TimerEvent: {}
+[136.053202] (-) TimerEvent: {}
+[136.154044] (-) TimerEvent: {}
+[136.254918] (-) TimerEvent: {}
+[136.355895] (-) TimerEvent: {}
+[136.456850] (-) TimerEvent: {}
+[136.557892] (-) TimerEvent: {}
+[136.658893] (-) TimerEvent: {}
+[136.759770] (-) TimerEvent: {}
+[136.860662] (-) TimerEvent: {}
+[136.961536] (-) TimerEvent: {}
+[137.062490] (-) TimerEvent: {}
+[137.163342] (-) TimerEvent: {}
+[137.264259] (-) TimerEvent: {}
+[137.365130] (-) TimerEvent: {}
+[137.465960] (-) TimerEvent: {}
+[137.566899] (-) TimerEvent: {}
+[137.667762] (-) TimerEvent: {}
+[137.768669] (-) TimerEvent: {}
+[137.869533] (-) TimerEvent: {}
+[137.970416] (-) TimerEvent: {}
+[138.071288] (-) TimerEvent: {}
+[138.172194] (-) TimerEvent: {}
+[138.273024] (-) TimerEvent: {}
+[138.373914] (-) TimerEvent: {}
+[138.474806] (-) TimerEvent: {}
+[138.575832] (-) TimerEvent: {}
+[138.677349] (-) TimerEvent: {}
+[138.778258] (-) TimerEvent: {}
+[138.879141] (-) TimerEvent: {}
+[138.980009] (-) TimerEvent: {}
+[139.080966] (-) TimerEvent: {}
+[139.181817] (-) TimerEvent: {}
+[139.282681] (-) TimerEvent: {}
+[139.383562] (-) TimerEvent: {}
+[139.484469] (-) TimerEvent: {}
+[139.585348] (-) TimerEvent: {}
+[139.688359] (-) TimerEvent: {}
+[139.789569] (-) TimerEvent: {}
+[139.891218] (-) TimerEvent: {}
+[139.992717] (-) TimerEvent: {}
+[140.100410] (-) TimerEvent: {}
+[140.202618] (-) TimerEvent: {}
+[140.305289] (-) TimerEvent: {}
+[140.406146] (-) TimerEvent: {}
+[140.507108] (-) TimerEvent: {}
+[140.607972] (-) TimerEvent: {}
+[140.708862] (-) TimerEvent: {}
+[140.809713] (-) TimerEvent: {}
+[140.910598] (-) TimerEvent: {}
+[141.011524] (-) TimerEvent: {}
+[141.112416] (-) TimerEvent: {}
+[141.213290] (-) TimerEvent: {}
+[141.314183] (-) TimerEvent: {}
+[141.415059] (-) TimerEvent: {}
+[141.515921] (-) TimerEvent: {}
+[141.616797] (-) TimerEvent: {}
+[141.717667] (-) TimerEvent: {}
+[141.818585] (-) TimerEvent: {}
+[141.919473] (-) TimerEvent: {}
+[142.020307] (-) TimerEvent: {}
+[142.121150] (-) TimerEvent: {}
+[142.222002] (-) TimerEvent: {}
+[142.322929] (-) TimerEvent: {}
+[142.423772] (-) TimerEvent: {}
+[142.524677] (-) TimerEvent: {}
+[142.625532] (-) TimerEvent: {}
+[142.726408] (-) TimerEvent: {}
+[142.827277] (-) TimerEvent: {}
+[142.928154] (-) TimerEvent: {}
+[143.028996] (-) TimerEvent: {}
+[143.129890] (-) TimerEvent: {}
+[143.230732] (-) TimerEvent: {}
+[143.331613] (-) TimerEvent: {}
+[143.432522] (-) TimerEvent: {}
+[143.533400] (-) TimerEvent: {}
+[143.634449] (-) TimerEvent: {}
+[143.735297] (-) TimerEvent: {}
+[143.836189] (-) TimerEvent: {}
+[143.937085] (-) TimerEvent: {}
+[144.038415] (-) TimerEvent: {}
+[144.139286] (-) TimerEvent: {}
+[144.240136] (-) TimerEvent: {}
+[144.340995] (-) TimerEvent: {}
+[144.441847] (-) TimerEvent: {}
+[144.542705] (-) TimerEvent: {}
+[144.643580] (-) TimerEvent: {}
+[144.744752] (-) TimerEvent: {}
+[144.846007] (-) TimerEvent: {}
+[144.946813] (-) TimerEvent: {}
+[145.047636] (-) TimerEvent: {}
+[145.148631] (-) TimerEvent: {}
+[145.249802] (-) TimerEvent: {}
+[145.350618] (-) TimerEvent: {}
+[145.451533] (-) TimerEvent: {}
+[145.552455] (-) TimerEvent: {}
+[145.653333] (-) TimerEvent: {}
+[145.754205] (-) TimerEvent: {}
+[145.855194] (-) TimerEvent: {}
+[145.956159] (-) TimerEvent: {}
+[146.057100] (-) TimerEvent: {}
+[146.158132] (-) TimerEvent: {}
+[146.259051] (-) TimerEvent: {}
+[146.359920] (-) TimerEvent: {}
+[146.460807] (-) TimerEvent: {}
+[146.561725] (-) TimerEvent: {}
+[146.663072] (-) TimerEvent: {}
+[146.764212] (-) TimerEvent: {}
+[146.865062] (-) TimerEvent: {}
+[146.965958] (-) TimerEvent: {}
+[147.066838] (-) TimerEvent: {}
+[147.167692] (-) TimerEvent: {}
+[147.268586] (-) TimerEvent: {}
+[147.369446] (-) TimerEvent: {}
+[147.470357] (-) TimerEvent: {}
+[147.571134] (-) TimerEvent: {}
+[147.672014] (-) TimerEvent: {}
+[147.772913] (-) TimerEvent: {}
+[147.873795] (-) TimerEvent: {}
+[147.974691] (-) TimerEvent: {}
+[148.075559] (-) TimerEvent: {}
+[148.176482] (-) TimerEvent: {}
+[148.277371] (-) TimerEvent: {}
+[148.378204] (-) TimerEvent: {}
+[148.479061] (-) TimerEvent: {}
+[148.579994] (-) TimerEvent: {}
+[148.681065] (-) TimerEvent: {}
+[148.781921] (-) TimerEvent: {}
+[148.882819] (-) TimerEvent: {}
+[148.983698] (-) TimerEvent: {}
+[149.084618] (-) TimerEvent: {}
+[149.185471] (-) TimerEvent: {}
+[149.286314] (-) TimerEvent: {}
+[149.387198] (-) TimerEvent: {}
+[149.488053] (-) TimerEvent: {}
+[149.589003] (-) TimerEvent: {}
+[149.689911] (-) TimerEvent: {}
+[149.790812] (-) TimerEvent: {}
+[149.891848] (-) TimerEvent: {}
+[149.992742] (-) TimerEvent: {}
+[150.093619] (-) TimerEvent: {}
+[150.194529] (-) TimerEvent: {}
+[150.295477] (-) TimerEvent: {}
+[150.396387] (-) TimerEvent: {}
+[150.497214] (-) TimerEvent: {}
+[150.598066] (-) TimerEvent: {}
+[150.698935] (-) TimerEvent: {}
+[150.799822] (-) TimerEvent: {}
+[150.900745] (-) TimerEvent: {}
+[151.001610] (-) TimerEvent: {}
+[151.102480] (-) TimerEvent: {}
+[151.203392] (-) TimerEvent: {}
+[151.304266] (-) TimerEvent: {}
+[151.405090] (-) TimerEvent: {}
+[151.505967] (-) TimerEvent: {}
+[151.606822] (-) TimerEvent: {}
+[151.707737] (-) TimerEvent: {}
+[151.808673] (-) TimerEvent: {}
+[151.909548] (-) TimerEvent: {}
+[152.010376] (-) TimerEvent: {}
+[152.111241] (-) TimerEvent: {}
+[152.212181] (-) TimerEvent: {}
+[152.313148] (-) TimerEvent: {}
+[152.413982] (-) TimerEvent: {}
+[152.514879] (-) TimerEvent: {}
+[152.615729] (-) TimerEvent: {}
+[152.716637] (-) TimerEvent: {}
+[152.817490] (-) TimerEvent: {}
+[152.918392] (-) TimerEvent: {}
+[153.019258] (-) TimerEvent: {}
+[153.120204] (-) TimerEvent: {}
+[153.221095] (-) TimerEvent: {}
+[153.322002] (-) TimerEvent: {}
+[153.422880] (-) TimerEvent: {}
+[153.523888] (-) TimerEvent: {}
+[153.625397] (-) TimerEvent: {}
+[153.726326] (-) TimerEvent: {}
+[153.827209] (-) TimerEvent: {}
+[153.928091] (-) TimerEvent: {}
+[154.029023] (-) TimerEvent: {}
+[154.129895] (-) TimerEvent: {}
+[154.230866] (-) TimerEvent: {}
+[154.332060] (-) TimerEvent: {}
+[154.433132] (-) TimerEvent: {}
+[154.534253] (-) TimerEvent: {}
+[154.635210] (-) TimerEvent: {}
+[154.736241] (-) TimerEvent: {}
+[154.837111] (-) TimerEvent: {}
+[154.937988] (-) TimerEvent: {}
+[155.038847] (-) TimerEvent: {}
+[155.139771] (-) TimerEvent: {}
+[155.240659] (-) TimerEvent: {}
+[155.341502] (-) TimerEvent: {}
+[155.442390] (-) TimerEvent: {}
+[155.543349] (-) TimerEvent: {}
+[155.644430] (-) TimerEvent: {}
+[155.746499] (-) TimerEvent: {}
+[155.847453] (-) TimerEvent: {}
+[155.948803] (-) TimerEvent: {}
+[156.050624] (-) TimerEvent: {}
+[156.074609] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[156.150792] (-) TimerEvent: {}
+[156.251623] (-) TimerEvent: {}
+[156.352786] (-) TimerEvent: {}
+[156.454439] (-) TimerEvent: {}
+[156.555415] (-) TimerEvent: {}
+[156.656785] (-) TimerEvent: {}
+[156.758244] (-) TimerEvent: {}
+[156.859665] (-) TimerEvent: {}
+[156.960666] (-) TimerEvent: {}
+[157.061662] (-) TimerEvent: {}
+[157.162794] (-) TimerEvent: {}
+[157.264440] (-) TimerEvent: {}
+[157.366064] (-) TimerEvent: {}
+[157.467624] (-) TimerEvent: {}
+[157.569136] (-) TimerEvent: {}
+[157.670283] (-) TimerEvent: {}
+[157.771905] (-) TimerEvent: {}
+[157.873433] (-) TimerEvent: {}
+[157.974562] (-) TimerEvent: {}
+[158.076011] (-) TimerEvent: {}
+[158.177079] (-) TimerEvent: {}
+[158.278152] (-) TimerEvent: {}
+[158.379326] (-) TimerEvent: {}
+[158.480832] (-) TimerEvent: {}
+[158.582085] (-) TimerEvent: {}
+[158.683387] (-) TimerEvent: {}
+[158.784983] (-) TimerEvent: {}
+[158.885968] (-) TimerEvent: {}
+[158.986779] (-) TimerEvent: {}
+[159.087923] (-) TimerEvent: {}
+[159.189443] (-) TimerEvent: {}
+[159.290499] (-) TimerEvent: {}
+[159.391684] (-) TimerEvent: {}
+[159.493144] (-) TimerEvent: {}
+[159.594111] (-) TimerEvent: {}
+[159.695230] (-) TimerEvent: {}
+[159.796487] (-) TimerEvent: {}
+[159.897278] (-) TimerEvent: {}
+[159.998228] (-) TimerEvent: {}
+[160.099140] (-) TimerEvent: {}
+[160.151426] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[160.193404] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 'SIGINT'}
+[160.199252] (-) TimerEvent: {}
+[160.206754] (diffdrive_arduino) JobSkipped: {'identifier': 'diffdrive_arduino'}
+[160.207134] (gazebo_ros2_control_demos) JobSkipped: {'identifier': 'gazebo_ros2_control_demos'}
+[160.207413] (serial_motor_demo) JobSkipped: {'identifier': 'serial_motor_demo'}
+[160.207658] (-) EventReactorShutdown: {}

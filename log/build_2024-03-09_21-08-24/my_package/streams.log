@@ -1,0 +1,61 @@
+[6.594s] Invoking command in '/home/ubuntu/pi_ws/src/ros2_detection/my_package': PYTHONPATH=/home/ubuntu/pi_ws/build/my_package/prefix_override:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/ubuntu/pi_ws/build/my_package/build install --record /home/ubuntu/pi_ws/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[8.174s] running egg_info
+[8.183s] creating ../../../build/my_package/my_package.egg-info
+[8.187s] writing ../../../build/my_package/my_package.egg-info/PKG-INFO
+[8.192s] writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt
+[8.197s] writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt
+[8.201s] writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt
+[8.204s] writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt
+[8.217s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[8.469s] reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[8.475s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[8.478s] running build
+[8.479s] running build_py
+[8.484s] creating /home/ubuntu/pi_ws/build/my_package/build
+[8.486s] creating /home/ubuntu/pi_ws/build/my_package/build/lib
+[8.488s] creating /home/ubuntu/pi_ws/build/my_package/build/lib/my_package
+[8.490s] copying my_package/detection.py -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package
+[8.492s] copying my_package/display.py -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package
+[8.494s] copying my_package/controller.py -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package
+[8.495s] copying my_package/__init__.py -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package
+[8.497s] creating /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models
+[8.498s] copying my_package/models/yolov3-tiny.cfg -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models
+[8.499s] copying my_package/models/yolov3-tiny.weights -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models
+[8.777s] copying my_package/models/coco.names -> /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models
+[8.779s] running install
+[8.787s] running install_lib
+[8.794s] creating /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package
+[8.797s] copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/detection.py -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package
+[8.800s] copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/display.py -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package
+[8.803s] copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/controller.py -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package
+[8.807s] creating /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/models
+[8.810s] copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models/coco.names -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/models
+[8.813s] copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models/yolov3-tiny.cfg -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/models
+[8.817s] copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/models/yolov3-tiny.weights -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/models
+[9.035s] copying /home/ubuntu/pi_ws/build/my_package/build/lib/my_package/__init__.py -> /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package
+[9.040s] byte-compiling /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/detection.py to detection.cpython-38.pyc
+[9.052s] byte-compiling /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/display.py to display.cpython-38.pyc
+[9.056s] byte-compiling /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/controller.py to controller.cpython-38.pyc
+[9.065s] byte-compiling /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[9.069s] running install_data
+[9.073s] creating /home/ubuntu/pi_ws/install/my_package/share/ament_index
+[9.076s] creating /home/ubuntu/pi_ws/install/my_package/share/ament_index/resource_index
+[9.079s] creating /home/ubuntu/pi_ws/install/my_package/share/ament_index/resource_index/packages
+[9.084s] copying resource/my_package -> /home/ubuntu/pi_ws/install/my_package/share/ament_index/resource_index/packages
+[9.090s] copying package.xml -> /home/ubuntu/pi_ws/install/my_package/share/my_package
+[9.093s] creating /home/ubuntu/pi_ws/install/my_package/share/my_package/launch
+[9.096s] copying launch/detection_launch.py -> /home/ubuntu/pi_ws/install/my_package/share/my_package/launch
+[9.099s] creating /home/ubuntu/pi_ws/install/my_package/lib/my_package
+[9.102s] creating /home/ubuntu/pi_ws/install/my_package/lib/my_package/models
+[9.106s] copying my_package/models/yolov3-tiny.weights -> /home/ubuntu/pi_ws/install/my_package/lib/my_package/models
+[9.814s] copying my_package/models/yolov3-tiny.cfg -> /home/ubuntu/pi_ws/install/my_package/lib/my_package/models
+[9.819s] copying my_package/models/coco.names -> /home/ubuntu/pi_ws/install/my_package/lib/my_package/models
+[9.825s] copying my_package/controller.py -> /home/ubuntu/pi_ws/install/my_package/lib/my_package
+[9.829s] running install_egg_info
+[9.849s] Copying ../../../build/my_package/my_package.egg-info to /home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[9.875s] running install_scripts
+[10.111s] Installing controller script to /home/ubuntu/pi_ws/install/my_package/lib/my_package
+[10.127s] Installing detection script to /home/ubuntu/pi_ws/install/my_package/lib/my_package
+[10.131s] Installing display script to /home/ubuntu/pi_ws/install/my_package/lib/my_package
+[10.138s] writing list of installed files to '/home/ubuntu/pi_ws/build/my_package/install.log'
+[10.553s] Invoked command in '/home/ubuntu/pi_ws/src/ros2_detection/my_package' returned '0': PYTHONPATH=/home/ubuntu/pi_ws/build/my_package/prefix_override:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/ubuntu/pi_ws/build/my_package/build install --record /home/ubuntu/pi_ws/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed

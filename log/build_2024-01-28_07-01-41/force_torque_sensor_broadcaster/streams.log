@@ -1,0 +1,88 @@
+[1.005s] Invoking command in '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/force_torque_sensor_broadcaster
+[2.445s] -- The C compiler identification is GNU 9.4.0
+[3.599s] -- The CXX compiler identification is GNU 9.4.0
+[3.639s] -- Check for working C compiler: /usr/bin/cc
+[4.106s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.109s] -- Detecting C compiler ABI info
+[4.539s] -- Detecting C compiler ABI info - done
+[4.580s] -- Detecting C compile features
+[4.583s] -- Detecting C compile features - done
+[4.596s] -- Check for working CXX compiler: /usr/bin/c++
+[5.071s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.076s] -- Detecting CXX compiler ABI info
+[5.568s] -- Detecting CXX compiler ABI info - done
+[5.615s] -- Detecting CXX compile features
+[5.617s] -- Detecting CXX compile features - done
+[5.648s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.846s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.848s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.196s] -- Found controller_interface: 0.11.0 (/opt/ros/foxy/share/controller_interface/cmake)
+[7.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.569s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.556s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.829s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.045s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[12.058s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.069s] -- Looking for pthread.h
+[12.561s] -- Looking for pthread.h - found
+[12.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[13.035s] -- Looking for pthread_create in pthreads
+[13.378s] -- Looking for pthread_create in pthreads - not found
+[13.379s] -- Looking for pthread_create in pthread
+[13.819s] -- Looking for pthread_create in pthread - found
+[13.820s] -- Found Threads: TRUE  
+[15.052s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[15.458s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[15.477s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[15.772s] -- Found ros2_control_test_assets: 0.11.0 (/opt/ros/foxy/share/ros2_control_test_assets/cmake)
+[15.796s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[15.832s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[15.845s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[17.305s] -- Configuring done
+[17.834s] -- Generating done
+[17.845s] -- Build files have been written to: /home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster
+[17.903s] Invoked command in '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/force_torque_sensor_broadcaster
+[17.922s] Invoking command in '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster -- -j4 -l4
+[18.166s] [35m[1mScanning dependencies of target gmock_main[0m
+[18.175s] [35m[1mScanning dependencies of target gmock[0m
+[18.265s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[18.287s] [35m[1mScanning dependencies of target force_torque_sensor_broadcaster[0m
+[18.449s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[18.459s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[19.274s] [ 36%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[40.766s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[41.532s] [ 45%] Built target gmock_main
+[49.777s] In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:19[m[K:
+[49.778s] [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:50:57:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn force_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[49.779s]    50 |   FORCE_TORQUE_SENSOR_BROADCASTER_PUBLIC CallbackReturn [01;31m[Kon_init[m[K() override;
+[49.780s]       |                                                         [01;31m[K^~~~~~~[m[K
+[49.781s] [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:62:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller_interface::return_type force_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[49.782s]    62 |   controller_interface::return_type [01;31m[Kupdate[m[K(
+[49.783s]       |                                     [01;31m[K^~~~~~[m[K
+[63.196s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+[63.197s]                  from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+[63.199s]                  from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+[63.200s]                  from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:174[m[K:
+[63.202s] /opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = force_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster; B = controller_interface::ControllerInterface][m[K’:
+[63.203s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[63.205s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kforce_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster[m[K’
+[63.206s]   218 |     return [01;31m[Knew C[m[K;
+[63.208s]       |            [01;31m[K^~~~~[m[K
+[63.211s] In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:19[m[K:
+[63.212s] [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:38:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kforce_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster[m[K’:
+[63.213s]    38 | class [01;36m[KForceTorqueSensorBroadcaster[m[K : public controller_interface::ControllerInterface
+[63.213s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[63.226s] In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:26[m[K,
+[63.227s]                  from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:19[m[K:
+[63.228s] [01m[K/opt/ros/foxy/include/controller_interface/controller_interface.hpp:98:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual controller_interface::return_type controller_interface::ControllerInterface::update()[m[K’
+[63.229s]    98 |   virtual return_type [01;36m[Kupdate[m[K() = 0;
+[63.230s]       |                       [01;36m[K^~~~~~[m[K
+[64.644s] make[2]: *** [CMakeFiles/force_torque_sensor_broadcaster.dir/build.make:63: CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o] Error 1
+[64.646s] make[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/force_torque_sensor_broadcaster.dir/all] Error 2
+[64.647s] make[1]: *** Waiting for unfinished jobs....
+[70.130s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[70.946s] [ 54%] Built target gmock
+[70.949s] make: *** [Makefile:141: all] Error 2
+[70.966s] Invoked command in '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster -- -j4 -l4

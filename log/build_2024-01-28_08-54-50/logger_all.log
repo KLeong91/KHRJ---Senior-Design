@@ -1,0 +1,1015 @@
+[7.462s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[7.462s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9b47ba00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9b47ba00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9b077790>)
+[7.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.917s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/pi_ws'
+[7.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.983s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.983s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.984s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.984s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.985s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.985s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.985s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.986s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.986s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[7.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[7.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[7.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[7.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[7.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[7.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[7.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[7.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[8.006s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[8.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['ignore', 'ignore_ament_install']
+[8.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'ignore'
+[8.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'ignore_ament_install'
+[8.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['colcon_pkg']
+[8.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'colcon_pkg'
+[8.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['colcon_meta']
+[8.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'colcon_meta'
+[8.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['ros']
+[8.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'ros'
+[8.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['cmake', 'python']
+[8.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'cmake'
+[8.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'python'
+[8.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['python_setup_py']
+[8.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'python_setup_py'
+[8.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extensions ['ignore', 'ignore_ament_install']
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'ignore'
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'ignore_ament_install'
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extensions ['colcon_pkg']
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'colcon_pkg'
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extensions ['colcon_meta']
+[8.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'colcon_meta'
+[8.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extensions ['ros']
+[8.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'ros'
+[8.020s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/diff_drive_controller' with type 'ros.ament_cmake' and name 'diff_drive_controller'
+[8.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['ignore', 'ignore_ament_install']
+[8.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'ignore'
+[8.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'ignore_ament_install'
+[8.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['colcon_pkg']
+[8.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'colcon_pkg'
+[8.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['colcon_meta']
+[8.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'colcon_meta'
+[8.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['ros']
+[8.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'ros'
+[8.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['cmake', 'python']
+[8.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'cmake'
+[8.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'python'
+[8.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['python_setup_py']
+[8.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'python_setup_py'
+[8.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extensions ['ignore', 'ignore_ament_install']
+[8.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'ignore'
+[8.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'ignore_ament_install'
+[8.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extensions ['colcon_pkg']
+[8.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'colcon_pkg'
+[8.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extensions ['colcon_meta']
+[8.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'colcon_meta'
+[8.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extensions ['ros']
+[8.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'ros'
+[8.030s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/effort_controllers' with type 'ros.ament_cmake' and name 'effort_controllers'
+[8.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[8.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'ignore'
+[8.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'ignore_ament_install'
+[8.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extensions ['colcon_pkg']
+[8.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'colcon_pkg'
+[8.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extensions ['colcon_meta']
+[8.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'colcon_meta'
+[8.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extensions ['ros']
+[8.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'ros'
+[8.039s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/force_torque_sensor_broadcaster' with type 'ros.ament_cmake' and name 'force_torque_sensor_broadcaster'
+[8.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extensions ['ignore', 'ignore_ament_install']
+[8.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'ignore'
+[8.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'ignore_ament_install'
+[8.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extensions ['colcon_pkg']
+[8.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'colcon_pkg'
+[8.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extensions ['colcon_meta']
+[8.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'colcon_meta'
+[8.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extensions ['ros']
+[8.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'ros'
+[8.046s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/forward_command_controller' with type 'ros.ament_cmake' and name 'forward_command_controller'
+[8.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extensions ['ignore', 'ignore_ament_install']
+[8.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'ignore'
+[8.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'ignore_ament_install'
+[8.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extensions ['colcon_pkg']
+[8.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'colcon_pkg'
+[8.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extensions ['colcon_meta']
+[8.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'colcon_meta'
+[8.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extensions ['ros']
+[8.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'ros'
+[8.054s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/gripper_controllers' with type 'ros.ament_cmake' and name 'gripper_controllers'
+[8.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[8.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'ignore'
+[8.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'ignore_ament_install'
+[8.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extensions ['colcon_pkg']
+[8.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'colcon_pkg'
+[8.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extensions ['colcon_meta']
+[8.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'colcon_meta'
+[8.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extensions ['ros']
+[8.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'ros'
+[8.063s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/imu_sensor_broadcaster' with type 'ros.ament_cmake' and name 'imu_sensor_broadcaster'
+[8.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[8.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'ignore'
+[8.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'ignore_ament_install'
+[8.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extensions ['colcon_pkg']
+[8.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'colcon_pkg'
+[8.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extensions ['colcon_meta']
+[8.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'colcon_meta'
+[8.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extensions ['ros']
+[8.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'ros'
+[8.071s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/joint_state_broadcaster' with type 'ros.ament_cmake' and name 'joint_state_broadcaster'
+[8.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extensions ['ignore', 'ignore_ament_install']
+[8.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'ignore'
+[8.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'ignore_ament_install'
+[8.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extensions ['colcon_pkg']
+[8.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'colcon_pkg'
+[8.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extensions ['colcon_meta']
+[8.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'colcon_meta'
+[8.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extensions ['ros']
+[8.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'ros'
+[8.078s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/joint_trajectory_controller' with type 'ros.ament_cmake' and name 'joint_trajectory_controller'
+[8.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extensions ['ignore', 'ignore_ament_install']
+[8.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'ignore'
+[8.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'ignore_ament_install'
+[8.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extensions ['colcon_pkg']
+[8.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'colcon_pkg'
+[8.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extensions ['colcon_meta']
+[8.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'colcon_meta'
+[8.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extensions ['ros']
+[8.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'ros'
+[8.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/position_controllers' with type 'ros.ament_cmake' and name 'position_controllers'
+[8.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extensions ['ignore', 'ignore_ament_install']
+[8.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'ignore'
+[8.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'ignore_ament_install'
+[8.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extensions ['colcon_pkg']
+[8.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'colcon_pkg'
+[8.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extensions ['colcon_meta']
+[8.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'colcon_meta'
+[8.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extensions ['ros']
+[8.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'ros'
+[8.091s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/ros2_controllers' with type 'ros.ament_cmake' and name 'ros2_controllers'
+[8.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extensions ['ignore', 'ignore_ament_install']
+[8.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'ignore'
+[8.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'ignore_ament_install'
+[8.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extensions ['colcon_pkg']
+[8.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'colcon_pkg'
+[8.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extensions ['colcon_meta']
+[8.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'colcon_meta'
+[8.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extensions ['ros']
+[8.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'ros'
+[8.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/velocity_controllers' with type 'ros.ament_cmake' and name 'velocity_controllers'
+[8.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[8.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ignore'
+[8.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ignore_ament_install'
+[8.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['colcon_pkg']
+[8.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'colcon_pkg'
+[8.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['colcon_meta']
+[8.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'colcon_meta'
+[8.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['ros']
+[8.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ros'
+[8.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['cmake', 'python']
+[8.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'cmake'
+[8.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'python'
+[8.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['python_setup_py']
+[8.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'python_setup_py'
+[8.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['ignore', 'ignore_ament_install']
+[8.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ignore'
+[8.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ignore_ament_install'
+[8.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['colcon_pkg']
+[8.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'colcon_pkg'
+[8.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['colcon_meta']
+[8.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'colcon_meta'
+[8.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['ros']
+[8.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ros'
+[8.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['cmake', 'python']
+[8.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'cmake'
+[8.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'python'
+[8.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['python_setup_py']
+[8.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'python_setup_py'
+[8.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[8.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extension 'ignore'
+[8.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extension 'ignore_ament_install'
+[8.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extensions ['colcon_pkg']
+[8.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extension 'colcon_pkg'
+[8.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extensions ['colcon_meta']
+[8.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extension 'colcon_meta'
+[8.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extensions ['ros']
+[8.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extension 'ros'
+[8.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extensions ['cmake', 'python']
+[8.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extension 'cmake'
+[8.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extension 'python'
+[8.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extensions ['python_setup_py']
+[8.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk) by extension 'python_setup_py'
+[8.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extensions ['ignore', 'ignore_ament_install']
+[8.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extension 'ignore'
+[8.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extension 'ignore_ament_install'
+[8.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extensions ['colcon_pkg']
+[8.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extension 'colcon_pkg'
+[8.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extensions ['colcon_meta']
+[8.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extension 'colcon_meta'
+[8.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extensions ['ros']
+[8.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extension 'ros'
+[8.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extensions ['cmake', 'python']
+[8.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extension 'cmake'
+[8.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extension 'python'
+[8.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extensions ['python_setup_py']
+[8.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app) by extension 'python_setup_py'
+[8.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extensions ['ignore', 'ignore_ament_install']
+[8.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extension 'ignore'
+[8.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extension 'ignore_ament_install'
+[8.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extensions ['colcon_pkg']
+[8.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extension 'colcon_pkg'
+[8.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extensions ['colcon_meta']
+[8.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extension 'colcon_meta'
+[8.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extensions ['ros']
+[8.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extension 'ros'
+[8.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extensions ['cmake', 'python']
+[8.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extension 'cmake'
+[8.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extension 'python'
+[8.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extensions ['python_setup_py']
+[8.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/custom_baudrate) by extension 'python_setup_py'
+[8.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extensions ['ignore', 'ignore_ament_install']
+[8.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extension 'ignore'
+[8.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extension 'ignore_ament_install'
+[8.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extensions ['colcon_pkg']
+[8.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extension 'colcon_pkg'
+[8.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extensions ['colcon_meta']
+[8.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extension 'colcon_meta'
+[8.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extensions ['ros']
+[8.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extension 'ros'
+[8.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extensions ['cmake', 'python']
+[8.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extension 'cmake'
+[8.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extension 'python'
+[8.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extensions ['python_setup_py']
+[8.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber) by extension 'python_setup_py'
+[8.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extensions ['ignore', 'ignore_ament_install']
+[8.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extension 'ignore'
+[8.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extension 'ignore_ament_install'
+[8.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extensions ['colcon_pkg']
+[8.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extension 'colcon_pkg'
+[8.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extensions ['colcon_meta']
+[8.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extension 'colcon_meta'
+[8.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extensions ['ros']
+[8.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extension 'ros'
+[8.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extensions ['cmake', 'python']
+[8.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extension 'cmake'
+[8.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extension 'python'
+[8.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extensions ['python_setup_py']
+[8.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/drvlogic) by extension 'python_setup_py'
+[8.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extensions ['ignore', 'ignore_ament_install']
+[8.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extension 'ignore'
+[8.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extension 'ignore_ament_install'
+[8.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extensions ['colcon_pkg']
+[8.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extension 'colcon_pkg'
+[8.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extensions ['colcon_meta']
+[8.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extension 'colcon_meta'
+[8.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extensions ['ros']
+[8.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extension 'ros'
+[8.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extensions ['cmake', 'python']
+[8.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extension 'cmake'
+[8.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extension 'python'
+[8.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extensions ['python_setup_py']
+[8.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref) by extension 'python_setup_py'
+[8.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extensions ['ignore', 'ignore_ament_install']
+[8.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extension 'ignore'
+[8.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extension 'ignore_ament_install'
+[8.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extensions ['colcon_pkg']
+[8.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extension 'colcon_pkg'
+[8.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extensions ['colcon_meta']
+[8.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extension 'colcon_meta'
+[8.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extensions ['ros']
+[8.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extension 'ros'
+[8.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extensions ['cmake', 'python']
+[8.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extension 'cmake'
+[8.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extension 'python'
+[8.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extensions ['python_setup_py']
+[8.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/dnssd) by extension 'python_setup_py'
+[8.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extensions ['ignore', 'ignore_ament_install']
+[8.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extension 'ignore'
+[8.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extension 'ignore_ament_install'
+[8.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extensions ['colcon_pkg']
+[8.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extension 'colcon_pkg'
+[8.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extensions ['colcon_meta']
+[8.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extension 'colcon_meta'
+[8.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extensions ['ros']
+[8.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extension 'ros'
+[8.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extensions ['cmake', 'python']
+[8.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extension 'cmake'
+[8.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extension 'python'
+[8.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extensions ['python_setup_py']
+[8.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/ref/wtl) by extension 'python_setup_py'
+[8.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extensions ['ignore', 'ignore_ament_install']
+[8.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extension 'ignore'
+[8.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extension 'ignore_ament_install'
+[8.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extensions ['colcon_pkg']
+[8.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extension 'colcon_pkg'
+[8.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extensions ['colcon_meta']
+[8.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extension 'colcon_meta'
+[8.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extensions ['ros']
+[8.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extension 'ros'
+[8.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extensions ['cmake', 'python']
+[8.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extension 'cmake'
+[8.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extension 'python'
+[8.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extensions ['python_setup_py']
+[8.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/frame_grabber/res) by extension 'python_setup_py'
+[8.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extensions ['ignore', 'ignore_ament_install']
+[8.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extension 'ignore'
+[8.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extension 'ignore_ament_install'
+[8.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extensions ['colcon_pkg']
+[8.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extension 'colcon_pkg'
+[8.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extensions ['colcon_meta']
+[8.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extension 'colcon_meta'
+[8.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extensions ['ros']
+[8.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extension 'ros'
+[8.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extensions ['cmake', 'python']
+[8.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extension 'cmake'
+[8.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extension 'python'
+[8.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extensions ['python_setup_py']
+[8.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/simple_grabber) by extension 'python_setup_py'
+[8.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extensions ['ignore', 'ignore_ament_install']
+[8.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extension 'ignore'
+[8.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extension 'ignore_ament_install'
+[8.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extensions ['colcon_pkg']
+[8.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extension 'colcon_pkg'
+[8.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extensions ['colcon_meta']
+[8.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extension 'colcon_meta'
+[8.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extensions ['ros']
+[8.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extension 'ros'
+[8.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extensions ['cmake', 'python']
+[8.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extension 'cmake'
+[8.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extension 'python'
+[8.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extensions ['python_setup_py']
+[8.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/app/ultra_simple) by extension 'python_setup_py'
+[8.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extensions ['ignore', 'ignore_ament_install']
+[8.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extension 'ignore'
+[8.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extension 'ignore_ament_install'
+[8.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extensions ['colcon_pkg']
+[8.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extension 'colcon_pkg'
+[8.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extensions ['colcon_meta']
+[8.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extension 'colcon_meta'
+[8.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extensions ['ros']
+[8.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extension 'ros'
+[8.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extensions ['cmake', 'python']
+[8.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extension 'cmake'
+[8.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extension 'python'
+[8.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extensions ['python_setup_py']
+[8.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/docs) by extension 'python_setup_py'
+[8.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extensions ['ignore', 'ignore_ament_install']
+[8.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extension 'ignore'
+[8.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extension 'ignore_ament_install'
+[8.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extensions ['colcon_pkg']
+[8.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extension 'colcon_pkg'
+[8.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extensions ['colcon_meta']
+[8.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extension 'colcon_meta'
+[8.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extensions ['ros']
+[8.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extension 'ros'
+[8.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extensions ['cmake', 'python']
+[8.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extension 'cmake'
+[8.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extension 'python'
+[8.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extensions ['python_setup_py']
+[8.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk) by extension 'python_setup_py'
+[8.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extensions ['ignore', 'ignore_ament_install']
+[8.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extension 'ignore'
+[8.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extension 'ignore_ament_install'
+[8.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extensions ['colcon_pkg']
+[8.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extension 'colcon_pkg'
+[8.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extensions ['colcon_meta']
+[8.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extension 'colcon_meta'
+[8.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extensions ['ros']
+[8.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extension 'ros'
+[8.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extensions ['cmake', 'python']
+[8.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extension 'cmake'
+[8.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extension 'python'
+[8.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extensions ['python_setup_py']
+[8.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/include) by extension 'python_setup_py'
+[8.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extensions ['ignore', 'ignore_ament_install']
+[8.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extension 'ignore'
+[8.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extension 'ignore_ament_install'
+[8.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extensions ['colcon_pkg']
+[8.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extension 'colcon_pkg'
+[8.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extensions ['colcon_meta']
+[8.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extension 'colcon_meta'
+[8.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extensions ['ros']
+[8.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extension 'ros'
+[8.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extensions ['cmake', 'python']
+[8.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extension 'cmake'
+[8.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extension 'python'
+[8.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extensions ['python_setup_py']
+[8.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src) by extension 'python_setup_py'
+[8.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extensions ['ignore', 'ignore_ament_install']
+[8.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extension 'ignore'
+[8.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extension 'ignore_ament_install'
+[8.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extensions ['colcon_pkg']
+[8.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extension 'colcon_pkg'
+[8.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extensions ['colcon_meta']
+[8.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extension 'colcon_meta'
+[8.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extensions ['ros']
+[8.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extension 'ros'
+[8.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extensions ['cmake', 'python']
+[8.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extension 'cmake'
+[8.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extension 'python'
+[8.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extensions ['python_setup_py']
+[8.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch) by extension 'python_setup_py'
+[8.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extensions ['ignore', 'ignore_ament_install']
+[8.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extension 'ignore'
+[8.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extension 'ignore_ament_install'
+[8.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extensions ['colcon_pkg']
+[8.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extension 'colcon_pkg'
+[8.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extensions ['colcon_meta']
+[8.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extension 'colcon_meta'
+[8.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extensions ['ros']
+[8.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extension 'ros'
+[8.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extensions ['cmake', 'python']
+[8.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extension 'cmake'
+[8.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extension 'python'
+[8.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extensions ['python_setup_py']
+[8.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/linux) by extension 'python_setup_py'
+[8.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extensions ['ignore', 'ignore_ament_install']
+[8.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extension 'ignore'
+[8.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extension 'ignore_ament_install'
+[8.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extensions ['colcon_pkg']
+[8.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extension 'colcon_pkg'
+[8.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extensions ['colcon_meta']
+[8.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extension 'colcon_meta'
+[8.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extensions ['ros']
+[8.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extension 'ros'
+[8.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extensions ['cmake', 'python']
+[8.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extension 'cmake'
+[8.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extension 'python'
+[8.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extensions ['python_setup_py']
+[8.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/macOS) by extension 'python_setup_py'
+[8.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extensions ['ignore', 'ignore_ament_install']
+[8.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extension 'ignore'
+[8.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extension 'ignore_ament_install'
+[8.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extensions ['colcon_pkg']
+[8.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extension 'colcon_pkg'
+[8.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extensions ['colcon_meta']
+[8.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extension 'colcon_meta'
+[8.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extensions ['ros']
+[8.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extension 'ros'
+[8.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extensions ['cmake', 'python']
+[8.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extension 'cmake'
+[8.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extension 'python'
+[8.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extensions ['python_setup_py']
+[8.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/arch/win32) by extension 'python_setup_py'
+[8.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extensions ['ignore', 'ignore_ament_install']
+[8.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extension 'ignore'
+[8.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extension 'ignore_ament_install'
+[8.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extensions ['colcon_pkg']
+[8.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extension 'colcon_pkg'
+[8.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extensions ['colcon_meta']
+[8.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extension 'colcon_meta'
+[8.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extensions ['ros']
+[8.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extension 'ros'
+[8.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extensions ['cmake', 'python']
+[8.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extension 'cmake'
+[8.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extension 'python'
+[8.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extensions ['python_setup_py']
+[8.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker) by extension 'python_setup_py'
+[8.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extensions ['ignore', 'ignore_ament_install']
+[8.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extension 'ignore'
+[8.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extension 'ignore_ament_install'
+[8.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extensions ['colcon_pkg']
+[8.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extension 'colcon_pkg'
+[8.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extensions ['colcon_meta']
+[8.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extension 'colcon_meta'
+[8.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extensions ['ros']
+[8.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extension 'ros'
+[8.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extensions ['cmake', 'python']
+[8.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extension 'cmake'
+[8.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extension 'python'
+[8.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extensions ['python_setup_py']
+[8.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/dataunpacker/unpacker) by extension 'python_setup_py'
+[8.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extensions ['ignore', 'ignore_ament_install']
+[8.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extension 'ignore'
+[8.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extension 'ignore_ament_install'
+[8.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extensions ['colcon_pkg']
+[8.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extension 'colcon_pkg'
+[8.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extensions ['colcon_meta']
+[8.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extension 'colcon_meta'
+[8.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extensions ['ros']
+[8.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extension 'ros'
+[8.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extensions ['cmake', 'python']
+[8.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extension 'cmake'
+[8.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extension 'python'
+[8.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extensions ['python_setup_py']
+[8.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/sdk/src/hal) by extension 'python_setup_py'
+[8.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extensions ['ignore', 'ignore_ament_install']
+[8.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extension 'ignore'
+[8.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extension 'ignore_ament_install'
+[8.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extensions ['colcon_pkg']
+[8.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extension 'colcon_pkg'
+[8.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extensions ['colcon_meta']
+[8.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extension 'colcon_meta'
+[8.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extensions ['ros']
+[8.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extension 'ros'
+[8.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extensions ['cmake', 'python']
+[8.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extension 'cmake'
+[8.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extension 'python'
+[8.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extensions ['python_setup_py']
+[8.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools) by extension 'python_setup_py'
+[8.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extensions ['ignore', 'ignore_ament_install']
+[8.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extension 'ignore'
+[8.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extension 'ignore_ament_install'
+[8.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extensions ['colcon_pkg']
+[8.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extension 'colcon_pkg'
+[8.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extensions ['colcon_meta']
+[8.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extension 'colcon_meta'
+[8.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extensions ['ros']
+[8.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extension 'ros'
+[8.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extensions ['cmake', 'python']
+[8.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extension 'cmake'
+[8.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extension 'python'
+[8.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extensions ['python_setup_py']
+[8.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/tools/cp2102_driver) by extension 'python_setup_py'
+[8.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extensions ['ignore', 'ignore_ament_install']
+[8.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extension 'ignore'
+[8.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extension 'ignore_ament_install'
+[8.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extensions ['colcon_pkg']
+[8.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extension 'colcon_pkg'
+[8.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extensions ['colcon_meta']
+[8.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extension 'colcon_meta'
+[8.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extensions ['ros']
+[8.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extension 'ros'
+[8.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extensions ['cmake', 'python']
+[8.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extension 'cmake'
+[8.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extension 'python'
+[8.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extensions ['python_setup_py']
+[8.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces) by extension 'python_setup_py'
+[8.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extensions ['ignore', 'ignore_ament_install']
+[8.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extension 'ignore'
+[8.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extension 'ignore_ament_install'
+[8.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extensions ['colcon_pkg']
+[8.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extension 'colcon_pkg'
+[8.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extensions ['colcon_meta']
+[8.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extension 'colcon_meta'
+[8.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extensions ['ros']
+[8.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extension 'ros'
+[8.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extensions ['cmake', 'python']
+[8.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extension 'cmake'
+[8.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extension 'python'
+[8.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extensions ['python_setup_py']
+[8.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10) by extension 'python_setup_py'
+[8.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extensions ['ignore', 'ignore_ament_install']
+[8.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extension 'ignore'
+[8.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extension 'ignore_ament_install'
+[8.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extensions ['colcon_pkg']
+[8.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extension 'colcon_pkg'
+[8.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extensions ['colcon_meta']
+[8.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extension 'colcon_meta'
+[8.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extensions ['ros']
+[8.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extension 'ros'
+[8.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extensions ['cmake', 'python']
+[8.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extension 'cmake'
+[8.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extension 'python'
+[8.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extensions ['python_setup_py']
+[8.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/frame_grabber) by extension 'python_setup_py'
+[8.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[8.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extension 'ignore'
+[8.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extension 'ignore_ament_install'
+[8.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extensions ['colcon_pkg']
+[8.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extension 'colcon_pkg'
+[8.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extensions ['colcon_meta']
+[8.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extension 'colcon_meta'
+[8.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extensions ['ros']
+[8.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extension 'ros'
+[8.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extensions ['cmake', 'python']
+[8.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extension 'cmake'
+[8.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extension 'python'
+[8.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extensions ['python_setup_py']
+[8.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/rplidar_driver) by extension 'python_setup_py'
+[8.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extensions ['ignore', 'ignore_ament_install']
+[8.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extension 'ignore'
+[8.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extension 'ignore_ament_install'
+[8.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extensions ['colcon_pkg']
+[8.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extension 'colcon_pkg'
+[8.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extensions ['colcon_meta']
+[8.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extension 'colcon_meta'
+[8.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extensions ['ros']
+[8.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extension 'ros'
+[8.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extensions ['cmake', 'python']
+[8.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extension 'cmake'
+[8.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extension 'python'
+[8.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extensions ['python_setup_py']
+[8.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/simple_grabber) by extension 'python_setup_py'
+[8.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extensions ['ignore', 'ignore_ament_install']
+[8.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extension 'ignore'
+[8.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extension 'ignore_ament_install'
+[8.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extensions ['colcon_pkg']
+[8.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extension 'colcon_pkg'
+[8.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extensions ['colcon_meta']
+[8.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extension 'colcon_meta'
+[8.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extensions ['ros']
+[8.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extension 'ros'
+[8.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extensions ['cmake', 'python']
+[8.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extension 'cmake'
+[8.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extension 'python'
+[8.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extensions ['python_setup_py']
+[8.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc10/ultra_simple) by extension 'python_setup_py'
+[8.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extensions ['ignore', 'ignore_ament_install']
+[8.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extension 'ignore'
+[8.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extension 'ignore_ament_install'
+[8.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extensions ['colcon_pkg']
+[8.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extension 'colcon_pkg'
+[8.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extensions ['colcon_meta']
+[8.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extension 'colcon_meta'
+[8.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extensions ['ros']
+[8.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extension 'ros'
+[8.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extensions ['cmake', 'python']
+[8.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extension 'cmake'
+[8.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extension 'python'
+[8.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extensions ['python_setup_py']
+[8.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14) by extension 'python_setup_py'
+[8.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extensions ['ignore', 'ignore_ament_install']
+[8.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extension 'ignore'
+[8.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extension 'ignore_ament_install'
+[8.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extensions ['colcon_pkg']
+[8.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extension 'colcon_pkg'
+[8.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extensions ['colcon_meta']
+[8.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extension 'colcon_meta'
+[8.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extensions ['ros']
+[8.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extension 'ros'
+[8.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extensions ['cmake', 'python']
+[8.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extension 'cmake'
+[8.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extension 'python'
+[8.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extensions ['python_setup_py']
+[8.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/custom_baudrate) by extension 'python_setup_py'
+[8.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extensions ['ignore', 'ignore_ament_install']
+[8.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extension 'ignore'
+[8.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extension 'ignore_ament_install'
+[8.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extensions ['colcon_pkg']
+[8.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extension 'colcon_pkg'
+[8.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extensions ['colcon_meta']
+[8.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extension 'colcon_meta'
+[8.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extensions ['ros']
+[8.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extension 'ros'
+[8.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extensions ['cmake', 'python']
+[8.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extension 'cmake'
+[8.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extension 'python'
+[8.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extensions ['python_setup_py']
+[8.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/frame_grabber) by extension 'python_setup_py'
+[8.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[8.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extension 'ignore'
+[8.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extension 'ignore_ament_install'
+[8.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extensions ['colcon_pkg']
+[8.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extension 'colcon_pkg'
+[8.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extensions ['colcon_meta']
+[8.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extension 'colcon_meta'
+[8.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extensions ['ros']
+[8.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extension 'ros'
+[8.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extensions ['cmake', 'python']
+[8.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extension 'cmake'
+[8.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extension 'python'
+[8.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extensions ['python_setup_py']
+[8.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/rplidar_driver) by extension 'python_setup_py'
+[8.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extensions ['ignore', 'ignore_ament_install']
+[8.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extension 'ignore'
+[8.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extension 'ignore_ament_install'
+[8.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extensions ['colcon_pkg']
+[8.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extension 'colcon_pkg'
+[8.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extensions ['colcon_meta']
+[8.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extension 'colcon_meta'
+[8.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extensions ['ros']
+[8.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extension 'ros'
+[8.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extensions ['cmake', 'python']
+[8.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extension 'cmake'
+[8.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extension 'python'
+[8.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extensions ['python_setup_py']
+[8.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/simple_grabber) by extension 'python_setup_py'
+[8.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extensions ['ignore', 'ignore_ament_install']
+[8.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extension 'ignore'
+[8.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extension 'ignore_ament_install'
+[8.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extensions ['colcon_pkg']
+[8.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extension 'colcon_pkg'
+[8.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extensions ['colcon_meta']
+[8.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extension 'colcon_meta'
+[8.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extensions ['ros']
+[8.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extension 'ros'
+[8.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extensions ['cmake', 'python']
+[8.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extension 'cmake'
+[8.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extension 'python'
+[8.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extensions ['python_setup_py']
+[8.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_sdk/workspaces/vc14/ultra_simple) by extension 'python_setup_py'
+[8.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extensions ['ignore', 'ignore_ament_install']
+[8.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extension 'ignore'
+[8.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extension 'ignore_ament_install'
+[8.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extensions ['colcon_pkg']
+[8.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extension 'colcon_pkg'
+[8.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extensions ['colcon_meta']
+[8.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extension 'colcon_meta'
+[8.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extensions ['ros']
+[8.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/senior_design1) by extension 'ros'
+[8.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/senior_design1' with type 'ros.ament_cmake' and name 'senior_design1'
+[8.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[8.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[8.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[8.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[8.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[8.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[8.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[8.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[8.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[8.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[8.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[8.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[8.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[8.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[8.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[8.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[8.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[8.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[8.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[8.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[8.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[8.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[8.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[8.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[8.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[8.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[8.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[8.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[8.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[8.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[8.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[8.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[8.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[8.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[8.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[8.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[8.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[8.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[8.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[8.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.175s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 208 installed packages in /opt/ros/foxy
+[9.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.519s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joint_state_broadcaster' is in: /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joint_state_broadcaster
+
+This may be promoted to an error in a future release of colcon-override-check.
+[9.639s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_args' from command line to 'None'
+[9.640s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_target' from command line to 'None'
+[9.640s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.640s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[9.640s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_clean_first' from command line to 'False'
+[9.640s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_force_configure' from command line to 'False'
+[9.640s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'ament_cmake_args' from command line to 'None'
+[9.640s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[9.640s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.640s] DEBUG:colcon.colcon_core.verb:Building package 'diff_drive_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/diff_drive_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/diff_drive_controller', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller', 'symlink_install': False, 'test_result_base': None}
+[9.757s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_args' from command line to 'None'
+[9.758s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[9.758s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.758s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[9.758s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[9.758s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[9.758s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[9.758s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[9.758s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.758s] DEBUG:colcon.colcon_core.verb:Building package 'force_torque_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/force_torque_sensor_broadcaster', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[9.876s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_args' from command line to 'None'
+[9.876s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_target' from command line to 'None'
+[9.876s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.877s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[9.877s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_clean_first' from command line to 'False'
+[9.877s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_force_configure' from command line to 'False'
+[9.877s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'ament_cmake_args' from command line to 'None'
+[9.877s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[9.877s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.877s] DEBUG:colcon.colcon_core.verb:Building package 'forward_command_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/forward_command_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/forward_command_controller', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller', 'symlink_install': False, 'test_result_base': None}
+[9.996s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_args' from command line to 'None'
+[9.996s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_target' from command line to 'None'
+[9.996s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.996s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[9.996s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[9.996s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[9.997s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[9.997s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[9.997s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.997s] DEBUG:colcon.colcon_core.verb:Building package 'gripper_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/gripper_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/gripper_controllers', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/gripper_controllers', 'symlink_install': False, 'test_result_base': None}
+[10.152s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_args' from command line to 'None'
+[10.153s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[10.153s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.153s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[10.153s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[10.153s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[10.153s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[10.153s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[10.153s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.153s] DEBUG:colcon.colcon_core.verb:Building package 'imu_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/imu_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/imu_sensor_broadcaster', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[10.272s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_args' from command line to 'None'
+[10.273s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_target' from command line to 'None'
+[10.273s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.273s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[10.273s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[10.273s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[10.273s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[10.273s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[10.273s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.273s] DEBUG:colcon.colcon_core.verb:Building package 'joint_state_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/joint_state_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/joint_state_broadcaster', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/joint_state_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[10.391s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_args' from command line to 'None'
+[10.392s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target' from command line to 'None'
+[10.392s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.392s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[10.392s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_first' from command line to 'False'
+[10.392s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_force_configure' from command line to 'False'
+[10.392s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'ament_cmake_args' from command line to 'None'
+[10.392s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[10.392s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.393s] DEBUG:colcon.colcon_core.verb:Building package 'joint_trajectory_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/joint_trajectory_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/joint_trajectory_controller', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/joint_trajectory_controller', 'symlink_install': False, 'test_result_base': None}
+[10.511s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'cmake_args' from command line to 'None'
+[10.511s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'cmake_target' from command line to 'None'
+[10.511s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.511s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'cmake_clean_cache' from command line to 'False'
+[10.511s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'cmake_clean_first' from command line to 'False'
+[10.511s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'cmake_force_configure' from command line to 'False'
+[10.512s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'ament_cmake_args' from command line to 'None'
+[10.512s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'catkin_cmake_args' from command line to 'None'
+[10.512s] Level 5:colcon.colcon_core.verb:set package 'senior_design1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.512s] DEBUG:colcon.colcon_core.verb:Building package 'senior_design1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/senior_design1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/senior_design1', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/senior_design1', 'symlink_install': False, 'test_result_base': None}
+[10.630s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[10.631s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[10.631s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.631s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[10.631s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[10.631s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[10.631s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[10.631s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[10.631s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.631s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/serial', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/serial', 'symlink_install': False, 'test_result_base': None}
+[10.750s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[10.750s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[10.750s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.751s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[10.751s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[10.751s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[10.751s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[10.751s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[10.751s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.751s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[10.870s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[10.870s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[10.870s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.870s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[10.870s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[10.870s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[10.870s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[10.871s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[10.871s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.871s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[10.989s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_args' from command line to 'None'
+[10.989s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_target' from command line to 'None'
+[10.990s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.990s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[10.990s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[10.990s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[10.990s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[10.990s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[10.990s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.990s] DEBUG:colcon.colcon_core.verb:Building package 'effort_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/effort_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/effort_controllers', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/effort_controllers', 'symlink_install': False, 'test_result_base': None}
+[11.110s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_args' from command line to 'None'
+[11.110s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_target' from command line to 'None'
+[11.110s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.110s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[11.110s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[11.111s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[11.111s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[11.111s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[11.111s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.111s] DEBUG:colcon.colcon_core.verb:Building package 'position_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/position_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/position_controllers', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/position_controllers', 'symlink_install': False, 'test_result_base': None}
+[11.229s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[11.229s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[11.229s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.229s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[11.230s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[11.230s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[11.230s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[11.230s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[11.230s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.230s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[11.349s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_args' from command line to 'None'
+[11.349s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_target' from command line to 'None'
+[11.350s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.350s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[11.350s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[11.350s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[11.350s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[11.350s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[11.350s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.350s] DEBUG:colcon.colcon_core.verb:Building package 'velocity_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/velocity_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/velocity_controllers', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/velocity_controllers', 'symlink_install': False, 'test_result_base': None}
+[11.470s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_args' from command line to 'None'
+[11.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_target' from command line to 'None'
+[11.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[11.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[11.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[11.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[11.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[11.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.471s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pi_ws/build/ros2_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pi_ws/install/ros2_controllers', 'merge_install': False, 'path': '/home/ubuntu/pi_ws/src/ros2_controllers/ros2_controllers', 'symlink_install': False, 'test_result_base': None}
+[11.588s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[11.710s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[11.712s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller' with build type 'ament_cmake'
+[11.712s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller'
+[11.855s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.857s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.126s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller' with build type 'ament_cmake'
+[12.127s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller'
+[12.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.535s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster' with build type 'ament_cmake'
+[12.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster'
+[12.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.924s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster' with build type 'ament_cmake'
+[12.925s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster'
+[13.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pi_ws/build/forward_command_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/forward_command_controller -- -j4 -l4
+[13.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pi_ws/build/diff_drive_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/diff_drive_controller -- -j4 -l4
+[13.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster -- -j4 -l4
+[13.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pi_ws/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/imu_sensor_broadcaster -- -j4 -l4
+[58.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pi_ws/build/forward_command_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/forward_command_controller -- -j4 -l4
+[59.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(forward_command_controller)
+[59.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pi_ws/install/forward_command_controller' for CMake module files
+[59.627s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pi_ws/install/forward_command_controller' for CMake config files
+[59.631s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pi_ws/install/forward_command_controller/bin'
+[59.632s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pi_ws/install/forward_command_controller/lib/pkgconfig/forward_command_controller.pc'
+[59.633s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pi_ws/install/forward_command_controller/lib/python3.8/site-packages'
+[59.635s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pi_ws/install/forward_command_controller/bin'
+[59.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pi_ws/install/forward_command_controller/share/forward_command_controller/package.ps1'
+[59.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pi_ws/install/forward_command_controller/share/forward_command_controller/package.dsv'
+[59.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pi_ws/install/forward_command_controller/share/forward_command_controller/package.sh'
+[59.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pi_ws/install/forward_command_controller/share/forward_command_controller/package.bash'
+[59.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pi_ws/install/forward_command_controller/share/forward_command_controller/package.zsh'
+[59.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pi_ws/install/forward_command_controller/share/colcon-core/packages/forward_command_controller)
+[60.424s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[60.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[60.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[60.426s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[60.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[60.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[60.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[60.585s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[60.588s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[60.589s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[60.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pi_ws/install/local_setup.ps1'
+[60.718s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/pi_ws/install/_local_setup_util_ps1.py'
+[60.724s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pi_ws/install/setup.ps1'
+[60.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pi_ws/install/local_setup.sh'
+[60.854s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/pi_ws/install/_local_setup_util_sh.py'
+[60.856s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pi_ws/install/setup.sh'
+[60.979s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pi_ws/install/local_setup.bash'
+[60.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pi_ws/install/setup.bash'
+[61.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pi_ws/install/local_setup.zsh'
+[61.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pi_ws/install/setup.zsh'

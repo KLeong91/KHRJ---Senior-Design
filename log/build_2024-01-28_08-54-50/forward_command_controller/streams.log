@@ -1,0 +1,38 @@
+[1.615s] Invoking command in '/home/ubuntu/pi_ws/build/forward_command_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/forward_command_controller -- -j4 -l4
+[2.388s] [ 27%] Built target gmock
+[2.397s] [ 45%] Built target gmock_main
+[2.555s] [35m[1mScanning dependencies of target test_load_forward_command_controller[0m
+[2.635s] [ 54%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[4.056s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[21.663s] In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15[m[K:
+[21.664s] [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:60:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn forward_command_controller::ForwardCommandController::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[21.665s]    60 |   CallbackReturn [01;31m[Kon_init[m[K() override;
+[21.666s]       |                  [01;31m[K^~~~~~~[m[K
+[21.667s] [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:72:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller_interface::return_type forward_command_controller::ForwardCommandController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[21.679s]    72 |   controller_interface::return_type [01;31m[Kupdate[m[K(
+[21.681s]       |                                     [01;31m[K^~~~~~[m[K
+[35.229s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+[35.231s]                  from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+[35.232s]                  from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+[35.234s]                  from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:192[m[K:
+[35.235s] /opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = forward_command_controller::ForwardCommandController; B = controller_interface::ControllerInterface][m[K’:
+[35.236s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[35.238s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kforward_command_controller::ForwardCommandController[m[K’
+[35.239s]   218 |     return [01;31m[Knew C[m[K;
+[35.241s]       |            [01;31m[K^~~~~[m[K
+[35.248s] In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15[m[K:
+[35.249s] [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:47:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kforward_command_controller::ForwardCommandController[m[K’:
+[35.250s]    47 | class [01;36m[KForwardCommandController[m[K : public controller_interface::ControllerInterface
+[35.251s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[35.252s] In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:22[m[K,
+[35.253s]                  from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15[m[K:
+[35.253s] [01m[K/opt/ros/foxy/include/controller_interface/controller_interface.hpp:98:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual controller_interface::return_type controller_interface::ControllerInterface::update()[m[K’
+[35.255s]    98 |   virtual return_type [01;36m[Kupdate[m[K() = 0;
+[35.266s]       |                       [01;36m[K^~~~~~[m[K
+[37.144s] make[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:63: CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o] Error 1
+[37.147s] make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/forward_command_controller.dir/all] Error 2
+[37.147s] make[1]: *** Waiting for unfinished jobs....
+[41.092s] [ 72%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[46.644s] [ 72%] Built target test_load_forward_command_controller
+[46.650s] make: *** [Makefile:141: all] Error 2
+[46.668s] Invoked command in '/home/ubuntu/pi_ws/build/forward_command_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/forward_command_controller -- -j4 -l4

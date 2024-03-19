@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001105] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.001499] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.002895] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.003930] (-) JobUnselected: {'identifier': 'my_package'}
+[0.004459] (-) JobUnselected: {'identifier': 'serial'}
+[0.004590] (-) JobUnselected: {'identifier': 'serial_motor_demo'}
+[0.004674] (-) JobUnselected: {'identifier': 'serial_motor_demo_msgs'}
+[0.004752] (-) JobUnselected: {'identifier': 'tank_controller'}
+[0.004838] (senior_design) JobQueued: {'identifier': 'senior_design', 'dependencies': OrderedDict()}
+[0.004929] (senior_design) JobStarted: {'identifier': 'senior_design'}
+[0.099198] (-) TimerEvent: {}
+[0.200474] (-) TimerEvent: {}
+[0.302078] (-) TimerEvent: {}
+[0.403687] (-) TimerEvent: {}
+[0.505015] (-) TimerEvent: {}
+[0.608722] (-) TimerEvent: {}
+[0.710448] (-) TimerEvent: {}
+[0.811810] (-) TimerEvent: {}
+[0.913211] (-) TimerEvent: {}
+[1.014185] (-) TimerEvent: {}
+[1.117331] (-) TimerEvent: {}
+[1.218916] (-) TimerEvent: {}
+[1.320766] (-) TimerEvent: {}
+[1.421475] (-) TimerEvent: {}
+[1.522523] (-) TimerEvent: {}
+[1.623741] (-) TimerEvent: {}
+[1.704253] (senior_design) JobProgress: {'identifier': 'senior_design', 'progress': 'cmake'}
+[1.710317] (senior_design) JobProgress: {'identifier': 'senior_design', 'progress': 'build'}
+[1.713337] (senior_design) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/senior_design', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/senior_design', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.217 52129 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0d3f2d2b-99b0-4dba-a51f-b2839ff42d99.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/senior_design'), ('SSH_CONNECTION', '192.168.8.217 52129 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[1.724230] (-) TimerEvent: {}
+[1.830059] (-) TimerEvent: {}
+[1.906873] (senior_design) CommandEnded: {'returncode': 0}
+[1.930285] (-) TimerEvent: {}
+[2.031222] (-) TimerEvent: {}
+[2.032891] (senior_design) JobProgress: {'identifier': 'senior_design', 'progress': 'install'}
+[2.081876] (senior_design) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/pi_ws/build/senior_design'], 'cwd': '/home/ubuntu/pi_ws/build/senior_design', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.8.217 52129 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib:/home/ubuntu/pi_ws/install/diffdrive_arduino/lib:/home/ubuntu/pi_ws/install/serial/lib:/home/ubuntu/pi_ws/install/gazebo_ros2_control/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0d3f2d2b-99b0-4dba-a51f-b2839ff42d99.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pi_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99d8460748.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design:/home/ubuntu/pi_ws/install/my_package:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pi_ws/build/senior_design'), ('SSH_CONNECTION', '192.168.8.217 52129 192.168.8.233 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pi_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/pi_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pi_ws/install/tank_controller:/home/ubuntu/pi_ws/install/serial_motor_demo_msgs:/home/ubuntu/pi_ws/install/diffdrive_arduino:/home/ubuntu/pi_ws/install/serial:/home/ubuntu/pi_ws/install/senior_design:/home/ubuntu/pi_ws/install/gazebo_ros2_control_demos:/home/ubuntu/pi_ws/install/gazebo_ros2_control:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[2.131489] (-) TimerEvent: {}
+[2.132655] (senior_design) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.133625] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config\n'}
+[2.134378] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/view_bot.rviz\n'}
+[2.134921] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/my_controllers.yaml\n'}
+[2.135450] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/map.rviz\n'}
+[2.135973] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/ball_tracker_params_robot.yaml\n'}
+[2.136556] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/mapper_params_online_async.yaml\n'}
+[2.137172] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/drive_bot.rviz\n'}
+[2.137716] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/ball_tracker_params_sim.yaml\n'}
+[2.139181] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/main.rviz\n'}
+[2.139892] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/nav2_params.yaml\n'}
+[2.140732] (senior_design) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/joystick.yaml\n'}
+[2.141308] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/gazebo_params.yaml\n'}
+[2.141791] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/twist_mux.yaml\n'}
+[2.142357] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[2.142858] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/config/empty.yaml\n'}
+[2.143348] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description\n'}
+[2.144248] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/ros2_control.xacro\n'}
+[2.145482] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/inertial_macros.xacro\n'}
+[2.146219] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/depth_camera.xacro\n'}
+[2.146920] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/robot_core.xacro\n'}
+[2.147380] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/robot.urdf.xacro\n'}
+[2.147871] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/camera.xacro\n'}
+[2.148399] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/gazebo_control.xacro\n'}
+[2.149563] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/lidar.xacro\n'}
+[2.150562] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/description/face.xacro\n'}
+[2.151123] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch\n'}
+[2.151627] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/camera.launch.py\n'}
+[2.152179] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/obstacle_avoid.launch.py\n'}
+[2.153199] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/rplidar.launch.py\n'}
+[2.154011] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/__pycache__\n'}
+[2.154845] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/__pycache__/rplidar.launch.cpython-38.pyc\n'}
+[2.155568] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/launch_robot.launch.py\n'}
+[2.156760] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/localization_launch.py\n'}
+[2.157651] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/online_async_launch.py\n'}
+[2.159277] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/rsp.launch.py\n'}
+[2.159650] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/navigation_launch.py\n'}
+[2.159969] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/launch_sim.launch.py\n'}
+[2.160300] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/launch/ball_tracker.launch.py\n'}
+[2.160641] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/worlds\n'}
+[2.160951] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/worlds/empty.world\n'}
+[2.161403] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/worlds/obstacles.world\n'}
+[2.161804] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/ament_index/resource_index/package_run_dependencies/senior_design\n'}
+[2.162197] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/ament_index/resource_index/parent_prefix_path/senior_design\n'}
+[2.162541] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/environment/ament_prefix_path.sh\n'}
+[2.162875] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/environment/ament_prefix_path.dsv\n'}
+[2.163175] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/environment/path.sh\n'}
+[2.163463] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/environment/path.dsv\n'}
+[2.163761] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/local_setup.bash\n'}
+[2.164122] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/local_setup.sh\n'}
+[2.164449] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/local_setup.zsh\n'}
+[2.164750] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/local_setup.dsv\n'}
+[2.165035] (senior_design) StdoutLine: {'line': b'-- Installing: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/package.dsv\n'}
+[2.167570] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/ament_index/resource_index/packages/senior_design\n'}
+[2.168043] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/cmake/senior_designConfig.cmake\n'}
+[2.168541] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/cmake/senior_designConfig-version.cmake\n'}
+[2.169046] (senior_design) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pi_ws/install/senior_design/share/senior_design/package.xml\n'}
+[2.169468] (senior_design) CommandEnded: {'returncode': 0}
+[2.231913] (-) TimerEvent: {}
+[2.333065] (-) TimerEvent: {}
+[2.433837] (-) TimerEvent: {}
+[2.535250] (-) TimerEvent: {}
+[2.636647] (-) TimerEvent: {}
+[2.738136] (-) TimerEvent: {}
+[2.839412] (-) TimerEvent: {}
+[2.940670] (-) TimerEvent: {}
+[3.042067] (-) TimerEvent: {}
+[3.143029] (-) TimerEvent: {}
+[3.244353] (-) TimerEvent: {}
+[3.346108] (-) TimerEvent: {}
+[3.446971] (-) TimerEvent: {}
+[3.548126] (-) TimerEvent: {}
+[3.649574] (-) TimerEvent: {}
+[3.751445] (-) TimerEvent: {}
+[3.853318] (-) TimerEvent: {}
+[3.956947] (-) TimerEvent: {}
+[4.058481] (-) TimerEvent: {}
+[4.159948] (-) TimerEvent: {}
+[4.262244] (-) TimerEvent: {}
+[4.363282] (-) TimerEvent: {}
+[4.464772] (-) TimerEvent: {}
+[4.565832] (-) TimerEvent: {}
+[4.668933] (-) TimerEvent: {}
+[4.770885] (-) TimerEvent: {}
+[4.872661] (-) TimerEvent: {}
+[4.973431] (-) TimerEvent: {}
+[5.074947] (-) TimerEvent: {}
+[5.175828] (-) TimerEvent: {}
+[5.256624] (senior_design) JobEnded: {'identifier': 'senior_design', 'rc': 0}
+[5.259835] (-) EventReactorShutdown: {}

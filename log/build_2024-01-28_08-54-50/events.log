@@ -1,0 +1,682 @@
+[0.000000] (-) TimerEvent: {}
+[0.001043] (diff_drive_controller) JobQueued: {'identifier': 'diff_drive_controller', 'dependencies': OrderedDict()}
+[0.001353] (force_torque_sensor_broadcaster) JobQueued: {'identifier': 'force_torque_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.002379] (forward_command_controller) JobQueued: {'identifier': 'forward_command_controller', 'dependencies': OrderedDict()}
+[0.002969] (gripper_controllers) JobQueued: {'identifier': 'gripper_controllers', 'dependencies': OrderedDict()}
+[0.003292] (imu_sensor_broadcaster) JobQueued: {'identifier': 'imu_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.003420] (joint_state_broadcaster) JobQueued: {'identifier': 'joint_state_broadcaster', 'dependencies': OrderedDict()}
+[0.003500] (joint_trajectory_controller) JobQueued: {'identifier': 'joint_trajectory_controller', 'dependencies': OrderedDict()}
+[0.003576] (senior_design1) JobQueued: {'identifier': 'senior_design1', 'dependencies': OrderedDict()}
+[0.003652] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.003727] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.003802] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/ubuntu/pi_ws/install/serial')])}
+[0.003888] (effort_controllers) JobQueued: {'identifier': 'effort_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/ubuntu/pi_ws/install/forward_command_controller')])}
+[0.003970] (position_controllers) JobQueued: {'identifier': 'position_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/ubuntu/pi_ws/install/forward_command_controller')])}
+[0.004052] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/ubuntu/pi_ws/install/serial_motor_demo_msgs')])}
+[0.004133] (velocity_controllers) JobQueued: {'identifier': 'velocity_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/ubuntu/pi_ws/install/forward_command_controller')])}
+[0.004212] (ros2_controllers) JobQueued: {'identifier': 'ros2_controllers', 'dependencies': OrderedDict([('diff_drive_controller', '/home/ubuntu/pi_ws/install/diff_drive_controller'), ('force_torque_sensor_broadcaster', '/home/ubuntu/pi_ws/install/force_torque_sensor_broadcaster'), ('forward_command_controller', '/home/ubuntu/pi_ws/install/forward_command_controller'), ('imu_sensor_broadcaster', '/home/ubuntu/pi_ws/install/imu_sensor_broadcaster'), ('joint_state_broadcaster', '/home/ubuntu/pi_ws/install/joint_state_broadcaster'), ('joint_trajectory_controller', '/home/ubuntu/pi_ws/install/joint_trajectory_controller'), ('effort_controllers', '/home/ubuntu/pi_ws/install/effort_controllers'), ('position_controllers', '/home/ubuntu/pi_ws/install/position_controllers'), ('velocity_controllers', '/home/ubuntu/pi_ws/install/velocity_controllers')])}
+[0.004342] (forward_command_controller) JobStarted: {'identifier': 'forward_command_controller'}
+[0.099907] (-) TimerEvent: {}
+[0.200739] (-) TimerEvent: {}
+[0.302739] (-) TimerEvent: {}
+[0.403844] (-) TimerEvent: {}
+[0.416923] (diff_drive_controller) JobStarted: {'identifier': 'diff_drive_controller'}
+[0.504071] (-) TimerEvent: {}
+[0.605981] (-) TimerEvent: {}
+[0.707585] (-) TimerEvent: {}
+[0.809073] (-) TimerEvent: {}
+[0.825624] (force_torque_sensor_broadcaster) JobStarted: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.909477] (-) TimerEvent: {}
+[1.010505] (-) TimerEvent: {}
+[1.112868] (-) TimerEvent: {}
+[1.214440] (imu_sensor_broadcaster) JobStarted: {'identifier': 'imu_sensor_broadcaster'}
+[1.216237] (-) TimerEvent: {}
+[1.319885] (-) TimerEvent: {}
+[1.421344] (-) TimerEvent: {}
+[1.523480] (-) TimerEvent: {}
+[1.607825] (forward_command_controller) JobProgress: {'identifier': 'forward_command_controller', 'progress': 'cmake'}
+[1.613625] (forward_command_controller) JobProgress: {'identifier': 'forward_command_controller', 'progress': 'build'}
+[1.616190] (forward_command_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/forward_command_controller', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/forward_command_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.44 41620 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/pi_ws/build/forward_command_controller'), ('SSH_CONNECTION', '10.0.0.44 41620 10.0.0.41 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.625565] (-) TimerEvent: {}
+[1.639763] (diff_drive_controller) JobProgress: {'identifier': 'diff_drive_controller', 'progress': 'cmake'}
+[1.655905] (diff_drive_controller) JobProgress: {'identifier': 'diff_drive_controller', 'progress': 'build'}
+[1.657720] (diff_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/diff_drive_controller', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/diff_drive_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.44 41620 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/pi_ws/build/diff_drive_controller'), ('SSH_CONNECTION', '10.0.0.44 41620 10.0.0.41 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.674474] (force_torque_sensor_broadcaster) JobProgress: {'identifier': 'force_torque_sensor_broadcaster', 'progress': 'cmake'}
+[1.686145] (force_torque_sensor_broadcaster) JobProgress: {'identifier': 'force_torque_sensor_broadcaster', 'progress': 'build'}
+[1.688039] (force_torque_sensor_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.44 41620 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/pi_ws/build/force_torque_sensor_broadcaster'), ('SSH_CONNECTION', '10.0.0.44 41620 10.0.0.41 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.719771] (imu_sensor_broadcaster) JobProgress: {'identifier': 'imu_sensor_broadcaster', 'progress': 'cmake'}
+[1.725961] (-) TimerEvent: {}
+[1.732554] (imu_sensor_broadcaster) JobProgress: {'identifier': 'imu_sensor_broadcaster', 'progress': 'build'}
+[1.733770] (imu_sensor_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pi_ws/build/imu_sensor_broadcaster', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pi_ws/build/imu_sensor_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.44 41620 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pi_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/pi_ws/build/imu_sensor_broadcaster'), ('SSH_CONNECTION', '10.0.0.44 41620 10.0.0.41 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.826278] (-) TimerEvent: {}
+[1.927756] (-) TimerEvent: {}
+[2.028753] (-) TimerEvent: {}
+[2.129856] (-) TimerEvent: {}
+[2.230816] (-) TimerEvent: {}
+[2.332741] (-) TimerEvent: {}
+[2.391144] (forward_command_controller) StdoutLine: {'line': b'[ 27%] Built target gmock\n'}
+[2.398255] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'[ 27%] Built target gmock\n'}
+[2.401093] (forward_command_controller) StdoutLine: {'line': b'[ 45%] Built target gmock_main\n'}
+[2.433167] (-) TimerEvent: {}
+[2.437892] (imu_sensor_broadcaster) StdoutLine: {'line': b'[ 18%] Built target gmock_main\n'}
+[2.445510] (diff_drive_controller) StdoutLine: {'line': b'[ 20%] Built target gmock\n'}
+[2.452388] (diff_drive_controller) StdoutLine: {'line': b'[ 33%] Built target gmock_main\n'}
+[2.479563] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'[ 45%] Built target gmock_main\n'}
+[2.533449] (-) TimerEvent: {}
+[2.558129] (diff_drive_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_accumulator\x1b[0m\n'}
+[2.559377] (forward_command_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_load_forward_command_controller\x1b[0m\n'}
+[2.592286] (diff_drive_controller) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o\x1b[0m\n'}
+[2.601092] (diff_drive_controller) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o\x1b[0m\n'}
+[2.615193] (diff_drive_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_load_diff_drive_controller\x1b[0m\n'}
+[2.620564] (imu_sensor_broadcaster) StdoutLine: {'line': b'[ 45%] Built target gmock\n'}
+[2.625214] (imu_sensor_broadcaster) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o\x1b[0m\n'}
+[2.633679] (-) TimerEvent: {}
+[2.638772] (forward_command_controller) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o\x1b[0m\n'}
+[2.652999] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o\x1b[0m\n'}
+[2.663146] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_load_force_torque_sensor_broadcaster\x1b[0m\n'}
+[2.707253] (imu_sensor_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_load_imu_sensor_broadcaster\x1b[0m\n'}
+[2.733962] (-) TimerEvent: {}
+[2.829318] (diff_drive_controller) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o\x1b[0m\n'}
+[2.834132] (-) TimerEvent: {}
+[2.935062] (-) TimerEvent: {}
+[3.036201] (-) TimerEvent: {}
+[3.137800] (-) TimerEvent: {}
+[3.239307] (-) TimerEvent: {}
+[3.341403] (-) TimerEvent: {}
+[3.442467] (-) TimerEvent: {}
+[3.543589] (-) TimerEvent: {}
+[3.645104] (-) TimerEvent: {}
+[3.745969] (-) TimerEvent: {}
+[3.808519] (imu_sensor_broadcaster) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/test_load_imu_sensor_broadcaster.dir/test/test_load_imu_sensor_broadcaster.cpp.o\x1b[0m\n'}
+[3.846212] (-) TimerEvent: {}
+[3.947990] (-) TimerEvent: {}
+[4.049841] (-) TimerEvent: {}
+[4.057816] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/test/test_load_force_torque_sensor_broadcaster.cpp.o\x1b[0m\n'}
+[4.059665] (forward_command_controller) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o\x1b[0m\n'}
+[4.099198] (diff_drive_controller) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o\x1b[0m\n'}
+[4.150119] (-) TimerEvent: {}
+[4.251839] (-) TimerEvent: {}
+[4.352828] (-) TimerEvent: {}
+[4.454228] (-) TimerEvent: {}
+[4.555717] (-) TimerEvent: {}
+[4.656805] (-) TimerEvent: {}
+[4.758296] (-) TimerEvent: {}
+[4.859457] (-) TimerEvent: {}
+[4.960903] (-) TimerEvent: {}
+[5.062946] (-) TimerEvent: {}
+[5.164811] (-) TimerEvent: {}
+[5.265940] (-) TimerEvent: {}
+[5.367077] (-) TimerEvent: {}
+[5.468131] (-) TimerEvent: {}
+[5.569301] (-) TimerEvent: {}
+[5.670383] (-) TimerEvent: {}
+[5.771630] (-) TimerEvent: {}
+[5.874191] (-) TimerEvent: {}
+[5.975347] (-) TimerEvent: {}
+[6.076523] (-) TimerEvent: {}
+[6.177793] (-) TimerEvent: {}
+[6.279129] (-) TimerEvent: {}
+[6.380244] (-) TimerEvent: {}
+[6.481465] (-) TimerEvent: {}
+[6.582886] (-) TimerEvent: {}
+[6.684145] (-) TimerEvent: {}
+[6.785335] (-) TimerEvent: {}
+[6.886740] (-) TimerEvent: {}
+[6.987818] (-) TimerEvent: {}
+[7.088982] (-) TimerEvent: {}
+[7.190088] (-) TimerEvent: {}
+[7.291349] (-) TimerEvent: {}
+[7.392485] (-) TimerEvent: {}
+[7.493645] (-) TimerEvent: {}
+[7.594795] (-) TimerEvent: {}
+[7.696029] (-) TimerEvent: {}
+[7.797404] (-) TimerEvent: {}
+[7.898819] (-) TimerEvent: {}
+[7.999968] (-) TimerEvent: {}
+[8.101219] (-) TimerEvent: {}
+[8.202450] (-) TimerEvent: {}
+[8.303612] (-) TimerEvent: {}
+[8.404728] (-) TimerEvent: {}
+[8.505941] (-) TimerEvent: {}
+[8.607199] (-) TimerEvent: {}
+[8.708408] (-) TimerEvent: {}
+[8.810238] (-) TimerEvent: {}
+[8.911588] (-) TimerEvent: {}
+[9.012881] (-) TimerEvent: {}
+[9.114892] (-) TimerEvent: {}
+[9.216223] (-) TimerEvent: {}
+[9.252973] (diff_drive_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o\x1b[0m\n'}
+[9.316508] (-) TimerEvent: {}
+[9.417888] (-) TimerEvent: {}
+[9.519379] (-) TimerEvent: {}
+[9.620554] (-) TimerEvent: {}
+[9.721905] (-) TimerEvent: {}
+[9.823173] (-) TimerEvent: {}
+[9.924662] (-) TimerEvent: {}
+[10.026026] (-) TimerEvent: {}
+[10.127204] (-) TimerEvent: {}
+[10.228366] (-) TimerEvent: {}
+[10.329758] (-) TimerEvent: {}
+[10.431191] (-) TimerEvent: {}
+[10.532605] (-) TimerEvent: {}
+[10.633734] (-) TimerEvent: {}
+[10.734923] (-) TimerEvent: {}
+[10.836067] (-) TimerEvent: {}
+[10.937331] (-) TimerEvent: {}
+[11.038571] (-) TimerEvent: {}
+[11.139867] (-) TimerEvent: {}
+[11.242464] (-) TimerEvent: {}
+[11.343721] (-) TimerEvent: {}
+[11.444822] (-) TimerEvent: {}
+[11.545944] (-) TimerEvent: {}
+[11.647386] (-) TimerEvent: {}
+[11.748728] (-) TimerEvent: {}
+[11.850670] (-) TimerEvent: {}
+[11.951846] (-) TimerEvent: {}
+[12.053004] (-) TimerEvent: {}
+[12.154263] (-) TimerEvent: {}
+[12.255451] (-) TimerEvent: {}
+[12.356626] (-) TimerEvent: {}
+[12.457805] (-) TimerEvent: {}
+[12.558977] (-) TimerEvent: {}
+[12.660214] (-) TimerEvent: {}
+[12.761552] (-) TimerEvent: {}
+[12.862840] (-) TimerEvent: {}
+[12.964028] (-) TimerEvent: {}
+[13.065375] (-) TimerEvent: {}
+[13.167497] (-) TimerEvent: {}
+[13.268695] (-) TimerEvent: {}
+[13.369972] (-) TimerEvent: {}
+[13.471103] (-) TimerEvent: {}
+[13.572257] (-) TimerEvent: {}
+[13.674406] (-) TimerEvent: {}
+[13.775647] (-) TimerEvent: {}
+[13.876757] (-) TimerEvent: {}
+[13.977969] (-) TimerEvent: {}
+[14.079537] (-) TimerEvent: {}
+[14.181844] (-) TimerEvent: {}
+[14.283476] (-) TimerEvent: {}
+[14.384688] (-) TimerEvent: {}
+[14.485970] (-) TimerEvent: {}
+[14.587250] (-) TimerEvent: {}
+[14.688470] (-) TimerEvent: {}
+[14.789609] (-) TimerEvent: {}
+[14.890854] (-) TimerEvent: {}
+[14.992108] (-) TimerEvent: {}
+[15.093351] (-) TimerEvent: {}
+[15.194543] (-) TimerEvent: {}
+[15.295784] (-) TimerEvent: {}
+[15.396922] (-) TimerEvent: {}
+[15.498149] (-) TimerEvent: {}
+[15.599322] (-) TimerEvent: {}
+[15.700510] (-) TimerEvent: {}
+[15.801751] (-) TimerEvent: {}
+[15.902976] (-) TimerEvent: {}
+[16.004112] (-) TimerEvent: {}
+[16.130388] (-) TimerEvent: {}
+[16.231605] (-) TimerEvent: {}
+[16.333691] (-) TimerEvent: {}
+[16.435382] (-) TimerEvent: {}
+[16.536926] (-) TimerEvent: {}
+[16.641111] (-) TimerEvent: {}
+[16.743191] (-) TimerEvent: {}
+[16.844486] (-) TimerEvent: {}
+[16.945739] (-) TimerEvent: {}
+[17.048028] (-) TimerEvent: {}
+[17.150587] (-) TimerEvent: {}
+[17.252784] (-) TimerEvent: {}
+[17.354882] (-) TimerEvent: {}
+[17.457139] (-) TimerEvent: {}
+[17.559724] (-) TimerEvent: {}
+[17.662360] (-) TimerEvent: {}
+[17.702701] (diff_drive_controller) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX executable test_accumulator\x1b[0m\n'}
+[17.762702] (-) TimerEvent: {}
+[17.864491] (-) TimerEvent: {}
+[17.966312] (-) TimerEvent: {}
+[18.068647] (-) TimerEvent: {}
+[18.170701] (-) TimerEvent: {}
+[18.272300] (-) TimerEvent: {}
+[18.374859] (-) TimerEvent: {}
+[18.477053] (-) TimerEvent: {}
+[18.579267] (-) TimerEvent: {}
+[18.681471] (-) TimerEvent: {}
+[18.783330] (-) TimerEvent: {}
+[18.885520] (-) TimerEvent: {}
+[18.987571] (-) TimerEvent: {}
+[19.090234] (-) TimerEvent: {}
+[19.192613] (-) TimerEvent: {}
+[19.293894] (-) TimerEvent: {}
+[19.396035] (-) TimerEvent: {}
+[19.497692] (-) TimerEvent: {}
+[19.599420] (-) TimerEvent: {}
+[19.636037] (diff_drive_controller) StdoutLine: {'line': b'[ 73%] Built target test_accumulator\n'}
+[19.699706] (-) TimerEvent: {}
+[19.800988] (-) TimerEvent: {}
+[19.902195] (-) TimerEvent: {}
+[20.003414] (-) TimerEvent: {}
+[20.104672] (-) TimerEvent: {}
+[20.206145] (-) TimerEvent: {}
+[20.307353] (-) TimerEvent: {}
+[20.408526] (-) TimerEvent: {}
+[20.509770] (-) TimerEvent: {}
+[20.611094] (-) TimerEvent: {}
+[20.712329] (-) TimerEvent: {}
+[20.813560] (-) TimerEvent: {}
+[20.914740] (-) TimerEvent: {}
+[21.015971] (-) TimerEvent: {}
+[21.146794] (-) TimerEvent: {}
+[21.248059] (-) TimerEvent: {}
+[21.349235] (-) TimerEvent: {}
+[21.450419] (-) TimerEvent: {}
+[21.552110] (-) TimerEvent: {}
+[21.653408] (-) TimerEvent: {}
+[21.666920] (forward_command_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15\x1b[m\x1b[K:\n'}
+[21.668131] (forward_command_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:60:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn forward_command_controller::ForwardCommandController::on_init()\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[21.668948] (forward_command_controller) StderrLine: {'line': b'   60 |   CallbackReturn \x1b[01;31m\x1b[Kon_init\x1b[m\x1b[K() override;\n'}
+[21.669678] (forward_command_controller) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[21.670466] (forward_command_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:72:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::return_type forward_command_controller::ForwardCommandController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[21.683256] (forward_command_controller) StderrLine: {'line': b'   72 |   controller_interface::return_type \x1b[01;31m\x1b[Kupdate\x1b[m\x1b[K(\n'}
+[21.684623] (forward_command_controller) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[21.753681] (-) TimerEvent: {}
+[21.854968] (-) TimerEvent: {}
+[21.956136] (-) TimerEvent: {}
+[22.023687] (imu_sensor_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster.cpp:19\x1b[m\x1b[K:\n'}
+[22.025222] (imu_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:47:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn imu_sensor_broadcaster::IMUSensorBroadcaster::on_init()\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[22.026189] (imu_sensor_broadcaster) StderrLine: {'line': b'   47 |   IMU_SENSOR_BROADCASTER_PUBLIC CallbackReturn \x1b[01;31m\x1b[Kon_init\x1b[m\x1b[K() override;\n'}
+[22.027101] (imu_sensor_broadcaster) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[22.027927] (imu_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:59:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::return_type imu_sensor_broadcaster::IMUSensorBroadcaster::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[22.028825] (imu_sensor_broadcaster) StderrLine: {'line': b'   59 |   controller_interface::return_type \x1b[01;31m\x1b[Kupdate\x1b[m\x1b[K(\n'}
+[22.029810] (imu_sensor_broadcaster) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.056410] (-) TimerEvent: {}
+[22.157669] (-) TimerEvent: {}
+[22.258934] (-) TimerEvent: {}
+[22.302508] (diff_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:25\x1b[m\x1b[K:\n'}
+[22.304370] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:64:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::return_type diff_drive_controller::DiffDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[22.305523] (diff_drive_controller) StderrLine: {'line': b'   64 |   controller_interface::return_type \x1b[01;31m\x1b[Kupdate\x1b[m\x1b[K(\n'}
+[22.306671] (diff_drive_controller) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.307721] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:68:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn diff_drive_controller::DiffDriveController::on_init()\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[22.308738] (diff_drive_controller) StderrLine: {'line': b'   68 |   CallbackReturn \x1b[01;31m\x1b[Kon_init\x1b[m\x1b[K() override;\n'}
+[22.309748] (diff_drive_controller) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[22.359233] (-) TimerEvent: {}
+[22.460519] (-) TimerEvent: {}
+[22.561776] (-) TimerEvent: {}
+[22.571877] (force_torque_sensor_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:19\x1b[m\x1b[K:\n'}
+[22.573291] (force_torque_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:50:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn force_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster::on_init()\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[22.574260] (force_torque_sensor_broadcaster) StderrLine: {'line': b'   50 |   FORCE_TORQUE_SENSOR_BROADCASTER_PUBLIC CallbackReturn \x1b[01;31m\x1b[Kon_init\x1b[m\x1b[K() override;\n'}
+[22.575238] (force_torque_sensor_broadcaster) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[22.576004] (force_torque_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:62:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::return_type force_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[22.576858] (force_torque_sensor_broadcaster) StderrLine: {'line': b'   62 |   controller_interface::return_type \x1b[01;31m\x1b[Kupdate\x1b[m\x1b[K(\n'}
+[22.577657] (force_torque_sensor_broadcaster) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.662041] (-) TimerEvent: {}
+[22.763436] (-) TimerEvent: {}
+[22.855165] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::return_type diff_drive_controller::DiffDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.856722] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:139:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksetstate\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.857713] (diff_drive_controller) StderrLine: {'line': b'  139 |   if (\x1b[01;31m\x1b[Kget_state\x1b[m\x1b[K().id() == State::PRIMARY_STATE_INACTIVE)\n'}
+[22.858689] (diff_drive_controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[22.859539] (diff_drive_controller) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ksetstate\x1b[m\x1b[K\n'}
+[22.863710] (-) TimerEvent: {}
+[22.964907] (-) TimerEvent: {}
+[23.066212] (-) TimerEvent: {}
+[23.167460] (-) TimerEvent: {}
+[23.268821] (-) TimerEvent: {}
+[23.370013] (-) TimerEvent: {}
+[23.471271] (-) TimerEvent: {}
+[23.572501] (-) TimerEvent: {}
+[23.673788] (-) TimerEvent: {}
+[23.774946] (-) TimerEvent: {}
+[23.876249] (-) TimerEvent: {}
+[23.977693] (-) TimerEvent: {}
+[24.078958] (-) TimerEvent: {}
+[24.180229] (-) TimerEvent: {}
+[24.281527] (-) TimerEvent: {}
+[24.382768] (-) TimerEvent: {}
+[24.483964] (-) TimerEvent: {}
+[24.585221] (-) TimerEvent: {}
+[24.686466] (-) TimerEvent: {}
+[24.787684] (-) TimerEvent: {}
+[24.888963] (-) TimerEvent: {}
+[24.990184] (-) TimerEvent: {}
+[25.091562] (-) TimerEvent: {}
+[25.192761] (-) TimerEvent: {}
+[25.293940] (-) TimerEvent: {}
+[25.395146] (-) TimerEvent: {}
+[25.496370] (-) TimerEvent: {}
+[25.597587] (-) TimerEvent: {}
+[25.698819] (-) TimerEvent: {}
+[25.799950] (-) TimerEvent: {}
+[25.902135] (-) TimerEvent: {}
+[26.004311] (-) TimerEvent: {}
+[26.106510] (-) TimerEvent: {}
+[26.211560] (-) TimerEvent: {}
+[26.313678] (-) TimerEvent: {}
+[26.414899] (-) TimerEvent: {}
+[26.516086] (-) TimerEvent: {}
+[26.617368] (-) TimerEvent: {}
+[26.718709] (-) TimerEvent: {}
+[26.819928] (-) TimerEvent: {}
+[26.921237] (-) TimerEvent: {}
+[27.022517] (-) TimerEvent: {}
+[27.123860] (-) TimerEvent: {}
+[27.225189] (-) TimerEvent: {}
+[27.326733] (-) TimerEvent: {}
+[27.427951] (-) TimerEvent: {}
+[27.529283] (-) TimerEvent: {}
+[27.630787] (-) TimerEvent: {}
+[27.732310] (-) TimerEvent: {}
+[27.833897] (-) TimerEvent: {}
+[27.935430] (-) TimerEvent: {}
+[28.036678] (-) TimerEvent: {}
+[28.138054] (-) TimerEvent: {}
+[28.239407] (-) TimerEvent: {}
+[28.340742] (-) TimerEvent: {}
+[28.442080] (-) TimerEvent: {}
+[28.543483] (-) TimerEvent: {}
+[28.644674] (-) TimerEvent: {}
+[28.746038] (-) TimerEvent: {}
+[28.847660] (-) TimerEvent: {}
+[28.949030] (-) TimerEvent: {}
+[29.050689] (-) TimerEvent: {}
+[29.152500] (-) TimerEvent: {}
+[29.253763] (-) TimerEvent: {}
+[29.355113] (-) TimerEvent: {}
+[29.456281] (-) TimerEvent: {}
+[29.557613] (-) TimerEvent: {}
+[29.658796] (-) TimerEvent: {}
+[29.760057] (-) TimerEvent: {}
+[29.861314] (-) TimerEvent: {}
+[29.962555] (-) TimerEvent: {}
+[30.063813] (-) TimerEvent: {}
+[30.165406] (-) TimerEvent: {}
+[30.266784] (-) TimerEvent: {}
+[30.368488] (-) TimerEvent: {}
+[30.469776] (-) TimerEvent: {}
+[30.571139] (-) TimerEvent: {}
+[30.672505] (-) TimerEvent: {}
+[30.773771] (-) TimerEvent: {}
+[30.875053] (-) TimerEvent: {}
+[30.976361] (-) TimerEvent: {}
+[31.077675] (-) TimerEvent: {}
+[31.178999] (-) TimerEvent: {}
+[31.302452] (-) TimerEvent: {}
+[31.403746] (-) TimerEvent: {}
+[31.447893] (imu_sensor_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[31.451230] (imu_sensor_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[31.452986] (imu_sensor_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[31.454531] (imu_sensor_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster.cpp:130\x1b[m\x1b[K:\n'}
+[31.455584] (imu_sensor_broadcaster) StderrLine: {'line': b'/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = imu_sensor_broadcaster::IMUSensorBroadcaster; B = controller_interface::ControllerInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.456652] (imu_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[31.457557] (imu_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Kimu_sensor_broadcaster::IMUSensorBroadcaster\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.458561] (imu_sensor_broadcaster) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[31.459441] (imu_sensor_broadcaster) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[31.460436] (imu_sensor_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster.cpp:19\x1b[m\x1b[K:\n'}
+[31.461426] (imu_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Kimu_sensor_broadcaster::IMUSensorBroadcaster\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.462363] (imu_sensor_broadcaster) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KIMUSensorBroadcaster\x1b[m\x1b[K : public controller_interface::ControllerInterface\n'}
+[31.479550] (imu_sensor_broadcaster) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.480635] (imu_sensor_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:26\x1b[m\x1b[K,\n'}
+[31.481449] (imu_sensor_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster.cpp:19\x1b[m\x1b[K:\n'}
+[31.482281] (imu_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/controller_interface/controller_interface.hpp:98:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\t\xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type controller_interface::ControllerInterface::update()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.483259] (imu_sensor_broadcaster) StderrLine: {'line': b'   98 |   virtual return_type \x1b[01;36m\x1b[Kupdate\x1b[m\x1b[K() = 0;\n'}
+[31.484073] (imu_sensor_broadcaster) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[31.504023] (-) TimerEvent: {}
+[31.605244] (-) TimerEvent: {}
+[31.706632] (-) TimerEvent: {}
+[31.807911] (-) TimerEvent: {}
+[31.909256] (-) TimerEvent: {}
+[32.010480] (-) TimerEvent: {}
+[32.111812] (-) TimerEvent: {}
+[32.213194] (-) TimerEvent: {}
+[32.314547] (-) TimerEvent: {}
+[32.415829] (-) TimerEvent: {}
+[32.517207] (-) TimerEvent: {}
+[32.607227] (force_torque_sensor_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[32.609105] (force_torque_sensor_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[32.611010] (force_torque_sensor_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[32.612065] (force_torque_sensor_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:174\x1b[m\x1b[K:\n'}
+[32.612948] (force_torque_sensor_broadcaster) StderrLine: {'line': b'/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = force_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster; B = controller_interface::ControllerInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.613745] (force_torque_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[32.614669] (force_torque_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Kforce_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.615571] (force_torque_sensor_broadcaster) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[32.616396] (force_torque_sensor_broadcaster) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[32.617193] (force_torque_sensor_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:19\x1b[m\x1b[K:\n'}
+[32.618036] (-) TimerEvent: {}
+[32.631408] (force_torque_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:38:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Kforce_torque_sensor_broadcaster::ForceTorqueSensorBroadcaster\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.632518] (force_torque_sensor_broadcaster) StderrLine: {'line': b'   38 | class \x1b[01;36m\x1b[KForceTorqueSensorBroadcaster\x1b[m\x1b[K : public controller_interface::ControllerInterface\n'}
+[32.633573] (force_torque_sensor_broadcaster) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.634574] (force_torque_sensor_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:26\x1b[m\x1b[K,\n'}
+[32.635662] (force_torque_sensor_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:19\x1b[m\x1b[K:\n'}
+[32.636674] (force_torque_sensor_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/controller_interface/controller_interface.hpp:98:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\t\xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type controller_interface::ControllerInterface::update()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.637624] (force_torque_sensor_broadcaster) StderrLine: {'line': b'   98 |   virtual return_type \x1b[01;36m\x1b[Kupdate\x1b[m\x1b[K() = 0;\n'}
+[32.638735] (force_torque_sensor_broadcaster) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[32.718400] (-) TimerEvent: {}
+[32.820831] (-) TimerEvent: {}
+[32.908148] (imu_sensor_broadcaster) StderrLine: {'line': b'make[2]: *** [CMakeFiles/imu_sensor_broadcaster.dir/build.make:63: CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o] Error 1\n'}
+[32.909561] (imu_sensor_broadcaster) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/imu_sensor_broadcaster.dir/all] Error 2\n'}
+[32.910408] (imu_sensor_broadcaster) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[32.921205] (-) TimerEvent: {}
+[33.023055] (-) TimerEvent: {}
+[33.124996] (-) TimerEvent: {}
+[33.226358] (-) TimerEvent: {}
+[33.327645] (-) TimerEvent: {}
+[33.428902] (-) TimerEvent: {}
+[33.530078] (-) TimerEvent: {}
+[33.631213] (-) TimerEvent: {}
+[33.732425] (-) TimerEvent: {}
+[33.833664] (-) TimerEvent: {}
+[33.934847] (-) TimerEvent: {}
+[34.028279] (force_torque_sensor_broadcaster) StderrLine: {'line': b'make[2]: *** [CMakeFiles/force_torque_sensor_broadcaster.dir/build.make:63: CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o] Error 1\n'}
+[34.029675] (force_torque_sensor_broadcaster) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/force_torque_sensor_broadcaster.dir/all] Error 2\n'}
+[34.030550] (force_torque_sensor_broadcaster) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[34.035100] (-) TimerEvent: {}
+[34.137364] (-) TimerEvent: {}
+[34.239656] (-) TimerEvent: {}
+[34.341802] (-) TimerEvent: {}
+[34.443849] (-) TimerEvent: {}
+[34.545989] (-) TimerEvent: {}
+[34.647960] (-) TimerEvent: {}
+[34.750134] (-) TimerEvent: {}
+[34.852429] (-) TimerEvent: {}
+[34.954673] (-) TimerEvent: {}
+[35.056900] (-) TimerEvent: {}
+[35.159035] (-) TimerEvent: {}
+[35.232875] (forward_command_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[35.234329] (forward_command_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[35.235920] (forward_command_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[35.237352] (forward_command_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:192\x1b[m\x1b[K:\n'}
+[35.238816] (forward_command_controller) StderrLine: {'line': b'/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = forward_command_controller::ForwardCommandController; B = controller_interface::ControllerInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.240209] (forward_command_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[35.241651] (forward_command_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Kforward_command_controller::ForwardCommandController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.243064] (forward_command_controller) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[35.244586] (forward_command_controller) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[35.246112] (forward_command_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15\x1b[m\x1b[K:\n'}
+[35.252998] (forward_command_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:47:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Kforward_command_controller::ForwardCommandController\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.253890] (forward_command_controller) StderrLine: {'line': b'   47 | class \x1b[01;36m\x1b[KForwardCommandController\x1b[m\x1b[K : public controller_interface::ControllerInterface\n'}
+[35.254751] (forward_command_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.255607] (forward_command_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:22\x1b[m\x1b[K,\n'}
+[35.256430] (forward_command_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15\x1b[m\x1b[K:\n'}
+[35.257262] (forward_command_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/controller_interface/controller_interface.hpp:98:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\t\xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type controller_interface::ControllerInterface::update()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.258169] (forward_command_controller) StderrLine: {'line': b'   98 |   virtual return_type \x1b[01;36m\x1b[Kupdate\x1b[m\x1b[K() = 0;\n'}
+[35.259189] (-) TimerEvent: {}
+[35.269588] (forward_command_controller) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[35.359473] (-) TimerEvent: {}
+[35.461591] (-) TimerEvent: {}
+[35.563803] (-) TimerEvent: {}
+[35.665863] (-) TimerEvent: {}
+[35.767986] (-) TimerEvent: {}
+[35.870149] (-) TimerEvent: {}
+[35.972251] (-) TimerEvent: {}
+[36.075225] (-) TimerEvent: {}
+[36.177330] (-) TimerEvent: {}
+[36.279444] (-) TimerEvent: {}
+[36.389907] (-) TimerEvent: {}
+[36.492034] (-) TimerEvent: {}
+[36.594174] (-) TimerEvent: {}
+[36.695819] (-) TimerEvent: {}
+[36.797065] (-) TimerEvent: {}
+[36.898670] (-) TimerEvent: {}
+[37.000455] (-) TimerEvent: {}
+[37.102411] (-) TimerEvent: {}
+[37.147404] (forward_command_controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:63: CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o] Error 1\n'}
+[37.150154] (forward_command_controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/forward_command_controller.dir/all] Error 2\n'}
+[37.151250] (forward_command_controller) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[37.202799] (-) TimerEvent: {}
+[37.304893] (-) TimerEvent: {}
+[37.407088] (-) TimerEvent: {}
+[37.509210] (-) TimerEvent: {}
+[37.611383] (-) TimerEvent: {}
+[37.713459] (-) TimerEvent: {}
+[37.815607] (-) TimerEvent: {}
+[37.917626] (-) TimerEvent: {}
+[38.019691] (-) TimerEvent: {}
+[38.121885] (-) TimerEvent: {}
+[38.223135] (-) TimerEvent: {}
+[38.325297] (-) TimerEvent: {}
+[38.426531] (-) TimerEvent: {}
+[38.527816] (-) TimerEvent: {}
+[38.628975] (-) TimerEvent: {}
+[38.730189] (-) TimerEvent: {}
+[38.832300] (-) TimerEvent: {}
+[38.934401] (-) TimerEvent: {}
+[39.035663] (-) TimerEvent: {}
+[39.136906] (-) TimerEvent: {}
+[39.238094] (-) TimerEvent: {}
+[39.339417] (-) TimerEvent: {}
+[39.440719] (-) TimerEvent: {}
+[39.543074] (-) TimerEvent: {}
+[39.645149] (-) TimerEvent: {}
+[39.747263] (-) TimerEvent: {}
+[39.849655] (-) TimerEvent: {}
+[39.951848] (-) TimerEvent: {}
+[40.053009] (-) TimerEvent: {}
+[40.154232] (-) TimerEvent: {}
+[40.255363] (-) TimerEvent: {}
+[40.357692] (-) TimerEvent: {}
+[40.460773] (-) TimerEvent: {}
+[40.562994] (-) TimerEvent: {}
+[40.664284] (-) TimerEvent: {}
+[40.767079] (-) TimerEvent: {}
+[40.868318] (-) TimerEvent: {}
+[40.970825] (-) TimerEvent: {}
+[41.072527] (-) TimerEvent: {}
+[41.095824] (forward_command_controller) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable test_load_forward_command_controller\x1b[0m\n'}
+[41.172800] (-) TimerEvent: {}
+[41.274468] (-) TimerEvent: {}
+[41.347200] (imu_sensor_broadcaster) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable test_load_imu_sensor_broadcaster\x1b[0m\n'}
+[41.374760] (-) TimerEvent: {}
+[41.476022] (-) TimerEvent: {}
+[41.577329] (-) TimerEvent: {}
+[41.678805] (-) TimerEvent: {}
+[41.779972] (-) TimerEvent: {}
+[41.881175] (-) TimerEvent: {}
+[41.982411] (-) TimerEvent: {}
+[42.084584] (-) TimerEvent: {}
+[42.186224] (-) TimerEvent: {}
+[42.260709] (diff_drive_controller) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable test_load_diff_drive_controller\x1b[0m\n'}
+[42.286529] (-) TimerEvent: {}
+[42.387926] (-) TimerEvent: {}
+[42.489210] (-) TimerEvent: {}
+[42.591162] (-) TimerEvent: {}
+[42.692961] (-) TimerEvent: {}
+[42.794715] (-) TimerEvent: {}
+[42.896855] (-) TimerEvent: {}
+[42.999012] (-) TimerEvent: {}
+[43.102109] (-) TimerEvent: {}
+[43.204846] (-) TimerEvent: {}
+[43.308293] (-) TimerEvent: {}
+[43.412263] (-) TimerEvent: {}
+[43.491932] (diff_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[43.495509] (diff_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/register_macro.hpp:45\x1b[m\x1b[K,\n'}
+[43.498788] (diff_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:622\x1b[m\x1b[K:\n'}
+[43.502768] (diff_drive_controller) StderrLine: {'line': b'/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = diff_drive_controller::DiffDriveController; B = controller_interface::ControllerInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.513816] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[43.515847] (-) TimerEvent: {}
+[43.532100] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Kdiff_drive_controller::DiffDriveController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[43.534854] (diff_drive_controller) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[43.537040] (diff_drive_controller) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[43.539342] (diff_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:25\x1b[m\x1b[K:\n'}
+[43.540768] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Kdiff_drive_controller::DiffDriveController\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.555675] (diff_drive_controller) StderrLine: {'line': b'   49 | class \x1b[01;36m\x1b[KDiffDriveController\x1b[m\x1b[K : public controller_interface::ControllerInterface\n'}
+[43.557762] (diff_drive_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[43.560274] (diff_drive_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:29\x1b[m\x1b[K,\n'}
+[43.562916] (diff_drive_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/pi_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:25\x1b[m\x1b[K:\n'}
+[43.564599] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/controller_interface/controller_interface.hpp:98:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\t\xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type controller_interface::ControllerInterface::update()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[43.566208] (diff_drive_controller) StderrLine: {'line': b'   98 |   virtual return_type \x1b[01;36m\x1b[Kupdate\x1b[m\x1b[K() = 0;\n'}
+[43.580579] (diff_drive_controller) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[43.616585] (-) TimerEvent: {}
+[43.721514] (-) TimerEvent: {}
+[43.826585] (-) TimerEvent: {}
+[43.931287] (-) TimerEvent: {}
+[44.034941] (-) TimerEvent: {}
+[44.139114] (-) TimerEvent: {}
+[44.197410] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable test_load_force_torque_sensor_broadcaster\x1b[0m\n'}
+[44.239527] (-) TimerEvent: {}
+[44.342075] (-) TimerEvent: {}
+[44.444514] (-) TimerEvent: {}
+[44.546420] (-) TimerEvent: {}
+[44.649384] (-) TimerEvent: {}
+[44.752069] (-) TimerEvent: {}
+[44.855665] (-) TimerEvent: {}
+[44.958970] (-) TimerEvent: {}
+[45.063739] (-) TimerEvent: {}
+[45.167687] (-) TimerEvent: {}
+[45.271582] (-) TimerEvent: {}
+[45.373808] (-) TimerEvent: {}
+[45.475524] (-) TimerEvent: {}
+[45.577457] (-) TimerEvent: {}
+[45.681762] (-) TimerEvent: {}
+[45.784947] (-) TimerEvent: {}
+[45.889062] (-) TimerEvent: {}
+[45.993111] (-) TimerEvent: {}
+[46.096067] (-) TimerEvent: {}
+[46.198898] (-) TimerEvent: {}
+[46.306904] (-) TimerEvent: {}
+[46.408699] (-) TimerEvent: {}
+[46.510450] (-) TimerEvent: {}
+[46.612725] (-) TimerEvent: {}
+[46.646071] (forward_command_controller) StdoutLine: {'line': b'[ 72%] Built target test_load_forward_command_controller\n'}
+[46.653341] (forward_command_controller) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[46.670150] (forward_command_controller) CommandEnded: {'returncode': 2}
+[46.713626] (-) TimerEvent: {}
+[46.816400] (-) TimerEvent: {}
+[46.917713] (-) TimerEvent: {}
+[46.965797] (diff_drive_controller) StdoutLine: {'line': b'[ 80%] Built target test_load_diff_drive_controller\n'}
+[47.018254] (-) TimerEvent: {}
+[47.120368] (-) TimerEvent: {}
+[47.225114] (-) TimerEvent: {}
+[47.330369] (-) TimerEvent: {}
+[47.434724] (-) TimerEvent: {}
+[47.510644] (imu_sensor_broadcaster) StdoutLine: {'line': b'[ 72%] Built target test_load_imu_sensor_broadcaster\n'}
+[47.517862] (imu_sensor_broadcaster) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[47.535201] (-) TimerEvent: {}
+[47.639818] (-) TimerEvent: {}
+[47.745511] (-) TimerEvent: {}
+[47.851368] (-) TimerEvent: {}
+[47.957216] (-) TimerEvent: {}
+[48.059773] (-) TimerEvent: {}
+[48.161555] (-) TimerEvent: {}
+[48.254433] (forward_command_controller) JobEnded: {'identifier': 'forward_command_controller', 'rc': 2}
+[48.260577] (imu_sensor_broadcaster) JobEnded: {'identifier': 'imu_sensor_broadcaster', 'rc': 'SIGINT'}
+[48.262671] (-) TimerEvent: {}
+[48.363486] (-) TimerEvent: {}
+[48.464657] (-) TimerEvent: {}
+[48.488275] (diff_drive_controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/diff_drive_controller.dir/build.make:63: CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o] Error 1\n'}
+[48.490068] (diff_drive_controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/diff_drive_controller.dir/all] Error 2\n'}
+[48.491420] (diff_drive_controller) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[48.497793] (diff_drive_controller) JobEnded: {'identifier': 'diff_drive_controller', 'rc': 'SIGINT'}
+[48.564827] (-) TimerEvent: {}
+[48.665584] (-) TimerEvent: {}
+[48.695109] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'[ 72%] Built target test_load_force_torque_sensor_broadcaster\n'}
+[48.698449] (force_torque_sensor_broadcaster) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[48.703864] (force_torque_sensor_broadcaster) JobEnded: {'identifier': 'force_torque_sensor_broadcaster', 'rc': 'SIGINT'}
+[48.716389] (gripper_controllers) JobSkipped: {'identifier': 'gripper_controllers'}
+[48.716887] (joint_state_broadcaster) JobSkipped: {'identifier': 'joint_state_broadcaster'}
+[48.717272] (joint_trajectory_controller) JobSkipped: {'identifier': 'joint_trajectory_controller'}
+[48.717440] (senior_design1) JobSkipped: {'identifier': 'senior_design1'}
+[48.717584] (serial) JobSkipped: {'identifier': 'serial'}
+[48.717725] (serial_motor_demo_msgs) JobSkipped: {'identifier': 'serial_motor_demo_msgs'}
+[48.717864] (diffdrive_arduino) JobSkipped: {'identifier': 'diffdrive_arduino'}
+[48.718002] (effort_controllers) JobSkipped: {'identifier': 'effort_controllers'}
+[48.718139] (position_controllers) JobSkipped: {'identifier': 'position_controllers'}
+[48.718275] (serial_motor_demo) JobSkipped: {'identifier': 'serial_motor_demo'}
+[48.718411] (velocity_controllers) JobSkipped: {'identifier': 'velocity_controllers'}
+[48.718546] (ros2_controllers) JobSkipped: {'identifier': 'ros2_controllers'}
+[48.718744] (-) EventReactorShutdown: {}

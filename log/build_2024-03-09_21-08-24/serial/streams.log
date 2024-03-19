@@ -1,0 +1,85 @@
+[2.047s] Invoking command in '/home/ubuntu/pi_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pi_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/serial
+[2.416s] -- The C compiler identification is GNU 9.4.0
+[2.800s] -- The CXX compiler identification is GNU 9.4.0
+[2.832s] -- Check for working C compiler: /usr/bin/cc
+[3.320s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.328s] -- Detecting C compiler ABI info
+[3.827s] -- Detecting C compiler ABI info - done
+[3.886s] -- Detecting C compile features
+[3.888s] -- Detecting C compile features - done
+[3.900s] -- Check for working CXX compiler: /usr/bin/c++
+[4.384s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.396s] -- Detecting CXX compiler ABI info
+[4.976s] -- Detecting CXX compiler ABI info - done
+[5.022s] -- Detecting CXX compile features
+[5.024s] -- Detecting CXX compile features - done
+[5.053s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.237s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.237s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.799s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[6.858s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[6.888s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.896s] -- Looking for pthread.h
+[7.703s] -- Looking for pthread.h - found
+[7.707s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.493s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.494s] -- Check if compiler accepts -pthread
+[9.189s] -- Check if compiler accepts -pthread - yes
+[9.193s] -- Found Threads: TRUE  
+[9.726s] -- Configuring done
+[9.887s] -- Generating done
+[9.907s] -- Build files have been written to: /home/ubuntu/pi_ws/build/serial
+[9.943s] Invoked command in '/home/ubuntu/pi_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pi_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pi_ws/install/serial
+[9.945s] Invoking command in '/home/ubuntu/pi_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/serial -- -j4 -l4
+[10.488s] [35m[1mScanning dependencies of target gtest[0m
+[10.489s] [35m[1mScanning dependencies of target serial[0m
+[10.504s] [35m[1mScanning dependencies of target gtest_main[0m
+[10.665s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[10.730s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[10.761s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.790s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.427s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[21.405s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.984s] [ 42%] Built target gtest_main
+[22.589s] [ 50%] [32m[1mLinking CXX static library libserial.a[0m
+[23.213s] [ 50%] Built target serial
+[23.650s] [35m[1mScanning dependencies of target serial_example[0m
+[23.926s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[29.540s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[30.936s] [ 64%] Built target serial_example
+[47.169s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[49.125s] [ 71%] Built target gtest
+[49.172s] [35m[1mScanning dependencies of target serial-test-timer[0m
+[49.438s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[54.606s] [ 85%] [32m[1mLinking CXX executable serial-test-timer[0m
+[55.284s] [ 85%] Built target serial-test-timer
+[55.369s] [35m[1mScanning dependencies of target serial-test[0m
+[55.450s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[59.952s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[60.591s] [100%] Built target serial-test
+[60.646s] Invoked command in '/home/ubuntu/pi_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pi_ws/build/serial -- -j4 -l4
+[60.859s] Invoking command in '/home/ubuntu/pi_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/pi_ws/build/serial
+[60.900s] -- Install configuration: ""
+[60.902s] -- Installing: /home/ubuntu/pi_ws/install/serial/lib/libserial.a
+[60.905s] -- Installing: /home/ubuntu/pi_ws/install/serial/include/serial/serial.h
+[60.910s] -- Installing: /home/ubuntu/pi_ws/install/serial/include/serial/v8stdint.h
+[60.911s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/environment/library_path.sh
+[60.914s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/environment/library_path.dsv
+[60.916s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[60.917s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[60.920s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[60.922s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[60.924s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/environment/path.sh
+[60.927s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/environment/path.dsv
+[60.929s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/local_setup.bash
+[60.930s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/local_setup.sh
+[60.932s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/local_setup.zsh
+[60.933s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/local_setup.dsv
+[60.940s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/package.dsv
+[60.943s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/ament_index/resource_index/packages/serial
+[60.956s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.957s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[60.957s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[60.958s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[60.958s] -- Installing: /home/ubuntu/pi_ws/install/serial/share/serial/package.xml
+[60.959s] Invoked command in '/home/ubuntu/pi_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pi_ws/install/serial_motor_demo:/home/ubuntu/pi_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/pi_ws/build/serial

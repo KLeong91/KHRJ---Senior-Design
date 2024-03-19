@@ -1,0 +1,40 @@
+[4.061s] Invoking command in '/home/ubuntu/pi_ws/build/tank_controller': /usr/bin/cmake --build /home/ubuntu/pi_ws/build/tank_controller -- -j4 -l4
+[4.196s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.389s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.610s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[5.611s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.791s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.651s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.977s] Error parsing '/home/ubuntu/pi_ws/src/tank_controller/package.xml':
+[8.816s] Traceback (most recent call last):
+[8.817s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[8.818s]     main()
+[8.818s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[8.819s]     raise e
+[8.820s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[8.821s]     package = parse_package_string(
+[8.823s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[8.824s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[8.826s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ubuntu/pi_ws/src/tank_controller/package.xml':
+[8.827s] Error(s):
+[8.828s] - The generic dependency on 'rclpy' is redundant with: exec_depend
+[8.830s] - The generic dependency on 'sensor_msgs' is redundant with: exec_depend
+[8.831s] - The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+[8.957s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[8.957s]   execute_process(/usr/bin/python3
+[8.958s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[8.958s]   /home/ubuntu/pi_ws/src/tank_controller/package.xml
+[8.959s]   /home/ubuntu/pi_ws/build/tank_controller/ament_cmake_core/package.cmake)
+[8.959s]   returned error code 1
+[8.960s] Call Stack (most recent call first):
+[8.961s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[8.962s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[8.963s]   CMakeLists.txt:37 (ament_lint_auto_find_test_dependencies)
+[8.964s] 
+[8.965s] 
+[8.965s] -- Configuring incomplete, errors occurred!
+[8.966s] See also "/home/ubuntu/pi_ws/build/tank_controller/CMakeFiles/CMakeOutput.log".
+[8.994s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[10.484s] Invoked command in '/home/ubuntu/pi_ws/build/tank_controller' returned '2': /usr/bin/cmake --build /home/ubuntu/pi_ws/build/tank_controller -- -j4 -l4

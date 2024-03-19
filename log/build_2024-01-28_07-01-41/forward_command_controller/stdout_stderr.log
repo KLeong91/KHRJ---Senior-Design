@@ -1,0 +1,84 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found controller_interface: 0.11.0 (/opt/ros/foxy/share/controller_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+-- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+-- Found ros2_control_test_assets: 0.11.0 (/opt/ros/foxy/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/pi_ws/build/forward_command_controller
+[35m[1mScanning dependencies of target gmock_main[0m
+[35m[1mScanning dependencies of target gmock[0m
+[35m[1mScanning dependencies of target forward_command_controller[0m
+[  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 45%] Built target gmock_main
+In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15[m[K:
+[01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:60:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn forward_command_controller::ForwardCommandController::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   60 |   CallbackReturn [01;31m[Kon_init[m[K() override;
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:72:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller_interface::return_type forward_command_controller::ForwardCommandController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   72 |   controller_interface::return_type [01;31m[Kupdate[m[K(
+      |                                     [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:192[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = forward_command_controller::ForwardCommandController; B = controller_interface::ControllerInterface][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kforward_command_controller::ForwardCommandController[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15[m[K:
+[01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:47:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kforward_command_controller::ForwardCommandController[m[K’:
+   47 | class [01;36m[KForwardCommandController[m[K : public controller_interface::ControllerInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:22[m[K,
+                 from [01m[K/home/ubuntu/pi_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15[m[K:
+[01m[K/opt/ros/foxy/include/controller_interface/controller_interface.hpp:98:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual controller_interface::return_type controller_interface::ControllerInterface::update()[m[K’
+   98 |   virtual return_type [01;36m[Kupdate[m[K() = 0;
+      |                       [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:63: CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/forward_command_controller.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 54%] Built target gmock
+make: *** [Makefile:141: all] Error 2
